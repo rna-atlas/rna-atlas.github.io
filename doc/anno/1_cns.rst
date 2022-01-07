@@ -25,7 +25,9 @@ susceptibilities.
    :name: fig-cns1
    :width: 500px
    
-   CNS1: pippo 
+   CNS1: On the left, a 2-dimensional UMAP projection of CNS tumors by gene expression, where several subtypes 
+   found in the first layers of the hierarchy are highlighted with different colors. On the right, a list of all CNS subtypes identified
+   and their hierarchical relationship. 
 
 
 Medulloblastoma
@@ -70,7 +72,7 @@ survival (OS) at only 448 days compared to :abbr:`T029 (Central nervous system t
    :name: fig-cns2
    :width: 300px
 
-   CNS2: pippo 
+   CNS2: Overall survival time curves of wild-type and mutant IDH tumors. 
 
 BCOR-altered Samples and Ependymoma
 ===================================
@@ -106,7 +108,12 @@ of 2.64 y.o. No subtypes are identified, possibly due to the limits in the refer
    :name: fig-cns3
    :width: 500px
 
-   CNS3: pippo 
+   CNS3: Summary of the findings relating to BCOR-mutated and CIC-mutated tumors. 
+   A) 2-dimensional UMAP projection of CNS tumors by gene expression, where a few representative classes are shown with shades of blue and green. 
+   The BCOR-mutated class is highlighted in orange (T031). B) Diagram representing the archetypical BCOR-ITD and BCOR-CCNB3 rearrangements. 
+   C) BCOR expression distribution across representative CNS classes, showing a clear overexpression in BCOR-mutated samples (T031).  
+   D) The idiosyncratic transcriptional profile of BCOR mutations is sufficient to overcome the cell-of-origin attraction during the clustering process. 
+   The ratio of tumor types within T031, shows that while it is mostly composed of CNS tumors, sarcomas are also found in this class.  
 
 IDH wild-type glioma
 ====================
@@ -151,7 +158,8 @@ tumours with gain chr7/loss chr10, confirmed by clinical data (139/200 vs. 15/35
    :name: fig-cns4
    :width: 250px
    
-   CNS4: pippo 
+   CNS4: 2-dimensional UMAP projection of subtypes of IDH-mutant gliomas. 
+   Samples with reported gain of chromosome 7 and loss of chromosome 10 are shown as empty circles.
 
 
 Glioblastomas and high-grade gliomas separate at the next level within :abbr:`T036 (Glioma, high grade, proneural)` (Fig. :ref:`CNS1 <fig-cns1>`). We observe :abbr:`T042 GLI HG/GBM PRON (Glioma, high grade, or glioblastoma proneural)`  (n = 48) 
@@ -181,7 +189,7 @@ proportion of gain chr7/loss chr10 samples (:abbr:`χ2 p-val (χ2 test p-value)`
    :name: fig-cns5
    :width: 500px
    
-   CNS5: pippo 
+   CNS5: Per sample Normalized Enrichment Score (NES) distributions of gene sets characterizing the H3.3-mutant glioma subtype.
 
 The remaining subtypes are found in the child classes of :abbr:`T038 (Glioma, high grade, or glioblastoma mesenchymal/classical)` (Fig. :ref:`CNS1 <fig-cns1>`): we find the majority of classical samples (31/34 vs 2/27, vs 1/43, 
 :abbr:`χ2 p-val (χ2 test p-value)` < 2.2e-16) in :abbr:`T039 GLI HG/GBM CLASS (Glioma, high grade, or glioblastoma classical)`  (n = 37), mesenchymal subtype samples in both :abbr:`T040 (Glioma, high grade, or glioblastoma mesenchymal)` GLI HG/GBM MES (n = 36) and 
@@ -220,7 +228,7 @@ in :abbr:`T037 (Glioma, high grade, neural differentiation)` with respect to :ab
    :name: fig-cns6
    :width: 600px
    
-   CNS6: pippo 
+   CNS6: Per sample Normalized Enrichment Score (NES) distributions of gene sets characterizing gliomas with high neural differentiation.
 
 IDH-mutant glioma
 =================
@@ -253,7 +261,8 @@ samples (45/53). It is not clear why this class is found within the IDH1-codelet
    :name: fig-cns7
    :width: 600px
    
-   CNS7: pippo 
+   CNS7: Top and center, per sample Normalized Enrichment Score (NES) distributions of gene sets characterizing the gliomas subtype with multicellular network overexpression.
+   Bottom, per sample expression distributions of *NOTCH1* and *GAP43* genes in gliomas subtypes with or without multicellular network overexpression. 
 
 Gene set enrichment analysis reveals that every locus available for chr1p, with the expectation of chr1p11, (:abbr:`MWU p-val (Mann-Whitney U test p-value)` ≤ 8.35e-04) and chr19q 
 (:abbr:`MWU p-val (Mann-Whitney U test p-value)` ≤ 5.18e-23) are significantly downregulated in :abbr:`T049 (Glioblastoma, IDH-mutant 1p19q codeletion mix B)` compared to :abbr:`T048 (Glioma, IDH-mutant, multicellular network)`, confirming more severe population-wide loss of these loci in 
