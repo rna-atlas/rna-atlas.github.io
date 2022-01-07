@@ -1,5 +1,3 @@
-.. include:: ./_version.rst
-
 Welcome to the Annotation of the Transcriptional Cancer Atlas!
 ==============================================================
 
@@ -7,6 +5,7 @@ Version: |version|
 
 .. image:: /img/full_atlas.png
    :alt: UMAP of the full atlas
+   :width: 500px
 
 .. toctree::
    :maxdepth: 1
