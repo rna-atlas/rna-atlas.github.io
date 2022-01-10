@@ -42,7 +42,7 @@ specific subtypes singled out into their sibling classes, as in this case. Inter
 we also note the presence of a single pineal parenchymal tumour in :abbr:`T026 (Central nervous system, mix A)`. The recursion 
 allows us to observe the emergence of known subtypes from literature at deeper level of 
 this branch [Northcott2012]_. This class further splits into :abbr:`T058 MLBLA G3/G4 (Medulloblastoma, G3 or G4)` (n = 37) 
-(Fig. :ref:`CNS1 <fig-cns1>`), a cluster of mixed G3 and G4 subtypes, with overexpression (:abbr:`glmQLFTest (edgeR quasi-likelihood negative binomial generalized log-linear model)` of *OTX2* (:abbr:`logFC (log-Fold Change)` = 3.48, :abbr:`FDR (False Discovery Rate)` = 6.368e-06) 
+(Fig. :ref:`CNS1 <fig-cns1>`), a cluster of mixed G3 and G4 subtypes, with overexpression of *OTX2* (:abbr:`glmQLFTest (edgeR quasi-likelihood negative binomial generalized log-linear model)` :abbr:`logFC (log-Fold Change)` = 3.48, :abbr:`FDR (False Discovery Rate)` = 6.368e-06) 
 and *FOXG1* (:abbr:`logFC (log-Fold Change)` = 8.44, :abbr:`FDR (False Discovery Rate)` = 4.026e-06), while :abbr:`T059 MLBLA WNT/SSH (Medulloblastoma, WNT or SHH)` (n = 5), shows overexpression 
 of both *WNT* (:abbr:`ssGSEA (single-sample GSEA from GSVA)` [Hänzelmann2013]_, :abbr:`medNES (median Normalized Enrichment Score)` = 1.15, 
 :abbr:`MWU adj. p-val (Mann Whitney U test Benjamin-Hochberg adjusted p-value)` = 6.74e-05) and *SHH* (:abbr:`medNES (median Normalized Enrichment Score)` = 1.42, :abbr:`MWU adj. p-val (Mann Whitney U test Benjamin-Hochberg adjusted p-value)` = 2.02e-04) 

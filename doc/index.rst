@@ -12,10 +12,10 @@ Version: |version|
    :hidden:
    :caption: Annotation
 
-   anno/1_cns.rst
-   anno/2_nebla.rst
-   anno/3_4_sarcoma.rst
-   anno/6_leukemia.rst
+   anno/000_cns.rst
+   anno/001_nebla.rst
+   anno/002_003_sarcoma.rst
+   anno/005_leukemia.rst
 
 .. toctree::
    :maxdepth: 1
