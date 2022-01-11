@@ -17,10 +17,10 @@ RACCOON identified four separate subclusters within the neuroblastoma parent cla
 
 :abbr:`T062 NEBLA MES ERBB2 (Neuroblastoma, mesenchymal, ERBB2 overexpression)`, the smallest cluster, contains a molecular 
 signature which corresponds to microarray cluster p43 and comprises Children’s Oncology Group (`COG <https://childrensoncologygroup.org/>`_) samples reported as high-risk (Fig. :ref:`NEBLA2 <fig-nebla2>`). 
-It is characterized by underexpression of the neuroblastoma predisposition genes *PHOX2B* (:abbr:`glmQLFTest (edgeR quasi-likelihood negative binomial generalized log-linear model)` :abbr:`:abbr:`medLogFC (median Log-Fold Change)` = -2.58, :abbr:`FDR (False Discovery Rate)` ≤ 2.93e-13), 
-*MYCN* (:abbr:`:abbr:`medLogFC (median Log-Fold Change)` = -3.30, :abbr:`FDR (False Discovery Rate)` ≤ 3.11e-09), as well as the cell-cycle genes *BIRC5* 
-(:abbr:`:abbr:`medLogFC (median Log-Fold Change)` = -5.92, :abbr:`FDR (False Discovery Rate)` ≤ 2.90e-16) and *CCND1* (:abbr:`:abbr:`medLogFC (median Log-Fold Change)` = -2.13, :abbr:`FDR (False Discovery Rate)` ≤ 4.84e-12), 
-compared to its sibling clusters. :abbr:`T062 NEBLA MES ERBB2 (Neuroblastoma, mesenchymal, ERBB2 overexpression)`  is also characterized by overexpression of *ERBB2* (*HER2*) (:abbr:`:abbr:`medLogFC (median Log-Fold Change)` = 1.32, :abbr:`FDR (False Discovery Rate)` < 8.16e-08), 
+It is characterized by underexpression of the neuroblastoma predisposition genes *PHOX2B* (:abbr:`glmQLFTest (edgeR quasi-likelihood negative binomial generalized log-linear model)` :abbr:`medLogFC (median Log-Fold Change)` = -2.58, :abbr:`FDR (False Discovery Rate)` ≤ 2.93e-13), 
+*MYCN* (:abbr:`medLogFC (median Log-Fold Change)` = -3.30, :abbr:`FDR (False Discovery Rate)` ≤ 3.11e-09), as well as the cell-cycle genes *BIRC5* 
+(:abbr:`medLogFC (median Log-Fold Change)` = -5.92, :abbr:`FDR (False Discovery Rate)` ≤ 2.90e-16) and *CCND1* (:abbr:`medLogFC (median Log-Fold Change)` = -2.13, :abbr:`FDR (False Discovery Rate)` ≤ 4.84e-12), 
+compared to its sibling clusters. :abbr:`T062 NEBLA MES ERBB2 (Neuroblastoma, mesenchymal, ERBB2 overexpression)`  is also characterized by overexpression of *ERBB2* (*HER2*) (:abbr:`medLogFC (median Log-Fold Change)` = 1.32, :abbr:`FDR (False Discovery Rate)` < 8.16e-08), 
 which has been demonstrated to be a favourable prognostic factor [Izycka-Swieszewska2010]_. 
 
 
@@ -40,7 +40,7 @@ Indeed, we observe statistically significantly higher immune infiltration and lo
 .75 median score and :abbr:`KW adj. p-val (Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value)` = 1.75e-12 respectively, see Methods for details on these scores), 
 with respect to all the other classes (Fig. :ref:`NEBLA3 <fig-nebla3>`). 
 Furthermore, :abbr:`T062 (Neuroblastoma, mesenchymal, ERBB2 overexpression)` contains the majority of nodular ganglioneuroblastomas (7/12, :abbr:`χ2 p-val (χ2 test p-value)` = 3.849e-05) (Fig. :ref:`NEBLA2 <fig-nebla2>`) and shows significant overexpression of 
-ganglioneuroblastoma marker *ERRB3* (:abbr:`:abbr:`medLogFC (median Log-Fold Change)` = 5.7, :abbr:`FDR (False Discovery Rate)` ≤ 3.484e-15), as well as enrichment for *ERBB* network gene sets (:abbr:`medNES (median Normalized Enrichment Score)` ≥ 1.27, 
+ganglioneuroblastoma marker *ERRB3* (:abbr:`medLogFC (median Log-Fold Change)` = 5.7, :abbr:`FDR (False Discovery Rate)` ≤ 3.484e-15), as well as enrichment for *ERBB* network gene sets (:abbr:`medNES (median Normalized Enrichment Score)` ≥ 1.27, 
 :abbr:`KW p-val (Kruskal–Wallis one-way analysis of variance test p-value)` = 1.95e-09, :abbr:`Dunn adj. p-val (Dunn’s test of multiple comparisons Benjamin-Hochberg adjusted p-value)` < 1.00e-04) [Schaefer2009]_. 
 It also exhibits enrichment of glial cell developmental pathways (:abbr:`medNES (median Normalized Enrichment Score)` ≥ 1.31, :abbr:`KW p-val (Kruskal–Wallis one-way analysis of variance test p-value)` = 2.55e-12, 
 :abbr:`Dunn adj. p-val (Dunn’s test of multiple comparisons Benjamin-Hochberg adjusted p-value)` < 1.00e-03) and adrenal gland developmental gene sets 
@@ -58,7 +58,7 @@ It also exhibits enrichment of glial cell developmental pathways (:abbr:`medNES 
 
 :abbr:`T063 NEBLA ADR NTRK1 (Neuroblastoma, mesenchymal, NTRK1 overexpression)`, the most populous subgroup, corresponds to microarray cluster p13, and 
 is characterized by overexpression of *NTRK1* with respect to its sibling clusters 
-(:abbr:`:abbr:`medLogFC (median Log-Fold Change)` = 1.51, :abbr:`FDR (False Discovery Rate)` < 5.78e-4). Patients with tumors within this class are significantly younger than ones in other NEBLA clusters 
+(:abbr:`medLogFC (median Log-Fold Change)` = 1.51, :abbr:`FDR (False Discovery Rate)` < 5.78e-4). Patients with tumors within this class are significantly younger than ones in other NEBLA clusters 
 (:abbr:`KW adj. p-val (Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value)` = 1.25e-05). 
 It contains all samples classified as low and intermediate `COG <https://childrensoncologygroup.org/>`_ risk by `TARGET <https://ocg.cancer.gov/programs/target>`_ (:abbr:`χ2 p-val (χ2 test p-value)` = 1.04e-08), 
 and contains all patients classified as stage 4s (:abbr:`χ2 p-val (χ2 test p-value)` = 2.76e-07) and stage 3 (:abbr:`χ2 p-val (χ2 test p-value)` = 3.58e-2) (Fig. S22b). 
@@ -83,7 +83,7 @@ The two remaining clusters, :abbr:`T064 NEBLA MYCN (Neuroblastoma, mesenchymal, 
 are exclusively comprised of samples marked as `COG <https://childrensoncologygroup.org/>`_ high-risk (Fig. :ref:`NEBLA2 <fig-nebla2>`), and overlap with microarray clusters p3 and p2 [Abel2011]_, respectively. 
 Both clusters exhibit overexpression of *BIRC5* compared to :abbr:`T062 NEBLA ERBB2(Neuroblastoma, mesenchymal, ERBB2 overexpression)`  and :abbr:`T063 NEBLA ADR NTRK1 (Neuroblastoma, mesenchymal, NTRK1 overexpression)` (:abbr:`T064 (Neuroblastoma, mesenchymal, MYCN amplification)` :abbr:`logFC (log-Fold Change)`` = 1.74, :abbr:`FDR (False Discovery Rate)` = 3.33e-05; 
 :abbr:`T065 (Neuroblastoma, mesenchymal, TERT overexpression without MYCN amplification)` :abbr:`logFC (log-Fold Change)` = 2.05, :abbr:`FDR (False Discovery Rate)` = 9.47e-07). 
-:abbr:`T064 NEBLA MYCN (Neuroblastoma, mesenchymal, MYCN amplification)`  is characterized by a statically significant overexpression of *MYCN* (:abbr:`:abbr:`medLogFC (median Log-Fold Change)` = 1.51, :abbr:`FDR (False Discovery Rate)` ≤ 5.78e-04), 
+:abbr:`T064 NEBLA MYCN (Neuroblastoma, mesenchymal, MYCN amplification)`  is characterized by a statically significant overexpression of *MYCN* (:abbr:`medLogFC (median Log-Fold Change)` = 1.51, :abbr:`FDR (False Discovery Rate)` ≤ 5.78e-04), 
 and contains the majority of samples flagged as *MYCN* amplified by `TARGET <https://ocg.cancer.gov/programs/target>`_ 
 (:abbr:`χ2 p-val (χ2 test p-value)` = 7.31e-15) (Fig. :ref:`NEBLA1 <fig-nebla1>`). It is also defined by the underexpression of *NTRK1* (:abbr:`logFC (log-Fold Change)` = -3.25, :abbr:`FDR (False Discovery Rate)` = 1.99e-09). 
 Though the majority of :abbr:`T064 NEBLA MYCN (Neuroblastoma, mesenchymal, MYCN amplification)`  samples are marked by `TARGET <https://ocg.cancer.gov/programs/target>`_ as *MYCN*-amplified, 37.5% of samples (n = 9/34) are annotated as non-amplified. 
@@ -104,16 +104,16 @@ Indeed, both :abbr:`T064 (Neuroblastoma, mesenchymal, MYCN amplification)` and :
 have enrichment of alternative telomere lengthening pathways (:abbr:`KW adj. p-val (Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value)` < 2.06e-14) [Nabetani2011]_, [Jassal2020]_ (Fig. :ref:`NEBLA5 <fig-nebla5>`). 
 *TERT* rearrangements are associated with the upregulation of *SLC6A18* and *SLC6A19*, genes neighbouring *TERT* on the distal side of its breakpoint. 
 Both these genes were significantly upregulated in :abbr:`T065 NEBLA ADR TERT (Neuroblastoma, mesenchymal, TERT overexpression without MYCN amplification)`  
-(*SLC6A18*, :abbr:`:abbr:`medLogFC (median Log-Fold Change)` = 3.77, :abbr:`FDR (False Discovery Rate)` ≤ 3.78e-06; 
-*SLC6A19*, :abbr:`:abbr:`medLogFC (median Log-Fold Change)` = 3.88, :abbr:`FDR (False Discovery Rate)` < 2.96e-03), 
+(*SLC6A18*, :abbr:`medLogFC (median Log-Fold Change)` = 3.77, :abbr:`FDR (False Discovery Rate)` ≤ 3.78e-06; 
+*SLC6A19*, :abbr:`medLogFC (median Log-Fold Change)` = 3.88, :abbr:`FDR (False Discovery Rate)` < 2.96e-03), 
 but not in :abbr:`T064 NEBLA MYCN(Neuroblastoma, mesenchymal, MYCN amplification)` , suggesting :abbr:`T065 NEBLA ADR TERT (Neuroblastoma, mesenchymal, TERT overexpression without MYCN amplification)` may be comprised of *TERT*-rearranged neuroblastomas. 
 *CCND1* amplification has been observed concurrently with *TERT* rearrangements in neuroblastomas [Fransson2020]_ and is highly upregulated in :abbr:`T065 (Neuroblastoma, mesenchymal, TERT overexpression without MYCN amplification)` 
-(:abbr:`:abbr:`medLogFC (median Log-Fold Change)` = 1.09, :abbr:`FDR (False Discovery Rate)` ≤ 5.67e-06). 
+(:abbr:`medLogFC (median Log-Fold Change)` = 1.09, :abbr:`FDR (False Discovery Rate)` ≤ 5.67e-06). 
 We find no significant differences in expression of *ATRX* between clusters. :abbr:`T065 (Neuroblastoma, mesenchymal, TERT overexpression without MYCN amplification)` 
 exhibits the lowest expression of gene sets related to adrenal development (:abbr:`medNES (median Normalized Enrichment Score)` = 0.39, 
 :abbr:`KW adj. p-val (Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value)` = 2.14e-12, 
 :abbr:`Dunn adj. p-val (Dunn’s test of multiple comparisons Benjamin-Hochberg adjusted p-value)` < 1.00e-04) [TGOC2019]_, [Ashburner2000]_, 
-as well as low expression of mature chromaffin markers such as *EPAS1* (:abbr:`:abbr:`medLogFC (median Log-Fold Change)` = -1.09, :abbr:`FDR (False Discovery Rate)` ≤ 4.412e-02) [Westerlund2019]_, 
+as well as low expression of mature chromaffin markers such as *EPAS1* (:abbr:`medLogFC (median Log-Fold Change)` = -1.09, :abbr:`FDR (False Discovery Rate)` ≤ 4.412e-02) [Westerlund2019]_, 
 suggesting this cluster is formed of poorly differentiated neuroblastomas. To further support this hypothesis, we observe here the highest median stemness score (0.81) among all classes, while a non-negligible immune infiltration score is also observed (.45) (Fig. :ref:`NEBLA3 <fig-nebla3>`, :ref:`NEBLA4 <fig-nebla4>`). 
 Hypermethylation of the *TERT* locus in high-risk neuroblastomas has been reported in literature [Olsson2016]_. 
 In line with this observation, :abbr:`T065 NEBLA ADR TERT(Neuroblastoma, mesenchymal, TERT overexpression without MYCN amplification)`  
@@ -176,7 +176,7 @@ Recent work investigated linage and developmental differences across neuroblasto
 a sympathoadrenal identity and neural-crest cell-like (NCC-like)/mesenchymal identity. 
 These developmental states are mediated epigenetically through the action of of super-enhancer and super-enhancer related transcriptional factor networks.  
 Neuroblastomas can move from one to the other identity under selective pressure, induced by therapy or epigenetic alterations and often contain intermixed 
-populations(Boeva2017; van Groningen2017). We thus decided to search for overlaps between these developmental identities and our clusters. 
+populations [Boeva2017]_, [vanGroningen2017]_. We thus decided to search for overlaps between these developmental identities and our clusters. 
 Interestingly, we observe the characteristic signature of both lineages in all clusters although expressed to different degrees. 
 :abbr:`T062 NEBLA ERBB2 (Neuroblastoma, mesenchymal, ERBB2 overexpression)` in particular is committed to an NCC-like linage as shown by high expression of 
 NCC-like and mesenchymal markers (:abbr:`medNES (median Normalized Enrichment Score)` = 1.57, 
@@ -222,5 +222,4 @@ Bibliography
 .. [Westerlund2019] Westerlund, I., Shi, Y. and Holmberg, J. 2019. EPAS1/HIF2α correlates with features of low-risk neuroblastoma and with adrenal chromaffin cell differentiation during sympathoadrenal development. Biochemical and Biophysical Research Communications 508(4), pp. 1233–1239.
 .. [Yang2017] Yang, X.H., Tang, F., Shin, J. and Cunningham, J.M. 2017. Incorporating genomic, transcriptomic and clinical data: a prognostic and stem cell-like MYC and PRC imbalance in high-risk neuroblastoma. BMC Systems Biology 11(Suppl 5), p. 92.
 .. [Yates2020] Yates, A.D., Achuthan, P., Akanni, W.,2020. Ensembl 2020. Nucleic Acids Research 48(D1), pp. D682–D688.
-
 
