@@ -1,11 +1,50 @@
+.. |br| raw:: html
+
+  <br/>
+
+
 Welcome to the Annotation of the Transcriptional Cancer Atlas!
 ==============================================================
 
 Version: |version|
+|br| 
+Last change: |today|
+
+This website contains a detailed description of the classes available in the transcriptional cancer atlas, a curated resource of 
+gene expression data clustering from the Hospital for Sick Children. The atlas was produced with `RACCOON <https://github.com/fcomitani/raccoon>`_, 
+a scale-adaptive clustering algorithm, and serves as a target to the `OTTER <insert link to OTTER web page here when available>`_ classifier. 
+
+The data was gathered from different sources, including the `TreeHouse Childhood Cancer Initiative <https://treehousegenomics.ucsc.edu/>`_, 
+`TCGA <https://www.cancer.gov/about-nci/organization/ccg/research/structural-genomics/tcga>`_,
+`TARGET <https://ocg.cancer.gov/programs/target>`_ ,
+`GTEx <https://gtexportal.org/home/>`_, and
+`St. Jude Children's Research Hospital <https://pecan.stjude.cloud/>`_.
+
+The classes have been manually annotated. Each one has been characterized based on its most relevant transcriptional properties and,
+where available, clinical and genomics information. 
+
+This website is still a work in progress. We are striving to cover all subtypes currently available in the atlas, please check back in the future
+if what you are looking for is still not available.
+For questions, comments or suggestions, please :ref:`contacts`. See also our :ref:`faq` section.
+
+**IMPORTANT NOTE**: The annotation is updated periodically, make sure you are looking at a version
+that is matching the classifier used in your project.
 
 .. image:: /img/full_atlas.png
    :alt: UMAP of the full atlas
    :width: 500px
+   :align: center
+
+|br|
+If using this annotation data or related software, please cite:
+|br|
+*F. Comitani et al. (2022), in preparation.*
+
+..
+   Citation of the paper, 
+   https://doi.org/10.5281/zenodo.5788411
+   Possibly add maybe the version should be published too with Zenodo.
+   
 
 .. toctree::
    :maxdepth: 1
@@ -23,3 +62,11 @@ Version: |version|
    :caption: F.A.Q.
    
    faq.rst
+
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+   :caption: Contact us
+   
+   contacts.rst
+

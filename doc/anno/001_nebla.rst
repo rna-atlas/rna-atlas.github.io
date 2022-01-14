@@ -1,6 +1,16 @@
+.. |br| raw:: html
+
+  <br/>
+
+
 ==================
 T001 Neuroblastoma 
 ==================
+
+
+Version: |version|
+|br| 
+Last change: |today|
 
 A total of 180 samples were labelled as neuroblastoma in our reference dataset, 
 162 of which are from `TARGET <https://ocg.cancer.gov/programs/target>`_  while the rest are from different sources within the `TreeHouse initiative <https://treehousegenomics.ucsc.edu/>`_.  

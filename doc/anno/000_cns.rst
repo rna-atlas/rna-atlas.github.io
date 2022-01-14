@@ -1,6 +1,14 @@
+.. |br| raw:: html
+
+  <br/>
+
 ===========================
 T000 Central Nervous System 
 ===========================
+
+Version: |version|
+|br| 
+Last change: |today|
 
 The :abbr:`CNS (Central Nervous System)` tumours in our dataset exhibit three major divides: 
 glioma vs. non-gliomas, gliomas with wildtype or mutated IDH1, 
