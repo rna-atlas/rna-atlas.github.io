@@ -51,10 +51,18 @@ If using this annotation data or related software, please cite:
    :hidden:
    :caption: Annotation
 
-   anno/000_cns.rst
-   anno/001_nebla.rst
-   anno/002_003_sarcoma.rst
-   anno/005_leukemia.rst
+   anno/N000_normal.rst
+   anno/T000_cns.rst
+   anno/T001_nebla.rst
+   anno/T002_T003_mesoderm.rst
+   anno/T005_leuk.rst
+
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+   :caption: Dashboard
+   
+   dboard.rst
 
 .. toctree::
    :maxdepth: 1
