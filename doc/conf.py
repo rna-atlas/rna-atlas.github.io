@@ -33,7 +33,12 @@ extensions = [
     'sphinx.ext.coverage',
     'sphinx.ext.napoleon',
     'sphinx.ext.autosectionlabel',
+#    'sphinx_markdown_builder',
 ]
+
+#exclude_patterns = [
+#    'build/*'
+#]
 
 autoclass_content = 'both'
 
