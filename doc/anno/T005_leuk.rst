@@ -64,7 +64,7 @@ and :abbr:`T124 ALL TRG (Acute lymphoblastic leukemia (TARGET))` with statistica
 removal or more advanced batch effect removal methods (e.g. COMBaT [Lazar2013]_) weren’t enough to assure complete 
 compatibility between the TARGET cohort and the rest of the dataset without the loss of information and damage to the subtyping process. 
 We decided to keep the clusters separate as by choice of the algorithm and further investigate their subtypes independently, 
-to maintain tumour subtypes that were exclusive of one or the other cohorts and increase the classifier range. 
+to maintain tumor subtypes that were exclusive of one or the other cohorts and increase the classifier range. 
 
 Acute lymphoblastic leukemia, non-TARGET cohort
 ===============================================
@@ -84,19 +84,19 @@ The children of :abbr:`T125 ALL C (Acute lymphoblastic leukemia mix C)` separate
 :abbr:`T128 ALL ERGdel (Acute lymphoblastic leukemia, ERG deletion)` (n = 36) and 
 :abbr:`T127 ALL Ph-like (Acute lymphoblastic leukemia, Philadelphia-like)` (n = 71) (Fig. :ref:`LEU1b <fig-leu1>`). 
 |br| |br|
-:abbr:`T128 ALL ERGdel (Acute lymphoblastic leukemia, ERG deletion)` is characterized by tumours carrying 
+:abbr:`T128 ALL ERGdel (Acute lymphoblastic leukemia, ERG deletion)` is characterized by tumors carrying 
 *ERG* deletions (15 vs. 55, :abbr:`χ2 p-val (χ2 test p-value)` < 2.20e-16), and exhibits characteristic overexpression of 
 *CHST2* (:abbr:`logFC (log-Fold Change)` = -4.48, :abbr:`FDR (False Discovery Rate)` = 5.742e-33), 
 *PTPRM* (:abbr:`logFC (log-Fold Change)` = -7.64, :abbr:`FDR (False Discovery Rate)` = 2.987e-32), and 
 *GPR49/AGAP1* (:abbr:`logFC (log-Fold Change)` = -6.23, :abbr:`FDR (False Discovery Rate)` = 3.201e-31) [Yeoh2002]_. 
-The majority of samples in T127 are composed of Ph-like tumours of various classes (:abbr:`χ2 p-val (χ2 test p-value)` < 2.2e-16) [Jain2017]_. 
+The majority of samples in T127 are composed of Ph-like tumors of various classes (:abbr:`χ2 p-val (χ2 test p-value)` < 2.2e-16) [Jain2017]_. 
 |br| |br|
 :abbr:`T127 ALL Ph-like (Acute lymphoblastic leukemia, Philadelphia-like)` then further subdivides in two child nodes, 
 :abbr:`T129 ALL Ph-like A (Acute lymphoblastic leukemia, Philadelphia-like mixed alterations A)` (n = 41) and 
 :abbr:`T130 ALL Ph-like IKZF1/JAK2 (Acute lymphoblastic leukemia, Philadelphia-like, IKZF1 or JAK2 fusion)` (n = 29) (Fig. :ref:`LEU1b <fig-leu1>`). 
 Both contain small populations of *BCR-ABL1* fusion samples (Ph+) (11 and 5, ns) and Philadelphia-like (Ph-like) samples (13 and 14, ns). 
 While :abbr:`T129 ALL Ph-like A (Acute lymphoblastic leukemia, Philadelphia-like mixed alterations A)` contains the majority of 
-Ph-like non- *CRFL2* tumours (11/28 vs. 14/19, :abbr:`χ2 p-val (χ2 test p-value)` = 4.32e-02), 
+Ph-like non- *CRFL2* tumors (11/28 vs. 14/19, :abbr:`χ2 p-val (χ2 test p-value)` = 4.32e-02), 
 there is no corresponding enrichment of this signature via gene sets analysis. 
 However, the two differ by some specific lesions known to be present in the Ph-like group: 
 :abbr:`T129 ALL Ph-like A (Acute lymphoblastic leukemia, Philadelphia-like mixed alterations A)` contains 6 
@@ -105,7 +105,7 @@ while :abbr:`T130 ALL Ph-like IKZF1/JAK2 (Acute lymphoblastic leukemia, Philadel
 *EPO* fusion samples (4/13 vs. 0/14, :abbr:`FET p-val (Fisher's exact test p-value)` 4.07e-02). 
 Both contain other *JAK/STAT* alterations (4/13 vs. 3/14, ns), and two of other *ABL1/2* fusion samples each. 
 :abbr:`T130 ALL Ph-like IKZF1/JAK2 (Acute lymphoblastic leukemia, Philadelphia-like, IKZF1 or JAK2 fusion)` 
-is also enriched for tumours with concurrent *IKZF1* alterations (11/28 vs. 14/19, :abbr:`χ2 p-val (χ2 test p-value)` = 4.32e-02).
+is also enriched for tumors with concurrent *IKZF1* alterations (11/28 vs. 14/19, :abbr:`χ2 p-val (χ2 test p-value)` = 4.32e-02).
 |br|
 :abbr:`T129 ALL Ph-like A (Acute lymphoblastic leukemia, Philadelphia-like mixed alterations A)`  
 then divides into two further subtypes, :abbr:`T131 ALL Ph-like JAK/STAT (Acute lymphoblastic leukemia, Philadelphia-like, BCR-ABL or other JAK/STAT)` 
@@ -122,7 +122,7 @@ contains an *EPOR-IGK* fusion (:abbr:`n.s. (not significant)`).
 Both groups contain one *ABL* fusion without *CRFL2* rearrangement, while Ph-like non-*CRLF2* samples are evenly 
 divided between the clusters (7/20 vs. 4/8, :abbr:`n.s. (not significant)`). 
 Another interesting distinction is that  :abbr:`T131 ALL Ph-like JAK/STAT (Acute lymphoblastic leukemia, Philadelphia-like, BCR-ABL or other JAK/STAT)` 
-is enriched for tumours with cell-cycle related lesions, either in *TP53*, 
+is enriched for tumors with cell-cycle related lesions, either in *TP53*, 
 *CDK2NA/B*, or *RB1* (14/20 vs. 1/8, :abbr:`χ2 p-val (χ2 test p-value)` = 1.95e-2). 
 :abbr:`T132 ALL Ph+/Ph-like EPOR (Acute lymphoblastic leukemia Philadelphia-like, EPOR fusion)`, 
 however, is enriched for samples with concurrent *IKZF1* alterations (5/20 vs. 6/8, :abbr:`χ2 p-val (χ2 test p-value)` = 4.35e-02), 
@@ -208,6 +208,7 @@ fusions exhibit significantly worse :abbr:`OS (overall survival)` (:abbr:`lrt p-
 consistent with literature [Inukai2007]_. 
 Though identifying *TCG3-HLF* outright is important for determining clinical course due to 
 its negative prognostic indication [Inukai2007]_, due to a paucity of these samples we are unable to separate them further.
+Due to transcriptional similarities, we also expect *MEF2D*-mutated samples would be clustered in this group [Ohki2019]_.
 |br| |br|
 The final subclass of :abbr:`T124 ALL TRG (Acute lymphoblastic leukemia (TARGET))`, 
 :abbr:`T136 ALL TRG ETV6-RUNX1 (Acute lymphoblastic leukemia (TARGET) ETV6-RUNX1 fusion)` (n = 27), 
@@ -235,7 +236,7 @@ and is enriched for Ph-like gene signatures (:abbr:`medNES (median Normalized En
 when compared to its siblings (Fig. :ref:`LEU3b <fig-leu3>`). 
 |br| |br|
 :abbr:`T138 ALL TRG HYPERDIP (Acute lymphoblastic leukemia (TARGET), hyperdiploid)` (n=21) 
-is enriched for tumours with hyperdiploidy without trisomy of both chromosomes 4 and 10 
+is enriched for tumors with hyperdiploidy without trisomy of both chromosomes 4 and 10 
 (1/29 vs. 11/20 vs. 7/22, :abbr:`χ2 p-val (χ2 test p-value)` = 2.66e-04). Patients in 
 :abbr:`T138 (Acute lymphoblastic leukemia (TARGET), hyperdiploid)` are also significantly younger than its siblings (3.59 :abbr:`y.o. (years old)`, 
 :abbr:`KW adj. p-val (Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value)` = 1.14e-02). 
@@ -301,7 +302,7 @@ reaching median :abbr:`OS (overall survival)` at 327days.
 (n = 8) is a very small cluster and is considerably younger (45.00 vs 62.00 
 :abbr:`MWU adj. p-val (Mann Whitney U test Benjamin-Hochberg adjusted p-value)` = 7.24e-03) than 
 :abbr:`T150 AML KMT2A NPM1/FLT3 (Infant acute lymphoblastic leukemia, KMT2A rearrangement, NPM1 or FLT3 mutant)` (n = 44); 
-this is also reflected in the percentage of samples marked as paediatric (50.00% vs. 4.55%, :abbr:`χ2 p-val (χ2 test p-value)` = 7.25e-03). 
+this is also reflected in the percentage of samples marked as pediatric (50.00% vs. 4.55%, :abbr:`χ2 p-val (χ2 test p-value)` = 7.25e-03). 
 While 5 samples are marked as :abbr:`AML (Acute myeloid leukemia)`, 
 :abbr:`T149 AML KMT2Ar 11q23 (Infant acute lymphoblastic leukemia, KMT2A rearrangement chr11q23)` also contains 
 3 samples marked as mixed lineage leukemias (:abbr:`χ2 p-val (χ2 test p-value)` = 7.79e-04). 
@@ -393,23 +394,23 @@ eight (:abbr:`χ2 p-val (χ2 test p-value)` = 3.28e-06)
 |br| |br|
 The direct subclusters of :abbr:`T120 AML (Acute myeloid leukemia)` continue here. 
 |br|
-:abbr:`T143 AMKL (Acute megakarioblastic leukemia)` (n = 49) is exclusively composed of 
+:abbr:`T143 AMKL (Acute megakaryoblastic leukemia)` (n = 49) is exclusively composed of 
 megakaryoblastic samples (n = 41, :abbr:`χ2 p-val (χ2 test p-value)` < 2.20e-16) while eight samples 
 are unlabelled, and as expected is enriched for :abbr:`AMKL (Acute megakaryoblastic leukemia)` 
 pathways (:abbr:`medNES (median Normalized Enrichment Score)` ≥ 1.70 , 
 :abbr:`KW adj. p-val (Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value)`= 1.01e-38)(Ross2004).
 Note that all cases are non-trisomy 21. This cluster displays the worst prognosis of all its 
 siblings, reaching median :abbr:`OS (overall survival)` at 313 days (:abbr:`lrt p-val (log-rank test p-value)` = 6.31e-11). 
-:abbr:`T143 AMKL (Acute megakarioblastic leukemia)` then splits into :abbr:`T155 AMKL CBFA2T3-GLIS2 (Megakaryoblastic leukemia, CBFA2T3-GLIS2 fusion)` 
-(n = 12) and :abbr:`T156 AMKL HOX (Acute megakarioblastic leukemia with HOX expression program)` (n = 37). 
-Though both are entirely paediatric, the former cluster contains significantly younger patients (median age of 0.97 vs 2.17 
+:abbr:`T143 AMKL (Acute megakaryoblastic leukemia)` then splits into :abbr:`T155 AMKL CBFA2T3-GLIS2 (Acute megakaryoblastic leukemia, CBFA2T3-GLIS2 fusion)` 
+(n = 12) and :abbr:`T156 AMKL HOX (Acute megakaryoblastic leukemia with HOX expression program)` (n = 37). 
+Though both are entirely pediatric, the former cluster contains significantly younger patients (median age of 0.97 vs 2.17 
 :abbr:`y.o. (years old)` ,:abbr:`MWU adj. p-val (Mann Whitney U test Benjamin-Hochberg adjusted p-value)` = 2.08e-02).
-All samples in :abbr:`T155 AMKL CBFA2T3-GLIS2 (Megakaryoblastic leukemia, CBFA2T3-GLIS2 fusion)` for which genomic 
+All samples in :abbr:`T155 AMKL CBFA2T3-GLIS2 (Acute megakaryoblastic leukemia, CBFA2T3-GLIS2 fusion)` for which genomic 
 data are available are characterized by a *CBFA2T3-GLIS2* fusion (9/9 vs. 0/25, :abbr:`χ2 p-val (χ2 test p-value)` = 7.03e-08) [deRooij2017]_. 
-Patients in :abbr:`T155 AMKL CBFA2T3-GLIS2 (Megakaryoblastic leukemia, CBFA2T3-GLIS2 fusion)` have poorer prognsosis, 
-reaching median :abbr:`OS (overall survival)` at just 313 days post diagnosis. :abbr:`T156 AMKL HOX (Acute megakarioblastic leukemia with HOX expression program)` is composed of other driver events: two *GATA1* mutants , four HOXr (*HOX* fusion) samples, eight *KMT2A-MLLT3/10* fusions, four *NUP98-KDM5A* fusions, two *RBM15-MKL1* fusions, and four samples with other driver mutations. 
+Patients in :abbr:`T155 AMKL CBFA2T3-GLIS2 (Acute megakaryoblastic leukemia, CBFA2T3-GLIS2 fusion)` have poorer prognsosis, 
+reaching median :abbr:`OS (overall survival)` at just 313 days post diagnosis. :abbr:`T156 AMKL HOX (Acute megakaryoblastic leukemia with HOX expression program)` is composed of other driver events: two *GATA1* mutants , four HOXr (*HOX* fusion) samples, eight *KMT2A-MLLT3/10* fusions, four *NUP98-KDM5A* fusions, two *RBM15-MKL1* fusions, and four samples with other driver mutations. 
 With a greater sample size its possible these mutations would form their own clusters as well. When comparing these 
-two classes, :abbr:`T156 AMKL HOX (Acute megakarioblastic leukemia with HOX expression program)` exhibits overexpression of 
+two classes, :abbr:`T156 AMKL HOX (Acute megakaryoblastic leukemia with HOX expression program)` exhibits overexpression of 
 *HOXA* (11/11 genes upregulated, median :abbr:`logFC (log-Fold Change)` ≤ -5.67, :abbr:`FDR (False Discovery Rate)` ≤ 8.47e-03 )
 and *HOXB* genes (8/10 upregulated, median :abbr:`logFC (log-Fold Change)` = -5.65, :abbr:`FDR (False Discovery Rate)` ≤ 7.31e-03) [deRooij2017]_. 
 |br| |br|
@@ -453,7 +454,7 @@ This group displays intermediate prognosis, reaching median :abbr:`OS (overall s
 
 :abbr:`T144 AML TRG (Acute myeloid leukemia (TARGET))` (n = 163) is the largest subcluster of :abbr:`T120 AML (Acute myeloid leukemia)` and is composed 
 largely of unspecified :abbr:`AML (Acute myeloid leukemia)` (n=154), and surprisingly contains 5 
-:abbr:`ALL (Acute lymphoblastic leukemia)`. It is an entirely paediatric cluster 
+:abbr:`ALL (Acute lymphoblastic leukemia)`. It is an entirely pediatric cluster 
 (median age 9.36 :abbr:`y.o. (years old)`) and has excellent prognosis, with >50% of patients surviving at 4022 days post diagnosis. 
 Diving deeper into this class (Fig. S26b, c), we observe first the singling out of :abbr:`AML (Acute myeloid leukemia)`
 with *KMT2A* translocations (23/33 vs 12/120, :abbr:`χ2 p-val (χ2 test p-value)` = 2.623e-12) in 
@@ -494,7 +495,7 @@ bona-fide *KMT2A*-rearranged :abbr:`AML (Acute myeloid leukemia)` class
 A single sample harbours a *BSG-CDC34* fusion. While no *KMT2A* mutation was reported, *CDC34* is known to mediate stability and degradation of 
 *KMT2A* ([Meyer2018]_; [Sugeedha2021]_), supporting the idea that 
 :abbr:`T159 AML TRG KMT2Ar/MPAL (Acute myeloid leukemia (TARGET), KMT2A rearrangement or mixed-phenotype acute leukemia)` 
-is composed of tumours with various lesions which converge upon *KMT2A* pathway pertubation. 
+is composed of tumors with various lesions which converge upon *KMT2A* pathway pertubation. 
 |br| |br|
 KMT2A rearrangements are also common in mixed phenotype acute leukemias (MPAL) [Winters2017]_, [Yang2017]_; 
 to assess whether some of these samples are :abbr:`MPAL (Mixed phenotype acute leukemia)`, we interrogated a number of gene sets (Fig. :ref:`LEU9 <fig-leu9>`). 
@@ -562,9 +563,10 @@ Bibliography
 .. [Lazar2013] Lazar, C., Meganck, S., Taminau, J., et al. 2013. Batch effect removal methods for microarray gene expression data integration: a survey. Briefings in Bioinformatics 14(4), pp. 469–490.
 .. [Meyer2018] Meyer, C., Burmeister, T., Gröger, D., et al. 2018. The MLL recombinome of acute leukemias in 2017. Leukemia 32(2), pp. 273–284.
 .. [Mullighan2007] Mullighan, C.G., Kennedy, A., Zhou, X., et al. 2007. Pediatric acute myeloid leukemia with NPM1 mutations is characterized by a gene expression profile with dysregulated HOX gene expression distinct from MLL-rearranged leukemias. Leukemia 21(9), pp. 2000–2009.
+.. [Ohki2019] Ohki, K., Kiyokawa, N., Saito, Y., et al. 2019. Clinical and molecular characteristics of MEF2D fusion-positive B-cell precursor acute lymphoblastic leukemia in childhood, including a novel translocation resulting in MEF2D-HNRNPH1 gene fusion. Haematologica 104(1), pp. 128–137.
+.. [Qian2017] Qian, M., Zhang, H., Kham, S.K.-Y., et al. 2017. Whole-transcriptome sequencing identifies a distinct subtype of acute lymphoblastic leukemia with predominant genomic abnormalities of EP300 and CREBBP. Genome Research 27(2), pp. 185–195.
 .. [Rachieru-Sourisseau2010] Rachieru-Sourisseau, P., Baranger, L., Dastugue, N., et al. 2010. DNA Index in childhood acute lymphoblastic leukaemia: a karyotypic method to validate the flow cytometric measurement. International Journal of Laboratory Hematology 32(3), pp. 288–298.
 .. [deRooij2017] de Rooij, J.D.E., Branstetter, C., Ma, J., et al. 2017. Pediatric non-Down syndrome acute megakaryoblastic leukemia is characterized by distinct genomic subsets with varying outcomes. Nature Genetics 49(3), pp. 451–456.
-.. [Qian2017] Qian, M., Zhang, H., Kham, S.K.-Y., et al. 2017. Whole-transcriptome sequencing identifies a distinct subtype of acute lymphoblastic leukemia with predominant genomic abnormalities of EP300 and CREBBP. Genome Research 27(2), pp. 185–195.
 .. [Ross2004] Ross, M.E., Mahfouz, R., Onciu, M., et al. 2004. Gene expression profiling of pediatric acute myelogenous leukemia. Blood 104(12), pp. 3679–3687.
 .. [Sadras2017] Sadras, T., Heatley, S.L., Kok, C.H., et al. 2017. Differential expression of MUC4, GPR110 and IL2RA defines two groups of CRLF2-rearranged acute lymphoblastic leukemia patients with distinct secondary lesions. Cancer Letters 408, pp. 92–101.
 .. [Shaver2015] Shaver, A.C., Seegmiller, A.C., Strickland, S.A., et al. 2015. Mutational burden in acute myeloid leukemia is largely age dependent. Blood 126(23), pp. 2605–2605.

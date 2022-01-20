@@ -28,25 +28,25 @@ To help with the annotation, we looked at histological report shared, which reve
 
 
 Samples from the digestive tract are found in :abbr:`N010 DIGESTIVE (Digestive system)` (n = 192) and branch out into :abbr:`N043 COLON SIGMOID (Colon sigmoid)` (n = 54), 
-:abbr:`N044 ESOPHAGUS MUSCOLARIS (Esophagus muscolaris, esophageal junction and other smooth muscle)` (n = 82), containing both muscolaris and esophageal junction samples), 
+:abbr:`N044 ESOPHAGUS MUSCOLARIS (Esophagus muscolaris, esophageal junction or other smooth muscle)` (n = 82), containing both muscolaris and esophageal junction samples), 
 :abbr:`N045 COLON TRANSVERSE (Colon transverse)` (n = 27) and :abbr:`N046 SMALL INTESTINE (Small intestine)` (n = 29), although a degree of overlap is observed 
-across all these groups. :abbr:`N044 (Esophagus muscolaris, esophageal junction and other smooth muscle)` attracts samples from other organs 
+across all these groups. :abbr:`N044 (Esophagus muscolaris, esophageal junction or other smooth muscle)` attracts samples from other organs 
 with a majority of smooth muscle tissue.  
 |br|
 The database contains only 10 bladder samples (the only ones available on 
 GTEx at the time of this work), five of which are found within this group. 
-The remaining half cluster with prostate tissue :abbr:`N038 PROSTATE+BLADDER (Prostate and bladder)`` (n = 37), 
+The remaining half cluster with prostate tissue :abbr:`N038 PROSTATE+BLADDER (Prostate or bladder)`` (n = 37), 
 but could be possibly be further separated if the population were to be increased. 
 |br|
 This last group is part of a more general supercluster of mostly gland and hormonal 
 regulatory tissues (:abbr:`N008 MUCOSA+GLANDS (Mucosa or gland tissue)`, n = 161), esophagus mucosa and submucosa glands 
-(:abbr:`N039 ESOPHAGOUS MUCOSA (Esophagous mucosa and glands)`, n = 39, including two salivary gland samples with a majority of mucosa and stroma), 
+(:abbr:`N039 ESOPHAGOUS MUCOSA (Esophagous mucosa or glands)`, n = 39, including two salivary gland samples with a majority of mucosa and stroma), 
 breast (ducts and glands), fallopian and endocervix tissues (:abbr:`N040 MAMMARY, n = 26), kidney cortex 
 (:abbr:`N041 KIDNEY, (Kidney)`, n = 27) vaginal epithelium and mucosa, and ectocervix (:abbr:`N042 VAGINA (Vagina)`, n = 32). As observed before, 
 the borders between female reproductive organs tissues also tend to overlap, depending on the ratio between mucosa, 
 muscle, or other tissue types within the sample. 
 |br|
-Cervix and vaginal tissues are also found to a lesser degree in :abbr:`N007 OVARY+UTERUS (Ovaries, uterus and fallopian tubes)` (n = 92), which is then split into
+Cervix and vaginal tissues are also found to a lesser degree in :abbr:`N007 OVARY+UTERUS (Ovaries, uterus or fallopian tubes)` (n = 92), which is then split into
 :abbr:`N036 UTERUS (Uterus)` (n = 52), and :abbr:`N037 OVARY (Ovary)` (n = 40) at the next iteration.
 |br| |br|
 Occasionally, the separation is orthogonal to provided labels. 
@@ -57,9 +57,9 @@ Occasionally, the separation is orthogonal to provided labels.
 Heart tissue samples are found in :abbr:`N013 HEART (Heart)` (n = 74), which then splits by location into 
 :abbr:`N047 HEART ATRIAL (Atrial appendage)` (n = 36) and 
 :abbr:`N048 HEART VENTRICLE (Left ventricle)` (n = 38). 
-Arteries are initially clustered with adipose tissues in :abbr:`N002 ARTERY+ADIPOSE (Artery and adipose tissue)` (n = 203), possibly due to their fat component, 
+Arteries are initially clustered with adipose tissues in :abbr:`N002 ARTERY+ADIPOSE (Artery or adipose tissue)` (n = 203), possibly due to their fat component, 
 and are then separated in peripheral :abbr:`N031 ARTERY PERIPHERAL (Artery peripheral (tibial))` (n = 34), and coronary and aorta 
-:abbr:`N029 ARTERY TRUNK (Artery coronary and aorta)` (n = 78) which are then split in their specific types, :abbr:`N032 ARTERY CORONARY (Artery coronary)` (n = 42) and 
+:abbr:`N029 ARTERY TRUNK (Artery coronary or aorta)` (n = 78) which are then split in their specific types, :abbr:`N032 ARTERY CORONARY (Artery coronary)` (n = 42) and 
 :abbr:`N033 ARTERY AORTA (Artery aorta)`` (n = 36) respectively. :abbr:`N030 ADIPOSE (Adipose tissue)` (n = 91) is a relatively big group, containing fat tissues from different body parts. 
 It includes a majority of visceral and subcutaneous adipose tissue, but also breast and a few gastroesophageal junction samples. 
 |br|
@@ -73,11 +73,11 @@ which are cleanly grouped together in :abbr:`N009 CEREBELLUM (Cerebellum)` (n = 
 (as confirmed by the histological report). 
 |br|
 The remaining samples are found in :abbr:`N001 BRAIN (Brain)` (n = 398) and its subclusters: 
-:abbr:`N022 CORPUS STRIATUM (Nucleus accumbens, caudate nucleus and putamen)` (n = 96) contains tissues from the nucleus accumbens, 
+:abbr:`N022 CORPUS STRIATUM (Nucleus accumbens, caudate nucleus or putamen)` (n = 96) contains tissues from the nucleus accumbens, 
 the caudate nucleus and putamen; hippocampus,
 amygdala, and cortex, tend to overlap significantly and are all grouped in the single biggest cluster 
-:abbr:`N023 CORTEX+HIPPC+AMYGD (Hippocampus, amygdala, and cortex)` (n = 193), which couldn’t be further separated; 
-and finally :abbr:`N024 SPINALC+HYPTM+SNIG (Spinal cord, hypothalamus and substantia nigra)` (n = 109) 
+:abbr:`N023 CORTEX+HIPPC+AMYGD (Hippocampus, amygdala, or cortex)` (n = 193), which couldn’t be further separated; 
+and finally :abbr:`N024 SPINALC+HYPTM+SNIG (Spinal cord, hypothalamus or substantia nigra)` (n = 109) 
 comprises instead spinal cord, hypothalamus and substantia nigra samples. The latter further splits however into 
 :abbr:`N026 HYPOTALAMUS (Hypothalamus)` (n = 30), and then again :abbr:`N027 SPINAL CORD (Spinal cord)` (n = 51) and 
 :abbr:`N028 SUBSTANTIA NIGRA (Substantia nigra)` (n = 27), although a 
