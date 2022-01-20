@@ -1,0 +1,167 @@
+title: The Transcriptional Cancer Atlas
+author: fcomitani
+  name: rna-atlas
+  email: f.comitani@sickkids.ca
+description: > # this means to ignore newlines until "show_excerpts:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+footer_text: >
+  #Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a>.
+  #Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+show_excerpts: false # set to true to show excerpts on the homepage
+
+icon:  # the emoji used as the favicon
+url:  # the base hostname & protocol for your site
+baseurl: / # the subpath of your site, e.g. /blog/
+last_updated: true # set to true if you want to display last updated in the footer
+#impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
+
+# -----------------------------------------------------------------------------
+# Layout
+# -----------------------------------------------------------------------------
+
+navbar_fixed: true
+footer_fixed: true
+
+# Dimensions
+max_width: 800px
+
+# -----------------------------------------------------------------------------
+# Minima options
+# -----------------------------------------------------------------------------
+
+# Minima date format
+# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
+minima:
+  date_format: "%b %-d, %Y"
+
+  # generate social links in footer
+  social_links:
+    #twitter: jekyllrb
+    github:  rna-atlasrna-atlas
+    # devto: jekyll
+    # dribbble: jekyll
+    # facebook: jekyll
+    # flickr:   jekyll
+    # instagram: jekyll
+    # linkedin: jekyll
+    # pinterest: jekyll
+    # youtube: jekyll
+    # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
+    # youtube_channel_name: CloudCannon
+    # telegram: jekyll
+    # googleplus: +jekyll
+    # microdotblog: jekyll
+    # keybase: jekyll
+
+    # Mastodon instances
+    # mastodon:
+    # - username: jekyll
+    #   instance: example.com
+    # - username: jekyll2
+    #   instance: example.com
+
+    # GitLab instances
+    # gitlab:
+    # - username: jekyll
+    #   instance: example.com
+    # - username: jekyll2
+    #   instance: example.com
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+#header_pages:
+# - about.md
+
+# -----------------------------------------------------------------------------
+# Open Graph
+# -----------------------------------------------------------------------------
+
+# Display links to the page with a preview object on social media.
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
+og_image: /docs/img/logo.png # The site-wide (default for all links) Open Graph preview image
+
+
+# Build settings
+theme: minima
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
+
+contact_note: >
+  #You can even add a little note about which of these is the best way to reach you.
+
+google_analytics: UA-XXXXXXXXX # out your google-analytics code
+panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
+
+# -----------------------------------------------------------------------------
+# Collections
+# -----------------------------------------------------------------------------
+
+collections:
+  news:
+    defaults:
+      layout: post
+    output: true
+    permalink: /news/:path/
+
+news_limit: 5
+
+# -----------------------------------------------------------------------------
+# Jekyll settings
+# -----------------------------------------------------------------------------
+
+# Markdown and syntax highlight
+markdown: kramdown
+highlighter: rouge
+highlight_theme: github  # https://github.com/jwarby/jekyll-pygments-themes
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+    span:
+      line_numbers: false
+    block:
+      line_numbers: false
+      start_line: 1
+
+# Includes & excludes
+include: ['_pages']
+exclude:
+  - bin
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+keep_files:
+  - CNAME
+  - .nojekyll
+  - .git
+
+# Plug-ins
+plugins:
+  - jekyll-email-protect
+  - jekyll-paginate-v2
+  - jemoji
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# -----------------------------------------------------------------------------
+# Optional Features
+# -----------------------------------------------------------------------------
+
+enable_google_analytics:    false  # enables google analytics
+enable_panelbear_analytics: false  # enables panelbear analytics
+enable_mansory:             true   # enables automatic project cards arangement
+enable_math:                true   # enables math typesetting (uses MathJax)
+enable_tooltips:            false  # enables automatic tooltip links generated
+                                   # for each section titles on pages and posts
+enable_darkmode:            false  # enables switching between light/dark modes
+enable_navbar_social:       false  # enables displaying social links in the
+                                   # navbar on the about page
+enable_project_categories:  true   # enables categorization of projects into
+                                   # multiple categories
+enable_medium_zoom:         true   # enables image zoom feature (as on medium.com)
+
