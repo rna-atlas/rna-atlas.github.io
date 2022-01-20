@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+      <title>T005 Leukemia</title>
+    
+          <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+          <link rel="stylesheet" href="../_static/theme.css " type="text/css" />
+      
+      <!-- sphinx script_files -->
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+
+      
+      <!-- bundled in js (rollup iife) -->
+      <!-- <script src="../_static/theme-vendors.js"></script> -->
+      <script src="../_static/theme.js" defer></script>
+    
+  <link rel="index" title="Index" href="../genindex.html" />
+  <link rel="search" title="Search" href="../search.html" />
+  <link rel="next" title="Frequently Asked Questions" href="../faq.html" />
+  <link rel="prev" title="T002 and T003 Mesodermal Tumour" href="T002_T003_mesoderm.html" /> 
+  </head>
+
+  <body>
+    <div id="app">
+    <div class="theme-container" :class="pageClasses"><navbar @toggle-sidebar="toggleSidebar">
+  <router-link to="../index.html" class="home-link">
+    
+      <span class="site-name">Transcriptional Cancer Atlas Annotation</span>
+    
+  </router-link>
+
+  <div class="links">
+    <navlinks class="can-hide">
+
+  
+    <div class="nav-item">
+      <a href="../index.html#welcome-to-the-annotation-of-the-transcriptional-cancer-atlas"
+         class="nav-link  router-link-active">
+         Annotation
+      </a>
+    </div>
+  
+    <div class="nav-item">
+      <a href="../index.html#welcome-to-the-annotation-of-the-transcriptional-cancer-atlas"
+         class="nav-link ">
+         F.A.Q.
+      </a>
+    </div>
+  
+    <div class="nav-item">
+      <a href="../index.html#welcome-to-the-annotation-of-the-transcriptional-cancer-atlas"
+         class="nav-link ">
+         Contact us
+      </a>
+    </div>
+  
+
+
+
+    </navlinks>
+  </div>
+</navbar>
+
+      
+      <div class="sidebar-mask" @click="toggleSidebar(false)">
+      </div>
+        <sidebar @toggle-sidebar="toggleSidebar">
+          
+          <navlinks>
+            
+
+  
+    <div class="nav-item">
+      <a href="../index.html#welcome-to-the-annotation-of-the-transcriptional-cancer-atlas"
+         class="nav-link  router-link-active">
+         Annotation
+      </a>
+    </div>
+  
+    <div class="nav-item">
+      <a href="../index.html#welcome-to-the-annotation-of-the-transcriptional-cancer-atlas"
+         class="nav-link ">
+         F.A.Q.
+      </a>
+    </div>
+  
+    <div class="nav-item">
+      <a href="../index.html#welcome-to-the-annotation-of-the-transcriptional-cancer-atlas"
+         class="nav-link ">
+         Contact us
+      </a>
+    </div>
+  
+
+
+
+            
+          </navlinks><div id="searchbox" class="searchbox" role="search">
+  <div class="caption"><span class="caption-text">Quick search</span>
+    <div class="searchformwrapper">
+      <form class="search" action="../search.html" method="get">
+        <input type="text" name="q" />
+        <input type="submit" value="Search" />
+        <input type="hidden" name="check_keywords" value="yes" />
+        <input type="hidden" name="area" value="default" />
+      </form>
+    </div>
+  </div>
+</div><div class="sidebar-links" role="navigation" aria-label="main navigation">
+  
+    <div class="sidebar-group">
+      <p class="caption">
+        <span class="caption-text"><a href="../index.html#welcome-to-the-annotation-of-the-transcriptional-cancer-atlas">Annotation</a></span>
+      </p>
+      <ul class="current">
+        
+          <li class="toctree-l1 ">
+            
+              <a href="N000_normal.html" class="reference internal ">N000 Healthy Normal Tissue</a>
+            
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 ">
+            
+              <a href="T000_cns.html" class="reference internal ">T000 Central Nervous System</a>
+            
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 ">
+            
+              <a href="T001_nebla.html" class="reference internal ">T001 Neuroblastoma</a>
+            
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 ">
+            
+              <a href="T002_T003_mesoderm.html" class="reference internal ">T002 and T003 Mesodermal Tumour</a>
+            
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 current">
+            
+              <a href="#" class="reference internal current">T005 Leukemia</a>
+            
+
+            
+              <ul>
+                
+                  <li class="toctree-l2"><a href="#acute-lymphoblastic-leukemia" class="reference internal">Acute lymphoblastic leukemia</a></li>
+                
+                  <li class="toctree-l2"><a href="#acute-lymphoblastic-leukemia-non-target-cohort" class="reference internal">Acute lymphoblastic leukemia, non-TARGET cohort</a></li>
+                
+                  <li class="toctree-l2"><a href="#acute-lymphoblastic-leukemia-target-cohort" class="reference internal">Acute lymphoblastic leukemia, TARGET cohort</a></li>
+                
+                  <li class="toctree-l2"><a href="#acute-myeloid-leukemia" class="reference internal">Acute Myeloid Leukemia</a></li>
+                
+                  <li class="toctree-l2"><a href="#acute-myeloid-leukemia-non-target-cohort" class="reference internal">Acute Myeloid Leukemia, non-TARGET cohort</a></li>
+                
+                  <li class="toctree-l2"><a href="#acute-myeloid-leukemia-target-cohort" class="reference internal">Acute Myeloid Leukemia, TARGET cohort</a></li>
+                
+                  <li class="toctree-l2"><a href="#bibliography" class="reference internal">Bibliography</a></li>
+                
+              </ul>
+            
+          </li>
+
+        
+      </ul>
+    </div>
+  
+    <div class="sidebar-group">
+      <p class="caption">
+        <span class="caption-text"><a href="../index.html#welcome-to-the-annotation-of-the-transcriptional-cancer-atlas">F.A.Q.</a></span>
+      </p>
+      <ul class="">
+        
+          <li class="toctree-l1 ">
+            
+              <a href="../faq.html" class="reference internal ">Frequently Asked Questions</a>
+            
+
+            
+          </li>
+
+        
+      </ul>
+    </div>
+  
+    <div class="sidebar-group">
+      <p class="caption">
+        <span class="caption-text"><a href="../index.html#welcome-to-the-annotation-of-the-transcriptional-cancer-atlas">Contact us</a></span>
+      </p>
+      <ul class="">
+        
+          <li class="toctree-l1 ">
+            
+              <a href="../contacts.html" class="reference internal ">Contact us</a>
+            
+
+            
+          </li>
+
+        
+      </ul>
+    </div>
+  
+</div>
+        </sidebar>
+
+      <page>
+          <div class="body-header" role="navigation" aria-label="navigation">
+  
+  <ul class="breadcrumbs">
+    <li><a href="../index.html">Docs</a> &raquo;</li>
+    
+    <li>T005 Leukemia</li>
+  </ul>
+  
+
+  <ul class="page-nav">
+  <li class="prev">
+    <a href="T002_T003_mesoderm.html"
+       title="previous chapter">← T002 and T003 Mesodermal Tumour</a>
+  </li>
+  <li class="next">
+    <a href="../faq.html"
+       title="next chapter">Frequently Asked Questions →</a>
+  </li>
+</ul>
+  
+</div>
+<hr>
+          <div class="content" role="main" v-pre>
+            
+  <div class="section" id="t005-leukemia">
+<h1>T005 Leukemia<a class="headerlink" href="#t005-leukemia" title="Permalink to this headline">¶</a></h1>
+<p>Version: 0.1.0
+<br/>
+Last change: Jan 20, 2022</p>
+<p>We observe a separation between acute lymphoblastic leukemia (ALL), which cluster in
+<abbr title="Acute lymphoblastic leukemia">T119 ALL</abbr> (n = 334), and acute myeloid leukemia (AML),
+which cluster in <abbr title="Acute myeloid leukemia">T120 AML</abbr> (n = 472) at the second hierarchical level.
+A significant difference in age is expected due to the different etiologies
+(median age 7.16 vs 16.76 <abbr title="years old">y.o.</abbr>, <abbr title="Mann Whitney U test Benjamin-Hochberg adjusted p-value">MWU adj. p-val</abbr> = 2.98e-23)
+and the presence of both adult and pediatric populations in both groups to different degrees.
+No significant difference in <abbr title="overall survival">OS</abbr> is observed.</p>
+<div class="section" id="acute-lymphoblastic-leukemia">
+<h2>Acute lymphoblastic leukemia<a class="headerlink" href="#acute-lymphoblastic-leukemia" title="Permalink to this headline">¶</a></h2>
+<p>Within the lymphoblastic branch, we immediately observe the separation of a small group of infant leukemias with <em>KMT2A</em> rearrangements,
+found in <abbr title="Infant acute lymphoblastic leukemia, KMT2A rearrangement">T121 ALL INF KMT2Ar</abbr> (n =14), from all other diagnoses, in
+<abbr title="Acute lymphoblastic leukemia mix A">T122 ALL A</abbr> (n = 320) (Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#fig-leu1"><span class="std std-ref">LEU1</span></a>).</p>
+<div class="figure align-default" id="fig-leu1">
+<a class="reference internal image-reference" href="../_images/leu1.png"><img alt="Fig. LEU1" src="../_images/leu1.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-text">LEU1: A, 2-dimensional UMAP projection of acute lymphoid leukemia tumors by gene expression. Subtypes at the third level of the hierarchy
+are shown with different colours. B, the list of all acute lymphoid leukemia subtypes identified
+and their hierarchical relationship.</span><a class="headerlink" href="#fig-leu1" title="Permalink to this image">¶</a></p>
+</div>
+<p><abbr title="Infant acute lymphoblastic leukemia, KMT2A rearrangement">T121 ALL INF KMT2Ar</abbr> contains most samples marked as infant
+(6 vs 1 <abbr title="χ2 test p-value">χ2 p-val</abbr> &lt; 2.20e-16) and mixed-lineage leukemia
+(4 vs 0, <abbr title="χ2 test p-value">χ2 p-val</abbr> &lt; 2.20e-16) and has a significantly younger median age
+(0.73 vs 7.20 <abbr title="years old">y.o.</abbr>, MWU p-value = 4.37e-02).
+We confirmed this annotation with gene sets, as <abbr title="Infant acute lymphoblastic leukemia, KMT2A rearrangement">T121 ALL INF KMT2Ar</abbr>
+is highly enriched for <em>KMT2A</em> downstream targets (<abbr title="median Normalized Enrichment Score">medNES</abbr> = 1.50 ,
+<abbr title="Mann Whitney U test Benjamin-Hochberg adjusted p-value">MWU adj. p-val</abbr> = 2.47e-09) <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#ross2004" id="id1"><span>[Ross2004]</span></a> (Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#fig-leu2"><span class="std std-ref">LEU2</span></a>).</p>
+<div class="figure align-default" id="fig-leu2">
+<a class="reference internal image-reference" href="../_images/leu2.png"><img alt="Fig. LEU2" src="../_images/leu2.png" style="width: 400px;" /></a>
+<p class="caption"><span class="caption-text">LEU2: Distribution plots of the expression of genes and gene sets relevant to the definition
+of the KMT2A-rearranged lymphoblastic leukemia class.</span><a class="headerlink" href="#fig-leu2" title="Permalink to this image">¶</a></p>
+</div>
+<p><abbr title="Acute lymphoblastic leukemia mix A">T122 ALL A</abbr> further splits into two subclasses,
+<abbr title="Acute lymphoblastic leukemia mix B">T123 ALL B</abbr> (n = 127) and <abbr title="Acute lymphoblastic leukemia (TARGET)">T124 ALL TRG</abbr> (n = 193)
+(Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#fig-leu1"><span class="std std-ref">LEU1b</span></a>), containing most of samples from TARGET.
+Gene sets analysis between all TARGET leukemia samples and the remaining cohort shows enrichment
+(<abbr title="Mann Whitney U test Benjamin-Hochberg adjusted p-value">MWU adj. p-val</abbr> &lt; 1.00e-10) of poly-A RNA binding,
+ribonucleoprotein complex, RNA processing, ribosomal and mitochondrial pathways, and oxidative phosphorylation <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#ashburner2000" id="id2"><span>[Ashburner2000]</span></a>, <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#the2019" id="id3"><span>[The2019]</span></a>
+in <abbr title="Acute lymphoblastic leukemia (TARGET)">T124 ALL TRG</abbr>.
+Furthermore, <abbr title="Acute lymphoblastic leukemia (TARGET)">T124 ALL TRG</abbr> has a lower median age
+(6.41 vs 13.17 <abbr title="years old">y.o.</abbr>, <abbr title="Mann Whitney U test Benjamin-Hochberg adjusted p-value">MWU adj. p-val</abbr> = 5.04e-08).
+We couldn’t identify any biological driver behind the split between <abbr title="Acute lymphoblastic leukemia mix B">T123 ALL B</abbr>
+and <abbr title="Acute lymphoblastic leukemia (TARGET)">T124 ALL TRG</abbr> with statistical certainty; stringent low variance genes
+removal or more advanced batch effect removal methods (e.g. COMBaT <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#lazar2013" id="id4"><span>[Lazar2013]</span></a>) weren’t enough to assure complete
+compatibility between the TARGET cohort and the rest of the dataset without the loss of information and damage to the subtyping process.
+We decided to keep the clusters separate as by choice of the algorithm and further investigate their subtypes independently,
+to maintain tumor subtypes that were exclusive of one or the other cohorts and increase the classifier range.</p>
+</div>
+<div class="section" id="acute-lymphoblastic-leukemia-non-target-cohort">
+<h2>Acute lymphoblastic leukemia, non-TARGET cohort<a class="headerlink" href="#acute-lymphoblastic-leukemia-non-target-cohort" title="Permalink to this headline">¶</a></h2>
+<p>At the next level within <abbr title="Acute lymphoblastic leukemia mix B">T123 ALL B</abbr>, we observe the separation of
+<abbr title="Acute lymphoblastic leukemia, ETV6-RUNX1 fusion">T126 ALL ETV6-RUNX1</abbr> (n = 20) a small class of samples marked with
+<em>ETV6-RUNX1</em> fusion (<abbr title="χ2 test p-value">χ2 p-val</abbr> &lt; 2.20e-16) from the remaining <abbr title="Acute lymphoblastic leukemia">ALL</abbr>
+in <abbr title="Acute lymphoblastic leukemia mix C">T125 ALL C</abbr> (n=107) (Fig. <span class="xref std std-ref">LEU1b &lt;fig-leu1&gt;`</span>).
+The t(12;21)(p13;q22) translocation which results from this fusion is often accompanied by copy number gains in <em>RUNX1</em>,
+which is overexpressed in <abbr title="Acute lymphoblastic leukemia, ETV6-RUNX1 fusion">T126 ALL ETV6-RUNX1</abbr>
+(<abbr title="log-Fold Change">logFC</abbr> = 4.17e-01, <abbr title="False Discovery Rate">FDR</abbr> = 3.33e-03).
+Compared to patients in <abbr title="Acute lymphoblastic leukemia mix C">T125 ALL C</abbr>, those in
+<abbr title="Acute lymphoblastic leukemia, ETV6-RUNX1 fusion">T126 ALL ETV6-RUNX1</abbr> are significantly younger
+(14.5 vs. 4.46 <abbr title="years old">y.o.</abbr>, <abbr title="Mann Whitney U test Benjamin-Hochberg adjusted p-value">MWU adj. p-val</abbr> = 3.29e-08) <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#sun2017" id="id5"><span>[Sun2017]</span></a>.
+<br/> <br/>
+The children of <abbr title="Acute lymphoblastic leukemia mix C">T125 ALL C</abbr> separate into
+<abbr title="Acute lymphoblastic leukemia, ERG deletion">T128 ALL ERGdel</abbr> (n = 36) and
+<abbr title="Acute lymphoblastic leukemia, Philadelphia-like">T127 ALL Ph-like</abbr> (n = 71) (Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#fig-leu1"><span class="std std-ref">LEU1b</span></a>).
+<br/> <br/>
+<abbr title="Acute lymphoblastic leukemia, ERG deletion">T128 ALL ERGdel</abbr> is characterized by tumors carrying
+<em>ERG</em> deletions (15 vs. 55, <abbr title="χ2 test p-value">χ2 p-val</abbr> &lt; 2.20e-16), and exhibits characteristic overexpression of
+<em>CHST2</em> (<abbr title="log-Fold Change">logFC</abbr> = -4.48, <abbr title="False Discovery Rate">FDR</abbr> = 5.742e-33),
+<em>PTPRM</em> (<abbr title="log-Fold Change">logFC</abbr> = -7.64, <abbr title="False Discovery Rate">FDR</abbr> = 2.987e-32), and
+<em>GPR49/AGAP1</em> (<abbr title="log-Fold Change">logFC</abbr> = -6.23, <abbr title="False Discovery Rate">FDR</abbr> = 3.201e-31) <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#yeoh2002" id="id6"><span>[Yeoh2002]</span></a>.
+The majority of samples in T127 are composed of Ph-like tumors of various classes (<abbr title="χ2 test p-value">χ2 p-val</abbr> &lt; 2.2e-16) <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#jain2017" id="id7"><span>[Jain2017]</span></a>.
+<br/> <br/>
+<abbr title="Acute lymphoblastic leukemia, Philadelphia-like">T127 ALL Ph-like</abbr> then further subdivides in two child nodes,
+<abbr title="Acute lymphoblastic leukemia, Philadelphia-like mixed alterations A">T129 ALL Ph-like A</abbr> (n = 41) and
+<abbr title="Acute lymphoblastic leukemia, Philadelphia-like, IKZF1 or JAK2 fusion">T130 ALL Ph-like IKZF1/JAK2</abbr> (n = 29) (Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#fig-leu1"><span class="std std-ref">LEU1b</span></a>).
+Both contain small populations of <em>BCR-ABL1</em> fusion samples (Ph+) (11 and 5, ns) and Philadelphia-like (Ph-like) samples (13 and 14, ns).
+While <abbr title="Acute lymphoblastic leukemia, Philadelphia-like mixed alterations A">T129 ALL Ph-like A</abbr> contains the majority of
+Ph-like non- <em>CRFL2</em> tumors (11/28 vs. 14/19, <abbr title="χ2 test p-value">χ2 p-val</abbr> = 4.32e-02),
+there is no corresponding enrichment of this signature via gene sets analysis.
+However, the two differ by some specific lesions known to be present in the Ph-like group:
+<abbr title="Acute lymphoblastic leukemia, Philadelphia-like mixed alterations A">T129 ALL Ph-like A</abbr> contains 6
+<em>JAK2</em> fusion samples (0/13 vs 6/14, <abbr title="χ2 test p-value">χ2 p-val</abbr> = 2.69e-02),
+while <abbr title="Acute lymphoblastic leukemia, Philadelphia-like, IKZF1 or JAK2 fusion">T130 ALL Ph-like IKZF1/JAK2</abbr> contains all
+<em>EPO</em> fusion samples (4/13 vs. 0/14, <abbr title="Fisher's exact test p-value">FET p-val</abbr> 4.07e-02).
+Both contain other <em>JAK/STAT</em> alterations (4/13 vs. 3/14, ns), and two of other <em>ABL1/2</em> fusion samples each.
+<abbr title="Acute lymphoblastic leukemia, Philadelphia-like, IKZF1 or JAK2 fusion">T130 ALL Ph-like IKZF1/JAK2</abbr>
+is also enriched for tumors with concurrent <em>IKZF1</em> alterations (11/28 vs. 14/19, <abbr title="χ2 test p-value">χ2 p-val</abbr> = 4.32e-02).
+<br/>
+<abbr title="Acute lymphoblastic leukemia, Philadelphia-like mixed alterations A">T129 ALL Ph-like A</abbr>
+then divides into two further subtypes, <abbr title="Acute lymphoblastic leukemia, Philadelphia-like, BCR-ABL or other JAK/STAT">T131 ALL Ph-like JAK/STAT</abbr>
+(n=23) and <abbr title="Acute lymphoblastic leukemia Philadelphia-like, EPOR fusion">T132 ALL Ph+/Ph-like EPOR</abbr> (n =12) (Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#fig-leu3"><span class="std std-ref">LEU3a</span></a>).
+<abbr title="Acute lymphoblastic leukemia Philadelphia-like, EPOR fusion">T132 ALL Ph+/Ph-like EPOR</abbr> contains the majority of
+<em>BCR-ABL1</em> fusion samples (3/23 vs. 8/12, p-val = 4.23e-03).
+Of the Ph-like samples for which we have annotation,
+<abbr title="Acute lymphoblastic leukemia, Philadelphia-like, BCR-ABL or other JAK/STAT">T131 ALL Ph-like JAK/STAT</abbr>
+contains 4 unspecified <em>JAK/STAT</em> mutants along with an additional <em>CRLF2-JAK</em> mutant, a <em>CRFL2</em> rearranged sample with no
+<em>JAK</em> rearrangements, and a <em>RAS</em> mutant (Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#fig-leu3"><span class="std std-ref">LEU3a</span></a>).
+<abbr title="Acute lymphoblastic leukemia Philadelphia-like, EPOR fusion">T132 ALL Ph+/Ph-like EPOR</abbr> contains 3
+<em>EPOR-IGH</em> fusion samples, while  <abbr title="Acute lymphoblastic leukemia, Philadelphia-like, BCR-ABL or other JAK/STAT">T131 ALL Ph-like JAK/STAT</abbr>
+contains an <em>EPOR-IGK</em> fusion (<abbr title="not significant">n.s.</abbr>).
+Both groups contain one <em>ABL</em> fusion without <em>CRFL2</em> rearrangement, while Ph-like non-<em>CRLF2</em> samples are evenly
+divided between the clusters (7/20 vs. 4/8, <abbr title="not significant">n.s.</abbr>).
+Another interesting distinction is that  <abbr title="Acute lymphoblastic leukemia, Philadelphia-like, BCR-ABL or other JAK/STAT">T131 ALL Ph-like JAK/STAT</abbr>
+is enriched for tumors with cell-cycle related lesions, either in <em>TP53</em>,
+<em>CDK2NA/B</em>, or <em>RB1</em> (14/20 vs. 1/8, <abbr title="χ2 test p-value">χ2 p-val</abbr> = 1.95e-2).
+<abbr title="Acute lymphoblastic leukemia Philadelphia-like, EPOR fusion">T132 ALL Ph+/Ph-like EPOR</abbr>,
+however, is enriched for samples with concurrent <em>IKZF1</em> alterations (5/20 vs. 6/8, <abbr title="χ2 test p-value">χ2 p-val</abbr> = 4.35e-02),
+though these are heterogeneous and have some overlap between the two clusters <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#harvey2013" id="id8"><span>[Harvey2013]</span></a>.
+Gene set enrichment analysis demonstrates <abbr title="Acute lymphoblastic leukemia, Philadelphia-like, BCR-ABL or other JAK/STAT">T131 ALL Ph-like JAK/STAT</abbr>
+to be enriched for non-Ph-like <em>CRFL2</em> rearranged samples (<abbr title="median Normalized Enrichment Score">medNES</abbr> = 1.57, <abbr title="Mann Whitney U test Benjamin-Hochberg adjusted p-value">MWU adj. p-val</abbr> = 4.70e-05),
+while <abbr title="Acute lymphoblastic leukemia Philadelphia-like, EPOR fusion">T132 ALL Ph+/Ph-like EPOR</abbr>
+is enriched for Ph-like samples with <em>CRFL2</em> rearrangments
+(<abbr title="median Normalized Enrichment Score">medNES</abbr> = 2.68, <abbr title="Mann Whitney U test Benjamin-Hochberg adjusted p-value">MWU adj. p-val</abbr> = 1.61e-07)
+<a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#sadras2017" id="id9"><span>[Sadras2017]</span></a> (Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#fig-leu3"><span class="std std-ref">LEU3b</span></a>), suggesting that
+<abbr title="Acute lymphoblastic leukemia Philadelphia-like, EPOR fusion">T132 ALL Ph+/Ph-like EPOR</abbr> may contain
+<em>CRFL2</em>-rearranged samples which have not been annotated as such.</p>
+<div class="figure align-default" id="fig-leu3">
+<a class="reference internal image-reference" href="../_images/leu3.png"><img alt="Fig. LEU3" src="../_images/leu3.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-text">LEU3: A, 2-dimensional UMAP projection of acute lymphoid leukemia tumors by gene expression. On the left, subtypes
+are shown with different colours, on the right they are coloured by lesions reported by the presenting institution.
+B, Distribution plots of the expression of genes and gene sets relevant to the definition
+of the identified Ph-like lymphoblastic leukemia subtypes within the non-TARGET cohort (top) and the TARGET cohort (bottom).</span><a class="headerlink" href="#fig-leu3" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+<div class="section" id="acute-lymphoblastic-leukemia-target-cohort">
+<h2>Acute lymphoblastic leukemia, TARGET cohort<a class="headerlink" href="#acute-lymphoblastic-leukemia-target-cohort" title="Permalink to this headline">¶</a></h2>
+<p>The TARGET <abbr title="Acute lymphoblastic leukemia">ALL</abbr> cluster, <abbr title="Acute lymphoblastic leukemia (TARGET)">T124 ALL TRG</abbr>,
+divides into four classes (Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#fig-leu1"><span class="std std-ref">LEU1b</span></a>, <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#fig-leu4"><span class="std std-ref">LEU4</span></a>)</p>
+<div class="figure align-default" id="fig-leu4">
+<a class="reference internal image-reference" href="../_images/leu4.png"><img alt="Fig. LEU4" src="../_images/leu4.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-text">LEU4: 2-dimensional UMAP projection of acute lymphoid leukemia tumors from the TARGET cohort by gene expression. On the left, subtypes
+are shown with different colours, on the right they are coloured by lesions reported by the presenting institution.</span><a class="headerlink" href="#fig-leu4" title="Permalink to this image">¶</a></p>
+</div>
+<p><abbr title="Acute lymphoblastic leukemia (TARGET) mix A">T133 ALL TRG A</abbr> (n = 109) is the largest cluster and contains a
+mixture of genomic alterations: <abbr title="Acute lymphoblastic leukemia">ALL</abbr> with hyperdiploidy without trisomy of
+chr4 and ch10 (<abbr title="χ2 test p-value">χ2 p-val</abbr> = 3.31e-4), <abbr title="Acute lymphoblastic leukemia">ALL</abbr> with
+hyperdiploidy with trisomy chr4 and ch10, samples with iAMP21, plus a number of unspecified samples
+(Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#fig-leu4"><span class="std std-ref">LEU4</span></a>).
+The cluster is characterized by significant overexpression of <em>CRLF2</em> (<abbr title="log-Fold Change)`= 4.96, :abbr:`FDR (False Discovery Rate">logFC</abbr> ≤ 7.749e-04).
+Indeed, gene set enrichment analysis confirmed this cluster contains a sizeable population of
+Ph+ and Ph-like samples (<abbr title="median Normalized Enrichment Score">medNES</abbr> = 79.08,
+<abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 7.03e-14,
+<abbr title="Dunn’s test of multiple comparisons Benjamin-Hochberg adjusted p-value">Dunn adj. p-val</abbr> &lt; 1.00e-03).
+<br/> <br/>
+<abbr title="Acute lymphoblastic leukemia (TARGET) ZNF384 rearrangement">T134 ALL TRG ZNF384</abbr> (n = 13)
+is the smallest cluster and contains the oldest group of patients (median age 13.23
+<abbr title="years old">y.o.</abbr>, <abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 1.13e-03).
+Patients with <abbr title="Acute lymphoblastic leukemia">ALL</abbr> in this cluster display the best overall survival
+(<abbr title="log-rank test p-value">lrt p-val</abbr> &lt; 1e-04).
+Gene set enrichment analysis of genes upregulated and downregulated in <em>ZNF384</em>-rearanged
+<abbr title="Acute lymphoblastic leukemia">ALL</abbr> demonstrates a characteristic gene expression pattern of
+<em>ZNF384</em>-fusion downstream targets, in both upregulated (<abbr title="median Normalized Enrichment Score">medNES</abbr> ≥ 1.51,
+<abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value)`= 5.56e-16 , :abbr:`Dunn adj. p-val (Dunn’s test of multiple comparisons Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> &lt; 1.00e-04) and
+donwregulated targets (<abbr title="median Normalized Enrichment Score">medNES</abbr> ≤ 4.81e-01,
+<abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value)`= 2.59e-16, :abbr:`Dunn adj. p-val (Dunn’s test of multiple comparisons Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> &lt; 1.00e-04), respectively <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#qian2017" id="id10"><span>[Qian2017]</span></a>, <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#hirabayashi2017" id="id11"><span>[Hirabayashi2017]</span></a>
+(Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#fig-leu5"><span class="std std-ref">LEU5</span></a>).</p>
+<div class="figure align-default" id="fig-leu5">
+<a class="reference internal image-reference" href="../_images/leu5.png"><img alt="Fig. LEU5" src="../_images/leu5.png" style="width: 200px;" /></a>
+<p class="caption"><span class="caption-text">LEU5: Distribution plots of the expression of genes and gene sets relevant to the definition
+of the ZNF384A-rearranged lymphoblastic leukemia class.</span><a class="headerlink" href="#fig-leu5" title="Permalink to this image">¶</a></p>
+</div>
+<p><abbr title="Acute lymphoblastic leukemia (TARGET) TCF3 rearrangment">T135 ALL TRG TCF3</abbr> (n = 30) is comprised of samples harbouring both
+<em>TCF3-PBX1</em> (n = 19, <abbr title="χ2 test p-value">χ2 p-val</abbr> &lt; 2.2e-16) and <em>TCF3-HLF</em> (n = 3, <abbr title="χ2 test p-value">χ2 p-val</abbr> = 1.60e-02)
+fusions.
+Out of all TARGET <abbr title="Acute lymphoblastic leukemia">ALL</abbr> subgroups,
+<abbr title="Acute lymphoblastic leukemia (TARGET) TCF3 rearrangment">T135 ALL TRG TCF3</abbr> contains the patient group with the worst overall survival,
+reaching median <abbr title="overall survival">OS</abbr> at 483 days (<abbr title="log-rank test p-value">lrt p-val</abbr> = 6.30e-22 at 4383 days,
+post-hoc pairwise <abbr title="log-rank test p-value">lrt p-val</abbr> ≤ 1.5e-06).
+When comparing patients with each fusion within this class, those with <em>TCF3-HLF</em>
+fusions exhibit significantly worse <abbr title="overall survival">OS</abbr> (<abbr title="log-rank test p-value">lrt p-val</abbr> = 4.89e-02),
+consistent with literature <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#inukai2007" id="id12"><span>[Inukai2007]</span></a>.
+Though identifying <em>TCG3-HLF</em> outright is important for determining clinical course due to
+its negative prognostic indication <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#inukai2007" id="id13"><span>[Inukai2007]</span></a>, due to a paucity of these samples we are unable to separate them further.
+Due to transcriptional similarities, we also expect <em>MEF2D</em>-mutated samples would be clustered in this group <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#ohki2019" id="id14"><span>[Ohki2019]</span></a>.
+<br/> <br/>
+The final subclass of <abbr title="Acute lymphoblastic leukemia (TARGET)">T124 ALL TRG</abbr>,
+<abbr title="Acute lymphoblastic leukemia (TARGET) ETV6-RUNX1 fusion">T136 ALL TRG ETV6-RUNX1</abbr> (n = 27),
+contains samples with <em>ETV6-RUNX1</em> fusions (n = 20, <abbr title="χ2 test p-value">χ2 p-val</abbr> &lt; 2.2e-16) (Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#fig-leu4"><span class="std std-ref">LEU4</span></a>)
+and comprises the youngest patients (median 3.1 <abbr title="years old">y.o.</abbr>,
+<abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 1.13e-03).</p>
+<p><br/> <br/></p>
+<p><abbr title="Acute lymphoblastic leukemia (TARGET) mix A">T133 ALL TRG A</abbr> separates in further components (Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#fig-leu4"><span class="std std-ref">LEU4</span></a>).
+<br/>
+<abbr title="Acute lymphoblastic leukemia (TARGET), Philadelphia-like CRLF2 rearrangement or BCR-ABL">T137 ALL TRG Ph+/Ph-like CRLF2</abbr> (n=29)
+contains all samples labelled as harbouring <em>BCR</em>-<em>ABL1</em> fusions (n = 3), <em>MLL</em>-rearranged <abbr title="acute lymphoblastic leukemia">ALL</abbr> samples (n=3),
+and the highest proportion of otherwise unspecified <abbr title="acute lymphoblastic leukemia">ALL</abbr> samples (n = 23, <abbr title="χ2 test p-value">χ2 p-val</abbr> = 2.95e-05).
+It shows overexpression of CRLF2 (<abbr title="log-Fold Change">logFC</abbr> = 2.99, <abbr title="False Discovery Rate">FDR</abbr> = 1.48e-02)
+nd enrichment of <em>CRLF2</em>-rearrangment signatures in Ph-like <abbr title="acute lymphoblastic leukemia">ALL</abbr> (Ph+ CRFL2 positive,
+<abbr title="median Normalized Enrichment Score">medNES</abbr> = 2.21, <abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 3.05e-03)
+<a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#sadras2017" id="id15"><span>[Sadras2017]</span></a> (Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#fig-leu3"><span class="std std-ref">LEU3b</span></a>).
+It also exhibits overexpression of <em>IDH1</em> (<abbr title="log-Fold Change">logFC</abbr> = 1.28, <abbr title="False Discovery Rate">FDR</abbr> = 3.66e-05),
+<em>JAK1</em> (<abbr title="False Discovery Rate">FDR</abbr>  = 0.641, <abbr title="False Discovery Rate">FDR</abbr> = 4.15e-02)
+and is enriched for Ph-like gene signatures (<abbr title="median Normalized Enrichment Score">medNES</abbr> = 2.88,
+<abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 9.79e-06,
+<abbr title="Dunn’s test of multiple comparisons Benjamin-Hochberg adjusted p-value">Dunn adj. p-val</abbr> &lt; 1.00e-03) <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#harvey2010" id="id16"><span>[Harvey2010]</span></a>, <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#harvey2013" id="id17"><span>[Harvey2013]</span></a>
+when compared to its siblings (Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#fig-leu3"><span class="std std-ref">LEU3b</span></a>).
+<br/> <br/>
+<abbr title="Acute lymphoblastic leukemia (TARGET), hyperdiploid">T138 ALL TRG HYPERDIP</abbr> (n=21)
+is enriched for tumors with hyperdiploidy without trisomy of both chromosomes 4 and 10
+(1/29 vs. 11/20 vs. 7/22, <abbr title="χ2 test p-value">χ2 p-val</abbr> = 2.66e-04). Patients in
+<abbr title="Acute lymphoblastic leukemia (TARGET), hyperdiploid">T138</abbr> are also significantly younger than its siblings (3.59 <abbr title="years old">y.o.</abbr>,
+<abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 1.14e-02).
+Furthermore, <abbr title="Acute lymphoblastic leukemia (TARGET), hyperdiploid">T138</abbr> exhibits the highest DNA index of its siblings, an indicator of hyperdiploidy
+(median = 1.17, <abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 3.97e-07,
+<abbr title="Dunn’s test of multiple comparisons Benjamin-Hochberg adjusted p-value">Dunn adj. p-val</abbr> ≤ 4.18e-03) <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#rachieru-sourisseau2010" id="id18"><span>[Rachieru-Sourisseau2010]</span></a>.
+<br/> <br/>
+<abbr title="Acute lymphoblastic leukemia (TARGET), Philadelphia-like, EPOR fusion">T139 ALL TRG Ph-like EPOR</abbr> (n = 22)
+is characterized by overexpression of <em>EPOR</em> (median <abbr title="log-Fold Change">logFC</abbr> = 2.06, <abbr title="False Discovery Rate">FDR</abbr> ≤ 1.20e-04),
+as well as enrichment of erythrocyte developmental gene sets (<abbr title="median Normalized Enrichment Score">medNES</abbr> = 1.22,
+<abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 2.06-06,
+<abbr title="Dunn’s test of multiple comparisons Benjamin-Hochberg adjusted p-value">Dunn adj. p-val</abbr> &lt; 5.00e-02) <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#ashburner2000" id="id19"><span>[Ashburner2000]</span></a>, <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#tgoc2019" id="id20"><span>[TGOC2019]</span></a>.
+It also exhibits overexpression of <em>IDH2</em> (median <abbr title="log-Fold Change">logFC</abbr> = 1.65, <abbr title="False Discovery Rate">FDR</abbr> ≤ 3.40e-11).</p>
+<p><br/> <br/> <br/></p>
+</div>
+<div class="section" id="acute-myeloid-leukemia">
+<h2>Acute Myeloid Leukemia<a class="headerlink" href="#acute-myeloid-leukemia" title="Permalink to this headline">¶</a></h2>
+<p>Myeloid malignancies in <abbr title="Acute myeloid leukemia">T120 AML</abbr> immediately separate into 9 different
+classes at the following heirarchical level (Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#fig-leu6"><span class="std std-ref">LEU6</span></a>).
+Similar to <abbr title="Acute lymphoblastic leukemia">ALL</abbr>, we observe two classes made up exclusively of
+TARGET samples: <abbr title="Acute myeloid leukemia (TARGET)">T144 AML TRG</abbr> and
+<abbr title="Acute myeloid leukemia (TARGET), IDH2 underexpression">T146 AML TRG IDH2low</abbr>, which are discussed at the end of this section.</p>
+<div class="figure align-default" id="fig-leu6">
+<a class="reference internal image-reference" href="../_images/leu6.png"><img alt="Fig. LEU6" src="../_images/leu6.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-text">LEU6: A, 2-dimensional UMAP projection of acute myeloid leukemia tumors by gene expression. Subtypes at the third level of the hierarchy
+are shown with different colours. B, the list of all acute myeloid leukemia subtypes identified
+and their hierarchical relationship.</span><a class="headerlink" href="#fig-leu6" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+<div class="section" id="acute-myeloid-leukemia-non-target-cohort">
+<h2>Acute Myeloid Leukemia, non-TARGET cohort<a class="headerlink" href="#acute-myeloid-leukemia-non-target-cohort" title="Permalink to this headline">¶</a></h2>
+<p><abbr title="Acute myeloid leukemia, KMT2A rearrangement">T140 AML KMT2Ar</abbr> (n = 52) has a median age of 60.00 y.o (KW p-val =1.54e-48) due to the presence of 46/52 adult patients.
+It contains a number of samples marked for <em>KMT2A</em> fusions (most of them high risk, <abbr title="χ2 test p-value">χ2 p-val</abbr> = 4.45e-08),
+and is highly enriched (<abbr title="median Normalized Enrichment Score">medNES</abbr> &gt; 1.08, KW adj. p-val &lt; 1.00e-40,
+<abbr title="Dunn’s test of multiple comparisons Benjamin-Hochberg adjusted p-value">Dunn adj. p-val</abbr> &lt; 1.00e-04)
+for their matching pathways (<a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#ross2004" id="id21"><span>[Ross2004]</span></a>; <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#mullighan2007" id="id22"><span>[Mullighan2007]</span></a>) (Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#fig-leu7"><span class="std std-ref">LEU7</span></a>).
+It is also enriched for <em>NPM1</em> mutated pathways (<abbr title="median Normalized Enrichment Score">medNES</abbr> = 1.07,
+<abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value)`= 1.97e-38, :abbr:`Dunn adj. p-val (Dunn’s test of multiple comparisons Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> &lt; 1.00e-04) <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#mullighan2007" id="id23"><span>[Mullighan2007]</span></a>
+suggesting a large cohort within this class may be <em>NPM1</em> mutated. Indeed, all samples in this cluster for which we have
+<em>NPM1</em> and <em>FLT3</em> mutation data are mutated for either <em>NPM1</em> (n=23) or <em>FLT3</em> (n=16).
+This class displays poor <abbr title="overall survival">OS</abbr> (<abbr title="log-rank test p-value">lrt p-val</abbr> = 6.31e-11at 4022 days),
+reaching median <abbr title="overall survival">OS</abbr> at 327days.</p>
+<div class="figure align-default" id="fig-leu7">
+<a class="reference internal image-reference" href="../_images/leu7.png"><img alt="Fig. LEU7" src="../_images/leu7.png" style="width: 300px;" /></a>
+<p class="caption"><span class="caption-text">LEU7: Distribution plots of the normalized enrichment score of gene sets relevant to the definition
+of the KMT2A-rearranged myeloid leukemia class.</span><a class="headerlink" href="#fig-leu7" title="Permalink to this image">¶</a></p>
+</div>
+<p><abbr title="Acute myeloid leukemia, KMT2A rearrangement">T140 AML KMT2Ar</abbr> splits into two subclasses
+(Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#fig-leu6"><span class="std std-ref">LEU6b</span></a>). <abbr title="Infant acute lymphoblastic leukemia, KMT2A rearrangement chr11q23">T149 AML KMT2Ar 11q23</abbr>
+(n = 8) is a very small cluster and is considerably younger (45.00 vs 62.00
+<abbr title="Mann Whitney U test Benjamin-Hochberg adjusted p-value">MWU adj. p-val</abbr> = 7.24e-03) than
+<abbr title="Infant acute lymphoblastic leukemia, KMT2A rearrangement, NPM1 or FLT3 mutant">T150 AML KMT2A NPM1/FLT3</abbr> (n = 44);
+this is also reflected in the percentage of samples marked as pediatric (50.00% vs. 4.55%, <abbr title="χ2 test p-value">χ2 p-val</abbr> = 7.25e-03).
+While 5 samples are marked as <abbr title="Acute myeloid leukemia">AML</abbr>,
+<abbr title="Infant acute lymphoblastic leukemia, KMT2A rearrangement chr11q23">T149 AML KMT2Ar 11q23</abbr> also contains
+3 samples marked as mixed lineage leukemias (<abbr title="χ2 test p-value">χ2 p-val</abbr> = 7.79e-04).
+It contains 4 samples from <abbr title="The Cancer Genome Atlas">TCGA</abbr>, all of which are annotated with
+<em>KMT2A</em> fusions (two <em>MLL10-KMT2A</em> and one <em>KMT2A-MLLT3</em> and one <em>KMT2A-MLLT4</em>), while
+<abbr title="Infant acute lymphoblastic leukemia, KMT2A rearrangement, NPM1 or FLT3 mutant">T150 AML KMT2A NPM1/FLT3</abbr>
+contains 40 samples from TGCA, 10 of which have reported gene fusions, with seven involving <em>KMT2A</em> genes.
+When compared to <abbr title="Infant acute lymphoblastic leukemia, KMT2A rearrangement, NPM1 or FLT3 mutant">T150 AML KMT2A NPM1/FLT3</abbr> ,
+<abbr title="Infant acute lymphoblastic leukemia, KMT2A rearrangement chr11q23">T149 AML KMT2Ar 11q23</abbr> is significantly
+enriched for genes sets involving chr11q23 rearrangement (<abbr title="median Normalized Enrichment Score">medNES</abbr> = 8.46,
+<abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 1.06e-08) <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#yagi2003" id="id24"><span>[Yagi2003]</span></a>
+and AML cluster 16 from Valk et al. 2004 (<abbr title="median Normalized Enrichment Score">medNES</abbr> = 4.03, adj. p-val = 2.66e-09),
+which is composed of samples with 11q23 rearrangements <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#valk2004" id="id25"><span>[Valk2004]</span></a>.
+<abbr title="Infant acute lymphoblastic leukemia, KMT2A rearrangement, NPM1 or FLT3 mutant">T150 AML KMT2A NPM1/FLT3</abbr>
+inherits all of the <em>NPM1</em> and <em>FLT3</em> mutants found in its parent
+<abbr title="Acute myeloid leukemia, KMT2A rearrangement">T140 AML KMT2Ar</abbr> <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#braoudaki2010" id="id26"><span>[Braoudaki2010]</span></a>,
+and is enriched for their corresponding gene sets (<abbr title="median Normalized Enrichment Score">medNES</abbr> =2.34,
+<abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> =7.97e-08,
+<abbr title="median Normalized Enrichment Score">medNES</abbr> = 1.85,
+<abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 1.25e-04, respectively) <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#valk2004" id="id27"><span>[Valk2004]</span></a>, <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#verhaak2009" id="id28"><span>[Verhaak2009]</span></a>.
+<br/> <br/>
+<abbr title="Acute myeloid leukemia, bone marrow contamination">T141 AML BM</abbr> (n = 30) is a mixed-lineage cluster.
+It comprises myeloid, megakaryoblastic, non-specific, and lymphoblastic leukemias along with a few lymphomas and osteosarcomas.
+It is not enriched for any leukemia associated gene sets, suggesting this class may contain samples contaminated by normal blood or bone marrow tissue.
+<br/> <br/>
+<abbr title="Acute myeloid leukemia, low maturation">T142 AML MATlow</abbr> (n = 105) is largely composed of FAB subtypes M1
+(n = 33, <abbr title="χ2 test p-value">χ2 p-val</abbr> = 7.44e-04), <abbr title="Acute myeloid leukemia">AML</abbr> with minimal maturation,
+and M2 (n = 34, <abbr title="χ2 test p-value">χ2 p-val</abbr> = 1.60e-06), <abbr title="Acute myeloid leukemia">AML</abbr> with maturation,
+and a smaller subpopulation of undifferentiated M0 (n = 15, <abbr title="χ2 test p-value">χ2 p-val</abbr> = 1.15e-04).
+It is composed of older patients, with a median age of 57 y.o, and is enriched for samples classified as intermediate
+(n = 54, <abbr title="χ2 test p-value">χ2 p-val</abbr> = 1.43e-07) and high-risk (n = 37, <abbr title="χ2 test p-value">χ2 p-val</abbr> 1.61e-09).
+It contains two <em>BCR-ABL1</em> fusion samples, 24 <em>FLT3</em> mutants - all of which are from the <abbr title="The Cancer Genome Atlas">TCGA</abbr>,
+though the mutations themselves are heterogenous – 24 <em>NMP1</em> mutants, 21 of which are W288F (<abbr title="χ2 test p-value">χ2 p-val</abbr> &lt; 2.2e-16),
+along with 9 <em>WT1</em> mutants (<abbr title="χ2 test p-value">χ2 p-val</abbr> = 1.56 e-4).
+All samples in this cluster for which we have <em>NPM1</em> and <em>FLT3</em> mutation data have mutations in either gene.
+This cluster displays intermediate low prognosis, reaching median <abbr title="overall survival">OS</abbr> at 417 days
+(<abbr title="log-rank test p-value">lrt p-val</abbr> = 6.31e-11 at 4022 days).
+<br/> <br/>
+<abbr title="Acute myeloid leukemia, low maturation">T142 AML MATlow</abbr> splits into two two subclasses,
+<abbr title="Acute myeloid leukemia, low maturation, NPM1 mutant">T151 AML MATlow NPM1mut</abbr> and
+<abbr title="Acute myeloid leukemia, low maturation, no NPM1 mutation">T152 AML MATlow noNPM1</abbr> (Fig. S26b),
+which are separated by the presence or absence of <em>NPM1</em> mutations, as well as karyotypic complexity.
+<abbr title="Acute myeloid leukemia, low maturation, NPM1 mutant">T151 AML MATlow NPM1mut</abbr> (n = 34) has a
+higher ratio of FAB M1 samples, <abbr title="Acute myeloid leukemia">AML</abbr> with minimal maturation,
+(16/32 vs 17/62, <abbr title="Fisher's exact test p-value">FET p-val</abbr> = 4.04e-02) and inherits all <em>NPM1</em>-mutant
+samples except for one, a p.K263R (<abbr title="χ2 test p-value">χ2 p-val</abbr> = 6.67e-13); all samples for which we have
+<em>NPM1</em> data within this cluster (n=25) are <em>NPM1</em> mutated.
+As expected, we confirmed this annotation through significance (<abbr title="median Normalized Enrichment Score">medNES</abbr> = 1.25,
+<abbr title="Mann Whitney U test Benjamin-Hochberg adjusted p-value">MWU adj. p-val</abbr> = 7.83e-16) in <em>NPM1</em> mutation pathways <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#mullighan2007" id="id29"><span>[Mullighan2007]</span></a>.
+Its sibling, <abbr title="Acute myeloid leukemia, low maturation, no NPM1 mutation">T152 AML MATlow noNPM1</abbr> (n = 71),
+has a higher proportion of FAB M0 samples, undifferentiated <abbr title="Acute myeloid leukemia">AML</abbr>
+(1 vs. 14, <abbr title="Fisher's exact test p-value">FET p-val</abbr> = 3.21e-02), and possibly contains equivalent samples
+without <em>NPM1</em> mutation.
+M2 samples are evenly split between the clusters (<abbr title="χ2 test p-value">χ2 p-val</abbr> = 6.51e-01), suggesting
+maturation is not a critical determinant of this split. Samples with <em>FLT3</em> and <em>WT1</em> mutations are more common in
+<abbr title="Acute myeloid leukemia, low maturation, NPM1 mutant">T151 AML MATlow NPM1mut</abbr> than in
+<abbr title="Acute myeloid leukemia, low maturation, no NPM1 mutation">T152 AML MATlow noNPM1</abbr>, confirmed by gene
+sets for <em>FLT3</em> mutation (<abbr title="median Normalized Enrichment Score">medNES</abbr> = 1.90,
+<abbr title="Mann Whitney U test Benjamin-Hochberg adjusted p-value">MWU adj. p-val</abbr> = 2.29e-13) <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#valk2004" id="id30"><span>[Valk2004]</span></a>.
+We observe no significant separation in survival between the two clusters.
+<br/> <br/>
+<abbr title="Acute myeloid leukemia, low maturation, no NPM1 mutation">T152 AML MATlow noNPM1</abbr> further splits into
+<abbr title="Acute myeloid leukemia, FLT3 internal tandem duplication">T153 AML FLT3-ITD</abbr> (n = 58) and
+<abbr title="Acute myeloid leukemia CEBPA mutated">T154 AML CEBPA</abbr> (n = 13) (Fig. S26b). There is a significantly age
+desparity between patients in these clusters (63 vs 32 <abbr title="years old">y.o.</abbr>
+<abbr title="Mann Whitney U test Benjamin-Hochberg adjusted p-value">MWU adj. p-val</abbr> = 7.80e-05).
+<abbr title="Acute myeloid leukemia, FLT3 internal tandem duplication">T153 AML FLT3-ITD</abbr> contains all M0 samples
+(n = 14 vs 0) while <abbr title="Acute myeloid leukemia CEBPA mutated">T154 AML CEBPA</abbr> is enriched for FAB M2 samples
+(n = 12 vs 9, <abbr title="χ2 test p-value">χ2 p-val</abbr> = 3.81e-03).
+<abbr title="Acute myeloid leukemia, FLT3 internal tandem duplication">T153 AML FLT3-ITD</abbr> also contains five acute
+megakaryoblastic leukemias and two mixed lineage leukemias, and carries more samples with complex cytogenetics
+(<abbr title="χ2 test p-value">χ2 p-val</abbr> &lt; 1.00-03) and has significantly reduced
+<abbr title="overall survival">OS</abbr> (<abbr title="log-rank test p-value">lrt p-val</abbr> = 2.00e-02).
+In line with findings described in literature,
+<abbr title="Acute myeloid leukemia, FLT3 internal tandem duplication">T153 AML FLT3-ITD</abbr> exhibits a
+higher mutation burden (median = 17.00 vs. 8.50, <abbr title="Mann Whitney U test Benjamin-Hochberg adjusted p-value">MWU adj. p-val</abbr> = 2.06e-03),
+which is largely related to age in <abbr title="Acute myeloid leukemia">AML</abbr> <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#shaver2015" id="id31"><span>[Shaver2015]</span></a>.
+T153 contains six FLT3 mutant samples (three of which have in frame insertions), while <abbr title="Acute myeloid leukemia CEBPA mutated">T154 AML CEBPA</abbr>
+contains only one. <abbr title="Acute myeloid leukemia, FLT3 internal tandem duplication">T153 AML FLT3-ITD</abbr> overexpresses
+a myriad of genes (21/39, <abbr title="False Discovery Rate">FDR</abbr> &lt; 0.05), which are known to be upregulated in samples
+harbouring <em>FLT3</em> internal tandem duplications (FLT3-ITD), as well as enrichment of
+<abbr title="FLT3 internal tandem duplication">FLT3-ITD</abbr> gene sets
+(<abbr title="median Normalized Enrichment Score">medNES</abbr> = 3.11,
+<abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value)`= 5.99e-08) [Valk2004]_. On the other hand, :abbr:`T153 AML FLT3-ITD (Acute myeloid leukemia, FLT3 internal tandem duplication">KW adj. p-val</abbr> contains
+only three <em>CEBPA</em> mutated samples, while <abbr title="Acute myeloid leukemia CEBPA mutated">T154 AML CEBPA</abbr> contains
+eight (<abbr title="χ2 test p-value">χ2 p-val</abbr> = 3.28e-06)</p>
+<p><br/> <br/>
+The direct subclusters of <abbr title="Acute myeloid leukemia">T120 AML</abbr> continue here.
+<br/>
+<abbr title="Acute megakaryoblastic leukemia">T143 AMKL</abbr> (n = 49) is exclusively composed of
+megakaryoblastic samples (n = 41, <abbr title="χ2 test p-value">χ2 p-val</abbr> &lt; 2.20e-16) while eight samples
+are unlabelled, and as expected is enriched for <abbr title="Acute megakaryoblastic leukemia">AMKL</abbr>
+pathways (<abbr title="median Normalized Enrichment Score">medNES</abbr> ≥ 1.70 ,
+<abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value)`= 1.01e-38)(Ross2004). Note that all cases are non-trisomy 21. This cluster displays the worst prognosis of all its siblings, reaching median :abbr:`OS (overall survival">KW adj. p-val</abbr> at 313 days (<abbr title="log-rank test p-value">lrt p-val</abbr> = 6.31e-11).
+<abbr title="Acute megakaryoblastic leukemia">T143 AMKL</abbr> then splits into <abbr title="Acute megakaryoblastic leukemia, CBFA2T3-GLIS2 fusion">T155 AMKL CBFA2T3-GLIS2</abbr>
+(n = 12) and <abbr title="Acute megakaryoblastic leukemia with HOX expression program">T156 AMKL HOX</abbr> (n = 37).
+Though both are entirely pediatric, the former cluster contains significantly younger patients (median age of 0.97 vs 2.17
+<abbr title="years old">y.o.</abbr> ,:abbr:<cite>MWU adj. p-val (Mann Whitney U test Benjamin-Hochberg adjusted p-value)</cite> = 2.08e-02).
+All samples in <abbr title="Acute megakaryoblastic leukemia, CBFA2T3-GLIS2 fusion">T155 AMKL CBFA2T3-GLIS2</abbr> for which genomic
+data are available are characterized by a <em>CBFA2T3-GLIS2</em> fusion (9/9 vs. 0/25, <abbr title="χ2 test p-value">χ2 p-val</abbr> = 7.03e-08) <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#derooij2017" id="id32"><span>[deRooij2017]</span></a>.
+Patients in <abbr title="Acute megakaryoblastic leukemia, CBFA2T3-GLIS2 fusion">T155 AMKL CBFA2T3-GLIS2</abbr> have poorer prognsosis,
+reaching median <abbr title="overall survival">OS</abbr> at just 313 days post diagnosis. <abbr title="Acute megakaryoblastic leukemia with HOX expression program">T156 AMKL HOX</abbr> is composed of other driver events: two <em>GATA1</em> mutants , four HOXr (<em>HOX</em> fusion) samples, eight <em>KMT2A-MLLT3/10</em> fusions, four <em>NUP98-KDM5A</em> fusions, two <em>RBM15-MKL1</em> fusions, and four samples with other driver mutations.
+With a greater sample size its possible these mutations would form their own clusters as well. When comparing these
+two classes, <abbr title="Acute megakaryoblastic leukemia with HOX expression program">T156 AMKL HOX</abbr> exhibits overexpression of
+<em>HOXA</em> (11/11 genes upregulated, median <abbr title="log-Fold Change">logFC</abbr> ≤ -5.67, <abbr title="False Discovery Rate">FDR</abbr> ≤ 8.47e-03 )
+and <em>HOXB</em> genes (8/10 upregulated, median <abbr title="log-Fold Change">logFC</abbr> = -5.65, <abbr title="False Discovery Rate">FDR</abbr> ≤ 7.31e-03) <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#derooij2017" id="id33"><span>[deRooij2017]</span></a>.
+<br/> <br/>
+The remaining subclasses of <abbr title="Acute myeloid leukemia">T120 AML</abbr> are defined by clear fusion events. All samples
+within <abbr title="Acute myeloid leukemia CBFB-MYH11 fusion">T145 AML CBFB-MYH11</abbr> (n = 14) are marked as core binding factor positive, <em>CBFB-MYH11</em>.
+As expected, it is enriched (<abbr title="median Normalized Enrichment Score">medNES</abbr> ≥ 1.35 ,
+<abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value)`= 3.65e-27) for *CBFB-MYH11* associated gene sets [Ross2004]_, [Valk2004]_. All samples in :abbr:`T147 APML (Acute promyelocytic leukemia">KW adj. p-val</abbr> (n = 15), except for one, are positive for
+<em>PML-RARA</em> fusions (<abbr title="χ2 test p-value">χ2 p-val</abbr> &lt; 2.20e-16) and marked as FAB M3
+(<abbr title="χ2 test p-value">χ2 p-val</abbr> &lt; 2.20e-16), acute promyelocytic leukemia.
+This class also contains 5 samples with <em>FLT3</em> mutations, four of which are p600 in frame insertions
+(from <abbr title="The Cancer Genome Atlas">TCGA</abbr>); these seem to be exclusive to this cluster.
+This class has the best prognosis of the cohort, with &gt;60% of patients surviving at 4022 days post diagnosis.
+The final child of <abbr title="Acute myeloid leukemia">T120 AML</abbr>,
+<abbr title="Acute myeloid leukemia, RUNX1-RUNX1T1 fusion">T148 AML RUNX1-RUNX1T1</abbr> (n = 13), exclusively contains
+<em>RUNX1-RUNX1T1</em> fusion <abbr title="Acute myeloid leukemia">AML</abbr> (<abbr title="χ2 test p-value">χ2 p-val</abbr> &lt; 2.20e-16).
+It has moderate-good prognosis, reaching median <abbr title="overall survival">OS</abbr> 2910 days.</p>
+</div>
+<div class="section" id="acute-myeloid-leukemia-target-cohort">
+<h2>Acute Myeloid Leukemia, TARGET cohort<a class="headerlink" href="#acute-myeloid-leukemia-target-cohort" title="Permalink to this headline">¶</a></h2>
+<p>We observe two classes within the <abbr title="Acute myeloid leukemia">AML</abbr> branch with an exclusive TARGET composition (Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#fig-leu6"><span class="std std-ref">LEU6</span></a>).
+<abbr title="Acute myeloid leukemia (TARGET), IDH2 underexpression">T146 AML TRG IDH2low</abbr> (n = 23) is composed by samples with various diagnostic
+categories: three <em>KMT2A</em> fusions (n =3), eight normal karyotypes, and 10 other lesions, including two t(X;10)(p11.2;p11.2),
+add(17)(p11.2) and two inv(17)(p13.1q11.2), both exclusive to this group.
+However, it contains the highest proportion of <em>WT1</em> mutations (7/23, <abbr title="χ2 test p-value">χ2 p-val</abbr> = 1.39e-3)
+and <em>FLT3</em>-ITDs (8/23, <abbr title="χ2 test p-value">χ2 p-val</abbr> = 2.427e-05) amongst the TARGET cohort.
+It also exhibits the lowest expression of <em>IDH2</em> (<abbr title="log-Fold Change">logFC</abbr> = -0.836, p-val = 2.58e-2
+against T155-T159 and <abbr title="Acute myeloid leukemia (TARGET), RUNX1-RUNX1T1 fusion">T161 AML TRG RUNX-RUNX1T1</abbr>).
+This group displays intermediate prognosis, reaching median <abbr title="overall survival">OS</abbr> at 1394 days post diagnosis.</p>
+<div class="figure align-default" id="fig-leu8">
+<a class="reference internal image-reference" href="../_images/leu8.png"><img alt="Fig. LEU8" src="../_images/leu8.png" style="width: 400px;" /></a>
+<p class="caption"><span class="caption-text">LEU8: 2-dimensional UMAP projection of acute myeloid leukemia tumors from the TARGET cohort by gene expression. Subtypes at the third level of the hierarchy
+are shown with different colours.</span><a class="headerlink" href="#fig-leu8" title="Permalink to this image">¶</a></p>
+</div>
+<p><abbr title="Acute myeloid leukemia (TARGET)">T144 AML TRG</abbr> (n = 163) is the largest subcluster of <abbr title="Acute myeloid leukemia">T120 AML</abbr> and is composed
+largely of unspecified <abbr title="Acute myeloid leukemia">AML</abbr> (n=154), and surprisingly contains 5
+<abbr title="Acute lymphoblastic leukemia">ALL</abbr>. It is an entirely pediatric cluster
+(median age 9.36 <abbr title="years old">y.o.</abbr>) and has excellent prognosis, with &gt;50% of patients surviving at 4022 days post diagnosis.
+Diving deeper into this class (Fig. S26b, c), we observe first the singling out of <abbr title="Acute myeloid leukemia">AML</abbr>
+with <em>KMT2A</em> translocations (23/33 vs 12/120, <abbr title="χ2 test p-value">χ2 p-val</abbr> = 2.623e-12) in
+<abbr title="Acute myeloid leukemia (TARGET), KMT2A rearrangement">T158 AML TRG KMT2Ar</abbr> (n = 33) from all
+other samples in <abbr title="Acute myeloid leukemia (TARGET) mixture A">T157 AML TRG A</abbr> (n = 130).
+As expected, <abbr title="Acute myeloid leukemia (TARGET), KMT2A rearrangement">T158 AML TRG KMT2Ar</abbr> shows
+enrichment (<abbr title="Mann Whitney U test Benjamin-Hochberg adjusted p-value">MWU adj. p-val</abbr> ≤ 1.00e-03)
+of <em>KMT2A</em>-associated gene sets <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#ross2004" id="id34"><span>[Ross2004]</span></a>, <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#mullighan2007" id="id35"><span>[Mullighan2007]</span></a>. There is no difference in <abbr title="overall survival">OS</abbr> between the two subclasses.
+<br/> <br/>
+We then observe <abbr title="Acute myeloid leukemia (TARGET) mixture A">T157 AML TRG A</abbr> splitting into three small
+subclasses characterized by unique molecular aberrations:
+<abbr title="Acute myeloid leukemia (TARGET), KMT2A rearrangement or mixed-phenotype acute leukemia">T159 AML TRG KMT2Ar/MPAL</abbr> (n = 65),
+<abbr title="Acute myeloid leukemia (TARGET), CFB-MYH11 fusion">T160 AML TRG CFB-MYH11</abbr> (n = 36),
+and <abbr title="Acute myeloid leukemia (TARGET), RUNX1-RUNX1T1 fusion">T161 AML TRG RUNX-RUNX1T1</abbr> (n = 29).
+Aside from myeloid malignancies,
+<abbr title="Acute myeloid leukemia (TARGET), KMT2A rearrangement or mixed-phenotype acute leukemia">T159 AML TRG KMT2Ar/MPAL</abbr>
+contains 4 <abbr title="Acute lymphoblastic leukemia">ALL</abbr> samples, one unspecified leukemia and one lymphoma.
+It has the highest proportion of intermediate risk samples (n = 36, <abbr title="χ2 test p-value">χ2 p-val</abbr> = 1.581e-06)
+and patients within it exhibit a significantly worse <abbr title="overall survival">OS</abbr> than either of its siblings
+(<abbr title="log-rank test p-value">lrt p-val</abbr> = 2.20e-04). This cluster also inherits all <em>NPM1</em> mutant samples, while
+<em>FLT3</em>-ITD and <em>WT1</em> mutants are spread across all three clusters.
+This class also contains samples labelled as <em>KMT2A</em>-rearranged (n = 11/56, <abbr title="χ2 test p-value">χ2 p-val</abbr> = 4.103e-03).
+It shows overexpression of a wide variety of <em>HOX</em> genes (24/39 <em>HOX</em> genes with median
+<abbr title="log-Fold Change">logFC</abbr> &gt; 0 &amp; <abbr title="False Discovery Rate">FDR</abbr> &lt; 0.05, 22/39 <abbr title="False Discovery Rate">FDR</abbr> &lt; 1e-04, median
+<abbr title="log-Fold Change">logFC</abbr> = 4.62), a phenotype previously described in AMLs with <em>KMT2A</em> partial internal tandem duplication (<em>KMT2A</em>-PTD) <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#dorrance2006" id="id36"><span>[Dorrance2006]</span></a>.
+The characteristic expression patterns of <em>KMT2A</em>-<abbr title="partial tandem duplication">PTD</abbr>
+could explain the inclusion of a handful of <abbr title="Acute lymphoblastic leukemia">ALL</abbr> samples, which may also
+harbour non-canonical <em>KMT2A</em> aberrations.
+Indeed, manual inspection of a subsample of eight mRNA sequences (five labelled as <abbr title="Acute myeloid leukemia">AML</abbr>,
+three as <abbr title="Acute lymphoblastic leukemia">ALL</abbr>) from TARGET revealed the majority of these samples (4/8) harbour
+complex lesions in KMT2A or (2/8) with rearrangments to exon 7 and 8 associated with <em>KMT2A</em>-<abbr title="partial tandem duplication">PTD</abbr>.
+The transcriptional profile of <em>KMT2A</em> lesions in this class departs from that most commonly described by literature,
+as most gene sets involving <em>KMT2A</em> mutated leukemias agree an impoverishment in this class when compared to the
+bona-fide <em>KMT2A</em>-rearranged <abbr title="Acute myeloid leukemia">AML</abbr> class
+<abbr title="Acute myeloid leukemia (TARGET), KMT2A rearrangement">T158 AML TRG KMT2Ar</abbr>
+(<abbr title="median Normalized Enrichment Score">medNES</abbr> ≥ 1.27 for positive signatures in <abbr title="Acute myeloid leukemia (TARGET), KMT2A rearrangement">T158 AML TRG KMT2Ar</abbr>,
+≥ 1.61 for negative signatures in <abbr title="Acute myeloid leukemia (TARGET), KMT2A rearrangement or mixed-phenotype acute leukemia">T159 AML TRG KMT2Ar/MPAL</abbr>, <abbr title="Mann Whitney U test Benjamin-Hochberg adjusted p-value">MWU adj. p-val</abbr> ≤ 3.32e-15) (<a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#ross2004" id="id37"><span>[Ross2004]</span></a>; <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#mullighan2007" id="id38"><span>[Mullighan2007]</span></a>;).
+A single sample harbours a <em>BSG-CDC34</em> fusion. While no <em>KMT2A</em> mutation was reported, <em>CDC34</em> is known to mediate stability and degradation of
+<em>KMT2A</em> (<a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#meyer2018" id="id39"><span>[Meyer2018]</span></a>; <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#sugeedha2021" id="id40"><span>[Sugeedha2021]</span></a>), supporting the idea that
+<abbr title="Acute myeloid leukemia (TARGET), KMT2A rearrangement or mixed-phenotype acute leukemia">T159 AML TRG KMT2Ar/MPAL</abbr>
+is composed of tumors with various lesions which converge upon <em>KMT2A</em> pathway pertubation.
+<br/> <br/>
+KMT2A rearrangements are also common in mixed phenotype acute leukemias (MPAL) <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#winters2017" id="id41"><span>[Winters2017]</span></a>, <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#yang2017" id="id42"><span>[Yang2017]</span></a>;
+to assess whether some of these samples are <abbr title="Mixed phenotype acute leukemia">MPAL</abbr>, we interrogated a number of gene sets (Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#fig-leu9"><span class="std std-ref">LEU9</span></a>).
+Indeed, <abbr title="Mixed phenotype acute leukemia">MPAL</abbr> expression sets were significantly upregulated in
+<abbr title="Acute myeloid leukemia">AML</abbr> within
+<abbr title="Acute myeloid leukemia (TARGET), KMT2A rearrangement or mixed-phenotype acute leukemia">T159 AML TRG KMT2Ar/MPAL</abbr>
+when compared to all other <abbr title="Acute myeloid leukemia">AML</abbr> in <abbr title="Acute myeloid leukemia">T120 AML</abbr>
+(<abbr title="median Normalized Enrichment Score">medNES</abbr> = 1.20, <abbr title="Mann Whitney U test Benjamin-Hochberg adjusted p-value">MWU adj. p-val</abbr> = 2.94-12),
+which in turn have higher markers of <abbr title="Acute myeloid leukemia">AML</abbr> vs <abbr title="Mixed phenotype acute leukemia">MPAL</abbr>
+(<abbr title="median Normalized Enrichment Score">medNES</abbr> = 1.04, <abbr title="Mann Whitney U test Benjamin-Hochberg adjusted p-value">MWU adj. p-val</abbr> = 5.55e-05) <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#bian2018" id="id43"><span>[Bian2018]</span></a>.
+Furthermore, these samples carry higher lymphocyte differentiation expression than <abbr title="Acute myeloid leukemia">AML</abbr>
+from their family class (<abbr title="Acute myeloid leukemia (TARGET), KMT2A rearrangement or mixed-phenotype acute leukemia">T159 AML TRG KMT2Ar/MPAL</abbr>
+vs <abbr title="Acute myeloid leukemia">T120 AML</abbr>, <abbr title="median Normalized Enrichment Score">medNES</abbr> = 2.63,
+<abbr title="Mann Whitney U test Benjamin-Hochberg adjusted p-value">MWU adj. p-val</abbr> = 1.36e-03) <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#the2019" id="id44"><span>[The2019]</span></a>, <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#ashburner2000" id="id45"><span>[Ashburner2000]</span></a>.
+In turn, the four <abbr title="Acute lymphoblastic leukemia">ALL</abbr> samples within this same class have significant enrichment
+for myeloid differentiation when compared to all other <abbr title="Acute lymphoblastic leukemia">ALL</abbr> in
+<abbr title="Acute lymphoblastic leukemia">T119 ALL</abbr> (<abbr title="median Normalized Enrichment Score">medNES</abbr> = 1.25,
+<abbr title="Mann Whitney U test Benjamin-Hochberg adjusted p-value">MWU adj. p-val</abbr> = 9.01e-04) <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#the2019" id="id46"><span>[The2019]</span></a>, <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#ashburner2000" id="id47"><span>[Ashburner2000]</span></a>.
+<br/>
+Furthermore, we report enrichment of T-cell development and differentiation gene sets when comparing
+samples of matching reported lineage to either <abbr title="Acute myeloid leukemia">T120 AML</abbr>
+(<abbr title="median Normalized Enrichment Score">medNES</abbr> ≥ 1.10, <abbr title="Mann Whitney U test Benjamin-Hochberg adjusted p-value">MWU adj. p-val</abbr> ≤ 9.82e-08)
+and <abbr title="Acute lymphoblastic leukemia">T119 ALL</abbr> (<abbr title="median Normalized Enrichment Score">medNES</abbr> ≥ 1.27,
+<abbr title="Mann Whitney U test Benjamin-Hochberg adjusted p-value">MWU adj. p-val</abbr> ≤ 2.77e-02) <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#the2019" id="id48"><span>[The2019]</span></a>, <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#ashburner2000" id="id49"><span>[Ashburner2000]</span></a>,
+composed exclusively of B-cell <abbr title="Acute lymphoblastic leukemia">ALL</abbr> (Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#fig-leu9"><span class="std std-ref">LEU9</span></a>).
+These results support the hypothetical presence of T-cell <abbr title="Mixed phenotype acute leukemia">MPAL</abbr> within
+<abbr title="Acute myeloid leukemia (TARGET), KMT2A rearrangement or mixed-phenotype acute leukemia">T159 AML TRG KMT2Ar/MPAL</abbr>.
+While limited information is given by the labelling of these samples, we can confidently speculate this class includes
+<em>KMT2A</em>-rearranged B-cell and/or T-cell <abbr title="Mixed phenotype acute leukemia">MPAL</abbr>, or at the very least samples of either
+linage expressing both myeloid and lymphoid markers.</p>
+<div class="figure align-default" id="fig-leu9">
+<a class="reference internal image-reference" href="../_images/leu9.png"><img alt="Fig. LEU9" src="../_images/leu9.png" style="width: 300px;" /></a>
+<p class="caption"><span class="caption-text">LEU9: Distribution plots of the normalized enrichment score of gene sets relevant to the definition
+of the KMT2A-rearranged myeloid leukemia classes from the TARGET cohort.</span><a class="headerlink" href="#fig-leu9" title="Permalink to this image">¶</a></p>
+</div>
+<p>Finally, a more straightforward annotation allows us to determine <abbr title="Acute myeloid leukemia (TARGET), CFB-MYH11 fusion">T160 AML TRG CFB-MYH11</abbr>
+harbours core binding factor-mutated samples, as the majority of its samples are labelled as <em>CFB-MYH11</em>
+fusion positive (n = 26/35, <abbr title="χ2 test p-value">χ2 p-val</abbr> = 9.70e-15), and furthermore shows enrichment
+(<abbr title="median Normalized Enrichment Score">medNES</abbr> ≥ 1.84,
+<abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 9.376e-16,
+<abbr title="Dunn’s test of multiple comparisons Benjamin-Hochberg adjusted p-value">Dunn adj. p-val</abbr> &lt; 1.00e-04) of its associated gene sets <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#ross2004" id="id50"><span>[Ross2004]</span></a>.
+Similarly, <abbr title="Acute myeloid leukemia (TARGET), RUNX1-RUNX1T1 fusion">T161 AML TRG RUNX-RUNX1T1</abbr> is largely
+composed of samples labelled as harbouring <em>RUNX1-RUNX1T1</em> fusions (n = 18/29, <abbr title="χ2 test p-value">χ2 p-val</abbr> = 1.77e-11)
+and is enriched for respective gene sets (<abbr title="median Normalized Enrichment Score">medNES</abbr> ≥ 1.01,
+<abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 5.83e-04) <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#tonks2007" id="id51"><span>[Tonks2007]</span></a>.
+It also contains 6 <em>CEBPA</em> mutants (<abbr title="χ2 test p-value">χ2 p-val</abbr> = 8.21e-3).</p>
+</div>
+<div class="section" id="bibliography">
+<h2>Bibliography<a class="headerlink" href="#bibliography" title="Permalink to this headline">¶</a></h2>
+<dl class="citation">
+<dt class="label" id="ashburner2000"><span class="brackets">Ashburner2000</span><span class="fn-backref">(<a href="#id2">1</a>,<a href="#id19">2</a>,<a href="#id45">3</a>,<a href="#id47">4</a>,<a href="#id49">5</a>)</span></dt>
+<dd><p>Ashburner, M., Ball, C.A., Blake, J.A., et al. 2000. Gene Ontology: tool for the unification of biology. Nature Genetics 25(1), pp. 25–29.</p>
+</dd>
+<dt class="label" id="bian2018"><span class="brackets"><a class="fn-backref" href="#id43">Bian2018</a></span></dt>
+<dd><p>Bian, S., Hou, Y., Zhou, X., et al. 2018. Single-cell multiomics sequencing and analyses of human colorectal cancer. Science 362(6418), pp. 1060–1063.</p>
+</dd>
+<dt class="label" id="braoudaki2010"><span class="brackets"><a class="fn-backref" href="#id26">Braoudaki2010</a></span></dt>
+<dd><p>Braoudaki, M., Papathanassiou, C., Katsibardi, K., Tourkadoni, N., Karamolegou, K. and Tzortzatou-Stathopoulou, F. 2010. The frequency of NPM1 mutations in childhood acute myeloid leukemia. Journal of hematology &amp; oncology 3, p. 41.</p>
+</dd>
+<dt class="label" id="dorrance2006"><span class="brackets"><a class="fn-backref" href="#id36">Dorrance2006</a></span></dt>
+<dd><p>Dorrance, A.M., Liu, S., Yuan, W., et al. 2006. Mll partial tandem duplication induces aberrant Hox expression in vivo via specific epigenetic alterations. The Journal of Clinical Investigation 116(10), pp. 2707–2716.</p>
+</dd>
+<dt class="label" id="harvey2010"><span class="brackets"><a class="fn-backref" href="#id16">Harvey2010</a></span></dt>
+<dd><p>Harvey, R.C., Mullighan, C.G., Wang, X., et al. 2010. Identification of novel cluster groups in pediatric high-risk B-precursor acute lymphoblastic leukemia with gene expression profiling: correlation with genome-wide DNA copy number alterations, clinical characteristics, and outcome. Blood 116(23), pp. 4874–4884.</p>
+</dd>
+<dt class="label" id="harvey2013"><span class="brackets">Harvey2013</span><span class="fn-backref">(<a href="#id8">1</a>,<a href="#id17">2</a>)</span></dt>
+<dd><p>Harvey, R.C., Kang, H., Roberts, K.G., et al. 2013. Development and Validation Of a Highly Sensitive and Specific Gene Expression Classifier To Prospectively Screen and Identify B-Precursor Acute Lymphoblastic Leukemia (ALL) Patients With a Philadelphia Chromosome-Like (“Ph-like” or “BCR-ABL1-Like”) Signature For Therapeutic Targeting and Clinical Intervention. Blood 122(21), pp. 826–826.</p>
+</dd>
+<dt class="label" id="hirabayashi2017"><span class="brackets"><a class="fn-backref" href="#id11">Hirabayashi2017</a></span></dt>
+<dd><p>Hirabayashi, S., Ohki, K., Nakabayashi, K., et al. 2017. ZNF384-related fusion genes define a subgroup of childhood B-cell precursor acute lymphoblastic leukemia with a characteristic immunotype. Haematologica 102(1), pp. 118–129.</p>
+</dd>
+<dt class="label" id="inukai2007"><span class="brackets">Inukai2007</span><span class="fn-backref">(<a href="#id12">1</a>,<a href="#id13">2</a>)</span></dt>
+<dd><p>Inukai, T., Hirose, K., Inaba, T., et al. 2007. Hypercalcemia in childhood acute lymphoblastic leukemia: frequent implication of parathyroid hormone-related peptide and E2A-HLF from translocation 17;19. Leukemia 21(2), pp. 288–296.</p>
+</dd>
+<dt class="label" id="jain2017"><span class="brackets"><a class="fn-backref" href="#id7">Jain2017</a></span></dt>
+<dd><p>Jain, N., Roberts, K.G., Jabbour, E., et al. 2017. Ph-like acute lymphoblastic leukemia: a high-risk subtype in adults. Blood 129(5), pp. 572–581.</p>
+</dd>
+<dt class="label" id="lazar2013"><span class="brackets"><a class="fn-backref" href="#id4">Lazar2013</a></span></dt>
+<dd><p>Lazar, C., Meganck, S., Taminau, J., et al. 2013. Batch effect removal methods for microarray gene expression data integration: a survey. Briefings in Bioinformatics 14(4), pp. 469–490.</p>
+</dd>
+<dt class="label" id="meyer2018"><span class="brackets"><a class="fn-backref" href="#id39">Meyer2018</a></span></dt>
+<dd><p>Meyer, C., Burmeister, T., Gröger, D., et al. 2018. The MLL recombinome of acute leukemias in 2017. Leukemia 32(2), pp. 273–284.</p>
+</dd>
+<dt class="label" id="mullighan2007"><span class="brackets">Mullighan2007</span><span class="fn-backref">(<a href="#id22">1</a>,<a href="#id23">2</a>,<a href="#id29">3</a>,<a href="#id35">4</a>,<a href="#id38">5</a>)</span></dt>
+<dd><p>Mullighan, C.G., Kennedy, A., Zhou, X., et al. 2007. Pediatric acute myeloid leukemia with NPM1 mutations is characterized by a gene expression profile with dysregulated HOX gene expression distinct from MLL-rearranged leukemias. Leukemia 21(9), pp. 2000–2009.</p>
+</dd>
+<dt class="label" id="ohki2019"><span class="brackets"><a class="fn-backref" href="#id14">Ohki2019</a></span></dt>
+<dd><p>Ohki, K., Kiyokawa, N., Saito, Y., et al. 2019. Clinical and molecular characteristics of MEF2D fusion-positive B-cell precursor acute lymphoblastic leukemia in childhood, including a novel translocation resulting in MEF2D-HNRNPH1 gene fusion. Haematologica 104(1), pp. 128–137.</p>
+</dd>
+<dt class="label" id="qian2017"><span class="brackets"><a class="fn-backref" href="#id10">Qian2017</a></span></dt>
+<dd><p>Qian, M., Zhang, H., Kham, S.K.-Y., et al. 2017. Whole-transcriptome sequencing identifies a distinct subtype of acute lymphoblastic leukemia with predominant genomic abnormalities of EP300 and CREBBP. Genome Research 27(2), pp. 185–195.</p>
+</dd>
+<dt class="label" id="rachieru-sourisseau2010"><span class="brackets"><a class="fn-backref" href="#id18">Rachieru-Sourisseau2010</a></span></dt>
+<dd><p>Rachieru-Sourisseau, P., Baranger, L., Dastugue, N., et al. 2010. DNA Index in childhood acute lymphoblastic leukaemia: a karyotypic method to validate the flow cytometric measurement. International Journal of Laboratory Hematology 32(3), pp. 288–298.</p>
+</dd>
+<dt class="label" id="derooij2017"><span class="brackets">deRooij2017</span><span class="fn-backref">(<a href="#id32">1</a>,<a href="#id33">2</a>)</span></dt>
+<dd><p>de Rooij, J.D.E., Branstetter, C., Ma, J., et al. 2017. Pediatric non-Down syndrome acute megakaryoblastic leukemia is characterized by distinct genomic subsets with varying outcomes. Nature Genetics 49(3), pp. 451–456.</p>
+</dd>
+<dt class="label" id="ross2004"><span class="brackets">Ross2004</span><span class="fn-backref">(<a href="#id1">1</a>,<a href="#id21">2</a>,<a href="#id34">3</a>,<a href="#id37">4</a>,<a href="#id50">5</a>)</span></dt>
+<dd><p>Ross, M.E., Mahfouz, R., Onciu, M., et al. 2004. Gene expression profiling of pediatric acute myelogenous leukemia. Blood 104(12), pp. 3679–3687.</p>
+</dd>
+<dt class="label" id="sadras2017"><span class="brackets">Sadras2017</span><span class="fn-backref">(<a href="#id9">1</a>,<a href="#id15">2</a>)</span></dt>
+<dd><p>Sadras, T., Heatley, S.L., Kok, C.H., et al. 2017. Differential expression of MUC4, GPR110 and IL2RA defines two groups of CRLF2-rearranged acute lymphoblastic leukemia patients with distinct secondary lesions. Cancer Letters 408, pp. 92–101.</p>
+</dd>
+<dt class="label" id="shaver2015"><span class="brackets"><a class="fn-backref" href="#id31">Shaver2015</a></span></dt>
+<dd><p>Shaver, A.C., Seegmiller, A.C., Strickland, S.A., et al. 2015. Mutational burden in acute myeloid leukemia is largely age dependent. Blood 126(23), pp. 2605–2605.</p>
+</dd>
+<dt class="label" id="sugeedha2021"><span class="brackets"><a class="fn-backref" href="#id40">Sugeedha2021</a></span></dt>
+<dd><p>Sugeedha, J., Gautam, J. and Tyagi, S. 2021. SET1/MLL family of proteins: functions beyond histone methylation. Epigenetics 16(5), pp. 469–487.</p>
+</dd>
+<dt class="label" id="sun2017"><span class="brackets"><a class="fn-backref" href="#id5">Sun2017</a></span></dt>
+<dd><p>Sun, C., Chang, L. and Zhu, X. 2017. Pathogenesis of ETV6/RUNX1-positive childhood acute lymphoblastic leukemia and mechanisms underlying its relapse. Oncotarget 8(21), pp. 35445–35459.</p>
+</dd>
+<dt class="label" id="the2019"><span class="brackets">The2019</span><span class="fn-backref">(<a href="#id3">1</a>,<a href="#id44">2</a>,<a href="#id46">3</a>,<a href="#id48">4</a>)</span></dt>
+<dd><p>The Gene Ontology Consortium 2019. The Gene Ontology Resource: 20 years and still GOing strong. Nucleic Acids Research 47(D1), pp. D330–D338.</p>
+</dd>
+<dt class="label" id="tonks2007"><span class="brackets"><a class="fn-backref" href="#id51">Tonks2007</a></span></dt>
+<dd><p>Tonks, A., Pearn, L., Musson, M., et al. 2007. Transcriptional dysregulation mediated by RUNX1-RUNX1T1 in normal human progenitor cells and in acute myeloid leukaemia. Leukemia 21(12), pp. 2495–2505.</p>
+</dd>
+<dt class="label" id="valk2004"><span class="brackets">Valk2004</span><span class="fn-backref">(<a href="#id25">1</a>,<a href="#id27">2</a>,<a href="#id30">3</a>)</span></dt>
+<dd><p>Valk, P.J.M., Verhaak, R.G.W., Beijen, M.A., et al. 2004. Prognostically useful gene-expression profiles in acute myeloid leukemia. The New England Journal of Medicine 350(16), pp. 1617–1628.</p>
+</dd>
+<dt class="label" id="verhaak2009"><span class="brackets"><a class="fn-backref" href="#id28">Verhaak2009</a></span></dt>
+<dd><p>Verhaak, R.G.W., Wouters, B.J., Erpelinck, C.A.J., et al. 2009. Prediction of molecular subtypes in acute myeloid leukemia based on gene expression profiling. Haematologica 94(1), pp. 131–134.</p>
+</dd>
+<dt class="label" id="winters2017"><span class="brackets"><a class="fn-backref" href="#id41">Winters2017</a></span></dt>
+<dd><p>Winters, A.C. and Bernt, K.M. 2017. MLL-Rearranged Leukemias-An Update on Science and Clinical Approaches. Frontiers in pediatrics 5, p. 4.</p>
+</dd>
+<dt class="label" id="yagi2003"><span class="brackets"><a class="fn-backref" href="#id24">Yagi2003</a></span></dt>
+<dd><p>Yagi, T., Morimoto, A., Eguchi, M., et al. 2003. Identification of a gene expression signature associated with pediatric AML prognosis. Blood 102(5), pp. 1849–1856.</p>
+</dd>
+<dt class="label" id="yang2017"><span class="brackets"><a class="fn-backref" href="#id42">Yang2017</a></span></dt>
+<dd><p>Yang, W., Tran, P., Khan, Z., Rezk, S. and O’Brien, S. 2017. MLL-rearranged mixed phenotype acute leukemia masquerading as B-cell ALL. Leukemia &amp; Lymphoma 58(6), pp. 1498–1501.</p>
+</dd>
+<dt class="label" id="yeoh2002"><span class="brackets"><a class="fn-backref" href="#id6">Yeoh2002</a></span></dt>
+<dd><p>Yeoh, E.-J., Ross, M.E., Shurtleff, S.A., et al. 2002. Classification, subtype discovery, and prediction of outcome in pediatric acute lymphoblastic leukemia by gene expression profiling. Cancer Cell 1(2), pp. 133–143.</p>
+</dd>
+</dl>
+</div>
+</div>
+
+
+          </div>
+          <div class="page-nav">
+            <div class="inner"><ul class="page-nav">
+  <li class="prev">
+    <a href="T002_T003_mesoderm.html"
+       title="previous chapter">← T002 and T003 Mesodermal Tumour</a>
+  </li>
+  <li class="next">
+    <a href="../faq.html"
+       title="next chapter">Frequently Asked Questions →</a>
+  </li>
+</ul><div class="footer" role="contentinfo">
+      &#169; Copyright 2022, Federico Comitani, Joshua O. Nash.
+    <br>
+    Created using <a href="http://sphinx-doc.org/">Sphinx</a> 4.3.2 with <a href="https://github.com/schettino72/sphinx_press_theme">Press Theme</a> 0.8.0.
+</div>
+            </div>
+          </div>
+      </page>
+    </div></div>
+    
+    
+  </body>
+</html>

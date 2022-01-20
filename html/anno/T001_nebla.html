@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+      <title>T001 Neuroblastoma</title>
+    
+          <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+          <link rel="stylesheet" href="../_static/theme.css " type="text/css" />
+      
+      <!-- sphinx script_files -->
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+
+      
+      <!-- bundled in js (rollup iife) -->
+      <!-- <script src="../_static/theme-vendors.js"></script> -->
+      <script src="../_static/theme.js" defer></script>
+    
+  <link rel="index" title="Index" href="../genindex.html" />
+  <link rel="search" title="Search" href="../search.html" />
+  <link rel="next" title="T002 and T003 Mesodermal Tumour" href="T002_T003_mesoderm.html" />
+  <link rel="prev" title="T000 Central Nervous System" href="T000_cns.html" /> 
+  </head>
+
+  <body>
+    <div id="app">
+    <div class="theme-container" :class="pageClasses"><navbar @toggle-sidebar="toggleSidebar">
+  <router-link to="../index.html" class="home-link">
+    
+      <span class="site-name">Transcriptional Cancer Atlas Annotation</span>
+    
+  </router-link>
+
+  <div class="links">
+    <navlinks class="can-hide">
+
+  
+    <div class="nav-item">
+      <a href="../index.html#welcome-to-the-annotation-of-the-transcriptional-cancer-atlas"
+         class="nav-link  router-link-active">
+         Annotation
+      </a>
+    </div>
+  
+    <div class="nav-item">
+      <a href="../index.html#welcome-to-the-annotation-of-the-transcriptional-cancer-atlas"
+         class="nav-link ">
+         F.A.Q.
+      </a>
+    </div>
+  
+    <div class="nav-item">
+      <a href="../index.html#welcome-to-the-annotation-of-the-transcriptional-cancer-atlas"
+         class="nav-link ">
+         Contact us
+      </a>
+    </div>
+  
+
+
+
+    </navlinks>
+  </div>
+</navbar>
+
+      
+      <div class="sidebar-mask" @click="toggleSidebar(false)">
+      </div>
+        <sidebar @toggle-sidebar="toggleSidebar">
+          
+          <navlinks>
+            
+
+  
+    <div class="nav-item">
+      <a href="../index.html#welcome-to-the-annotation-of-the-transcriptional-cancer-atlas"
+         class="nav-link  router-link-active">
+         Annotation
+      </a>
+    </div>
+  
+    <div class="nav-item">
+      <a href="../index.html#welcome-to-the-annotation-of-the-transcriptional-cancer-atlas"
+         class="nav-link ">
+         F.A.Q.
+      </a>
+    </div>
+  
+    <div class="nav-item">
+      <a href="../index.html#welcome-to-the-annotation-of-the-transcriptional-cancer-atlas"
+         class="nav-link ">
+         Contact us
+      </a>
+    </div>
+  
+
+
+
+            
+          </navlinks><div id="searchbox" class="searchbox" role="search">
+  <div class="caption"><span class="caption-text">Quick search</span>
+    <div class="searchformwrapper">
+      <form class="search" action="../search.html" method="get">
+        <input type="text" name="q" />
+        <input type="submit" value="Search" />
+        <input type="hidden" name="check_keywords" value="yes" />
+        <input type="hidden" name="area" value="default" />
+      </form>
+    </div>
+  </div>
+</div><div class="sidebar-links" role="navigation" aria-label="main navigation">
+  
+    <div class="sidebar-group">
+      <p class="caption">
+        <span class="caption-text"><a href="../index.html#welcome-to-the-annotation-of-the-transcriptional-cancer-atlas">Annotation</a></span>
+      </p>
+      <ul class="current">
+        
+          <li class="toctree-l1 ">
+            
+              <a href="N000_normal.html" class="reference internal ">N000 Healthy Normal Tissue</a>
+            
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 ">
+            
+              <a href="T000_cns.html" class="reference internal ">T000 Central Nervous System</a>
+            
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 current">
+            
+              <a href="#" class="reference internal current">T001 Neuroblastoma</a>
+            
+
+            
+              <ul>
+                
+                  <li class="toctree-l2"><a href="#bibliography" class="reference internal">Bibliography</a></li>
+                
+              </ul>
+            
+          </li>
+
+        
+          <li class="toctree-l1 ">
+            
+              <a href="T002_T003_mesoderm.html" class="reference internal ">T002 and T003 Mesodermal Tumour</a>
+            
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 ">
+            
+              <a href="T005_leuk.html" class="reference internal ">T005 Leukemia</a>
+            
+
+            
+          </li>
+
+        
+      </ul>
+    </div>
+  
+    <div class="sidebar-group">
+      <p class="caption">
+        <span class="caption-text"><a href="../index.html#welcome-to-the-annotation-of-the-transcriptional-cancer-atlas">F.A.Q.</a></span>
+      </p>
+      <ul class="">
+        
+          <li class="toctree-l1 ">
+            
+              <a href="../faq.html" class="reference internal ">Frequently Asked Questions</a>
+            
+
+            
+          </li>
+
+        
+      </ul>
+    </div>
+  
+    <div class="sidebar-group">
+      <p class="caption">
+        <span class="caption-text"><a href="../index.html#welcome-to-the-annotation-of-the-transcriptional-cancer-atlas">Contact us</a></span>
+      </p>
+      <ul class="">
+        
+          <li class="toctree-l1 ">
+            
+              <a href="../contacts.html" class="reference internal ">Contact us</a>
+            
+
+            
+          </li>
+
+        
+      </ul>
+    </div>
+  
+</div>
+        </sidebar>
+
+      <page>
+          <div class="body-header" role="navigation" aria-label="navigation">
+  
+  <ul class="breadcrumbs">
+    <li><a href="../index.html">Docs</a> &raquo;</li>
+    
+    <li>T001 Neuroblastoma</li>
+  </ul>
+  
+
+  <ul class="page-nav">
+  <li class="prev">
+    <a href="T000_cns.html"
+       title="previous chapter">← T000 Central Nervous System</a>
+  </li>
+  <li class="next">
+    <a href="T002_T003_mesoderm.html"
+       title="next chapter">T002 and T003 Mesodermal Tumour →</a>
+  </li>
+</ul>
+  
+</div>
+<hr>
+          <div class="content" role="main" v-pre>
+            
+  <div class="section" id="t001-neuroblastoma">
+<h1>T001 Neuroblastoma<a class="headerlink" href="#t001-neuroblastoma" title="Permalink to this headline">¶</a></h1>
+<p>Version: 0.1.0
+<br/>
+Last change: Jan 20, 2022</p>
+<p>A total of 180 samples were labelled as neuroblastoma in our reference dataset,
+162 of which are from <a class="reference external" href="https://ocg.cancer.gov/programs/target">TARGET</a>  while the rest are from different sources within the <a class="reference external" href="https://treehousegenomics.ucsc.edu/">TreeHouse initiative</a>.
+RACCOON identified four separate subclusters within the neuroblastoma parent class (Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T001_nebla.html#fig-nebla1"><span class="std std-ref">NEBLA1</span></a>). They exhibit different molecular profiles and clinical outcomes, roughly overlapping with microarray expression clusters described in literature <a class="reference internal" href="../tmp/_site/doc/anno/T001_nebla.html#abel2011" id="id1"><span>[Abel2011]</span></a>.</p>
+<div class="figure align-default" id="fig-nebla1">
+<a class="reference internal image-reference" href="../_images/nebla1.png"><img alt="Fig. NEBLA1" src="../_images/nebla1.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-text">NEBLA1: On the left, a 2-dimensional UMAP projection of neuroblastma tumors by gene expression, where the four subtypes identified are shown in different colors.
+Empty circles represent samples that were reported as MYCN amplified by clinical tests.</span><a class="headerlink" href="#fig-nebla1" title="Permalink to this image">¶</a></p>
+</div>
+<p><abbr title="Neuroblastoma, mesenchymal, ERBB2 overexpression">T062 NEBLA MES ERBB2</abbr>, the smallest cluster, contains a molecular
+signature which corresponds to microarray cluster p43 and comprises Children’s Oncology Group (<a class="reference external" href="https://childrensoncologygroup.org/">COG</a>) samples reported as high-risk (Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T001_nebla.html#fig-nebla2"><span class="std std-ref">NEBLA2</span></a>).
+It is characterized by underexpression of the neuroblastoma predisposition genes <em>PHOX2B</em> (<abbr title="edgeR quasi-likelihood negative binomial generalized log-linear model">glmQLFTest</abbr> <abbr title="median Log-Fold Change">medLogFC</abbr> = -2.58, <abbr title="False Discovery Rate">FDR</abbr> ≤ 2.93e-13),
+<em>MYCN</em> (<abbr title="median Log-Fold Change">medLogFC</abbr> = -3.30, <abbr title="False Discovery Rate">FDR</abbr> ≤ 3.11e-09), as well as the cell-cycle genes <em>BIRC5</em>
+(<abbr title="median Log-Fold Change">medLogFC</abbr> = -5.92, <abbr title="False Discovery Rate">FDR</abbr> ≤ 2.90e-16) and <em>CCND1</em> (<abbr title="median Log-Fold Change">medLogFC</abbr> = -2.13, <abbr title="False Discovery Rate">FDR</abbr> ≤ 4.84e-12),
+compared to its sibling clusters. <abbr title="Neuroblastoma, mesenchymal, ERBB2 overexpression">T062 NEBLA MES ERBB2</abbr>  is also characterized by overexpression of <em>ERBB2</em> (<em>HER2</em>) (<abbr title="median Log-Fold Change">medLogFC</abbr> = 1.32, <abbr title="False Discovery Rate">FDR</abbr> &lt; 8.16e-08),
+which has been demonstrated to be a favourable prognostic factor <a class="reference internal" href="../tmp/_site/doc/anno/T001_nebla.html#izycka-swieszewska2010" id="id2"><span>[Izycka-Swieszewska2010]</span></a>.</p>
+<div class="figure align-default" id="fig-nebla2">
+<a class="reference internal image-reference" href="../_images/nebla2.png"><img alt="Fig. NEBLA2" src="../_images/nebla2.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-text">NEBLA2: Donut plot showing the samples stratification of the four identified neuroblastoma subtypes.
+These include (from top to bottom), COG risk group, Ploidy, Diagnosis and Grade.</span><a class="headerlink" href="#fig-nebla2" title="Permalink to this image">¶</a></p>
+</div>
+<p>Enrichment of <em>ERBB2</em> signalling is also seen in this cluster (<abbr title="single-sample GSEA from GSVA">ssGSEA</abbr> <abbr title="median Normalized Enrichment Score">medNES</abbr> ≥ 1.31,
+<abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 1.25e-13,
+<abbr title="Dunn’s test of multiple comparisons Benjamin-Hochberg adjusted p-value">Dunn adj. p-val</abbr> &gt; 1.00e-02) <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#ashburner2000" id="id3"><span>[Ashburner2000]</span></a>, <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#tgoc2019" id="id4"><span>[TGOC2019]</span></a>.
+Neuroblastomas expressing <em>ERBB2</em> have increased differentiation, immunoreactivity, and patients show improved overall survival compared to patients with tumors with either low or no <em>ERBB2</em> expression <a class="reference internal" href="../tmp/_site/doc/anno/T001_nebla.html#izycka-swieszewska2010" id="id5"><span>[Izycka-Swieszewska2010]</span></a>.
+Indeed, we observe statistically significantly higher immune infiltration and lower stemness in this cluster (.38 median score, <abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value)`=1.39e-10 and .75 median score and :abbr:`KW adj. p-val (Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 1.75e-12 respectively, see Methods for details on these scores),
+with respect to all the other classes (Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T001_nebla.html#fig-nebla3"><span class="std std-ref">NEBLA3</span></a>).
+Furthermore, <abbr title="Neuroblastoma, mesenchymal, ERBB2 overexpression">T062</abbr> contains the majority of nodular ganglioneuroblastomas (7/12, <abbr title="χ2 test p-value">χ2 p-val</abbr> = 3.849e-05) (Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T001_nebla.html#fig-nebla2"><span class="std std-ref">NEBLA2</span></a>) and shows significant overexpression of
+ganglioneuroblastoma marker <em>ERRB3</em> (<abbr title="median Log-Fold Change">medLogFC</abbr> = 5.7, <abbr title="False Discovery Rate">FDR</abbr> ≤ 3.484e-15), as well as enrichment for <em>ERBB</em> network gene sets (<abbr title="median Normalized Enrichment Score">medNES</abbr> ≥ 1.27,
+<abbr title="Kruskal–Wallis one-way analysis of variance test p-value">KW p-val</abbr> = 1.95e-09, <abbr title="Dunn’s test of multiple comparisons Benjamin-Hochberg adjusted p-value">Dunn adj. p-val</abbr> &lt; 1.00e-04) <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#schaefer2009" id="id6"><span>[Schaefer2009]</span></a>.
+It also exhibits enrichment of glial cell developmental pathways (<abbr title="median Normalized Enrichment Score">medNES</abbr> ≥ 1.31, <abbr title="Kruskal–Wallis one-way analysis of variance test p-value">KW p-val</abbr> = 2.55e-12,
+<abbr title="Dunn’s test of multiple comparisons Benjamin-Hochberg adjusted p-value">Dunn adj. p-val</abbr> &lt; 1.00e-03) and adrenal gland developmental gene sets
+(<abbr title="median Normalized Enrichment Score">medNES</abbr> ≥ 1.30, <abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 2.14e-12,
+<abbr title="Dunn’s test of multiple comparisons Benjamin-Hochberg adjusted p-value">Dunn adj. p-val</abbr> &lt; 1.00e-02) <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#ashburner2000" id="id7"><span>[Ashburner2000]</span></a>, <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#tgoc2019" id="id8"><span>[TGOC2019]</span></a>.</p>
+<div class="figure align-default" id="fig-nebla3">
+<a class="reference internal image-reference" href="../_images/nebla3.png"><img alt="Fig. NEBLA3" src="../_images/nebla3.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-text">NEBLA3: 2-dimensional UMAP projection of the neuroblastoma samples coloured according to different scales.
+From left to right: immune activity score (from 0 to 1), identity (from adrenal to mesenchymal) and median Normalized Enrichment Score (from 0 to 1) of a
+set of genes downstream to MYCN amplification.</span><a class="headerlink" href="#fig-nebla3" title="Permalink to this image">¶</a></p>
+</div>
+<p><abbr title="Neuroblastoma, mesenchymal, NTRK1 overexpression">T063 NEBLA ADR NTRK1</abbr>, the most populous subgroup, corresponds to microarray cluster p13, and
+is characterized by overexpression of <em>NTRK1</em> with respect to its sibling clusters
+(<abbr title="median Log-Fold Change">medLogFC</abbr> = 1.51, <abbr title="False Discovery Rate">FDR</abbr> &lt; 5.78e-4). Patients with tumors within this class are significantly younger than ones in other NEBLA clusters
+(<abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 1.25e-05).
+It contains all samples classified as low and intermediate <a class="reference external" href="https://childrensoncologygroup.org/">COG</a> risk by <a class="reference external" href="https://ocg.cancer.gov/programs/target">TARGET</a> (<abbr title="χ2 test p-value">χ2 p-val</abbr> = 1.04e-08),
+and contains all patients classified as stage 4s (<abbr title="χ2 test p-value">χ2 p-val</abbr> = 2.76e-07) and stage 3 (<abbr title="χ2 test p-value">χ2 p-val</abbr> = 3.58e-2) (Fig. S22b).
+It is significantly enriched in patients with tumors with favourable histology (<abbr title="χ2 test p-value">χ2 p-val</abbr> = 3.30e-08), and also contains the only intermixed ganglioneuroblastoma tumor referenced in the
+<a class="reference external" href="https://ocg.cancer.gov/programs/target">TARGET</a> cohort (Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T001_nebla.html#fig-nebla2"><span class="std std-ref">NEBLA2</span></a>). <abbr title="Neuroblastoma, mesenchymal, NTRK1 overexpression">T063</abbr> shows enrichment of gene sets related to sympathetic nervous system development
+(<abbr title="median Normalized Enrichment Score">medNES</abbr> = 1.08, <abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 1.97e-17, <abbr title="Dunn’s test of multiple comparisons Benjamin-Hochberg adjusted p-value">Dunn adj. p-val</abbr> &lt; 1.00e-02)
+and chromaffin cells (<abbr title="median Normalized Enrichment Score">medNES</abbr> = 1.11, adj. p-val = 4.49e-17, <abbr title="Dunn’s test of multiple comparisons Benjamin-Hochberg adjusted p-value">Dunn adj. p-val</abbr> &lt; 1.00e-04) <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#ashburner2000" id="id12"><span>[Ashburner2000]</span></a>, <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#tgoc2019" id="id13"><span>[TGOC2019]</span></a>,
+suggesting this cluster may be defined by sympathoadrenal differentiation. It carries low immune infiltration (median score 0.29) and high stemness (median score 0.77) Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T001_nebla.html#fig-nebla4"><span class="std std-ref">NEBLA4</span></a>.</p>
+<div class="figure align-default" id="fig-nebla4">
+<a class="reference internal image-reference" href="../_images/nebla4.png"><img alt="Fig. NEBLA4" src="../_images/nebla4.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-text">NEBLA4: Distribution plots of various scores across the four identified neuroblastoma subtypes.
+From left to right: stemness score (top half), immune activity score (bottom half), identity and median Normalized Enrichment Score of a
+set of genes downstream to MYCN amplification. The last panel also includes at the bottomsamples in <abbr title="Neuroblastoma, mesenchymal, MYCN amplification">T064 NEBLA MYCN</abbr> while
+split in two groups, according to their MYCN amplification status by clinical tests as reported by the presenting institution.</span><a class="headerlink" href="#fig-nebla4" title="Permalink to this image">¶</a></p>
+</div>
+<p>The two remaining clusters, <abbr title="Neuroblastoma, mesenchymal, MYCN amplification">T064 NEBLA MYCN</abbr> and <abbr title="Neuroblastoma, mesenchymal, TERT overexpression without MYCN amplification">T065 NEBLA ADR TERT</abbr>,
+are exclusively comprised of samples marked as <a class="reference external" href="https://childrensoncologygroup.org/">COG</a> high-risk (Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T001_nebla.html#fig-nebla2"><span class="std std-ref">NEBLA2</span></a>), and overlap with microarray clusters p3 and p2 <a class="reference internal" href="../tmp/_site/doc/anno/T001_nebla.html#abel2011" id="id15"><span>[Abel2011]</span></a>, respectively.
+Both clusters exhibit overexpression of <em>BIRC5</em> compared to <abbr title="Neuroblastoma, mesenchymal, ERBB2 overexpression">T062 NEBLA ERBB2</abbr>  and <abbr title="Neuroblastoma, mesenchymal, NTRK1 overexpression">T063 NEBLA ADR NTRK1</abbr> (<abbr title="Neuroblastoma, mesenchymal, MYCN amplification">T064</abbr> <abbr>logFC (log-Fold Change)`</abbr> = 1.74, <abbr title="False Discovery Rate">FDR</abbr> = 3.33e-05;
+<abbr title="Neuroblastoma, mesenchymal, TERT overexpression without MYCN amplification">T065</abbr> <abbr title="log-Fold Change">logFC</abbr> = 2.05, <abbr title="False Discovery Rate">FDR</abbr> = 9.47e-07).
+<abbr title="Neuroblastoma, mesenchymal, MYCN amplification">T064 NEBLA MYCN</abbr>  is characterized by a statically significant overexpression of <em>MYCN</em> (<abbr title="median Log-Fold Change">medLogFC</abbr> = 1.51, <abbr title="False Discovery Rate">FDR</abbr> ≤ 5.78e-04),
+and contains the majority of samples flagged as <em>MYCN</em> amplified by <a class="reference external" href="https://ocg.cancer.gov/programs/target">TARGET</a>
+(<abbr title="χ2 test p-value">χ2 p-val</abbr> = 7.31e-15) (Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T001_nebla.html#fig-nebla1"><span class="std std-ref">NEBLA1</span></a>). It is also defined by the underexpression of <em>NTRK1</em> (<abbr title="log-Fold Change">logFC</abbr> = -3.25, <abbr title="False Discovery Rate">FDR</abbr> = 1.99e-09).
+Though the majority of <abbr title="Neuroblastoma, mesenchymal, MYCN amplification">T064 NEBLA MYCN</abbr>  samples are marked by <a class="reference external" href="https://ocg.cancer.gov/programs/target">TARGET</a> as <em>MYCN</em>-amplified, 37.5% of samples (n = 9/34) are annotated as non-amplified.
+However, gene set analysis with downstream <em>MYCN</em> targets from literature <a class="reference internal" href="../tmp/_site/doc/anno/T001_nebla.html#valentijn2012" id="id18"><span>[Valentijn2012]</span></a> shows continued enrichment of <em>MYCN</em> targets in these samples despite the absence of <em>MYCN</em> amplification (with all samples,
+<abbr title="median Normalized Enrichment Score">medNES</abbr> = 1.22, <abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 8.64e-17,
+<abbr title="Dunn’s test of multiple comparisons Benjamin-Hochberg adjusted p-value">Dunn adj. p-val</abbr> &lt; 1.00e-04,
+with only <em>MYCN</em>-non amplified tumors in <abbr title="Neuroblastoma, mesenchymal, MYCN amplification">T064</abbr>, <abbr title="median Normalized Enrichment Score">medNES</abbr> = 1.07,
+<abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 7.62e-11) (Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T001_nebla.html#fig-nebla3"><span class="std std-ref">NEBLA3</span></a>, <a class="reference internal" href="../tmp/_site/doc/anno/T001_nebla.html#fig-nebla4"><span class="std std-ref">NEBLA4</span></a>).
+In line with previous studies, which identified a correlation between <em>MYCN</em>-amplified tumors and mitosis-karryohexis index (MKI) <a class="reference internal" href="../tmp/_site/doc/anno/T001_nebla.html#teshiba2014" id="id19"><span>[Teshiba2014]</span></a>,
+we observe significantly more samples carrying high MKI (13/33, <abbr title="χ2 test p-value">χ2 p-val</abbr> = 1.03e-02)
+in <abbr title="Neuroblastoma, mesenchymal, MYCN amplification">T064</abbr> when compared to the other classes.</p>
+<p>Both <abbr title="Neuroblastoma, mesenchymal, MYCN amplification">T064 NEBLA MYCN</abbr> and <abbr title="Neuroblastoma, mesenchymal, TERT overexpression without MYCN amplification">T065 NEBLA ADR TERT</abbr>  are characterized by significant <em>TERT</em> overexpression compared to
+<abbr title="Neuroblastoma, mesenchymal, ERBB2 overexpression">T062 NEBLA ERBB2</abbr> and <abbr title="Neuroblastoma, mesenchymal, NTRK1 overexpression">T063 NEBLA ADR NTRK1</abbr>.
+Previous studies have explored the associations between telomere maintenance and prognosis in neuroblastoma, identifying three mutually exclusive pathways which are enriched in high risk tumors:
+<em>ATRX</em> upregulation, <em>MYCN</em> amplification, and <em>TERT</em> rearrangements, each of which result in the overexpression of <em>TERT</em> <a class="reference internal" href="../tmp/_site/doc/anno/T001_nebla.html#valentijn2015" id="id20"><span>[Valentijn2015]</span></a>, <a class="reference internal" href="../tmp/_site/doc/anno/T001_nebla.html#duan2018" id="id21"><span>[Duan2018]</span></a>.
+Indeed, both <abbr title="Neuroblastoma, mesenchymal, MYCN amplification">T064</abbr> and <abbr title="Neuroblastoma, mesenchymal, TERT overexpression without MYCN amplification">T065</abbr>
+have enrichment of alternative telomere lengthening pathways (<abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> &lt; 2.06e-14) <a class="reference internal" href="../tmp/_site/doc/anno/T001_nebla.html#nabetani2011" id="id22"><span>[Nabetani2011]</span></a>, <a class="reference internal" href="../tmp/_site/doc/anno/T001_nebla.html#jassal2020" id="id23"><span>[Jassal2020]</span></a> (Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T001_nebla.html#fig-nebla5"><span class="std std-ref">NEBLA5</span></a>).
+<em>TERT</em> rearrangements are associated with the upregulation of <em>SLC6A18</em> and <em>SLC6A19</em>, genes neighbouring <em>TERT</em> on the distal side of its breakpoint.
+Both these genes were significantly upregulated in <abbr title="Neuroblastoma, mesenchymal, TERT overexpression without MYCN amplification">T065 NEBLA ADR TERT</abbr>
+(<em>SLC6A18</em>, <abbr title="median Log-Fold Change">medLogFC</abbr> = 3.77, <abbr title="False Discovery Rate">FDR</abbr> ≤ 3.78e-06;
+<em>SLC6A19</em>, <abbr title="median Log-Fold Change">medLogFC</abbr> = 3.88, <abbr title="False Discovery Rate">FDR</abbr> &lt; 2.96e-03),
+but not in <abbr title="Neuroblastoma, mesenchymal, MYCN amplification">T064 NEBLA MYCN</abbr> , suggesting <abbr title="Neuroblastoma, mesenchymal, TERT overexpression without MYCN amplification">T065 NEBLA ADR TERT</abbr> may be comprised of <em>TERT</em>-rearranged neuroblastomas.
+<em>CCND1</em> amplification has been observed concurrently with <em>TERT</em> rearrangements in neuroblastomas <a class="reference internal" href="../tmp/_site/doc/anno/T001_nebla.html#fransson2020" id="id24"><span>[Fransson2020]</span></a> and is highly upregulated in <abbr title="Neuroblastoma, mesenchymal, TERT overexpression without MYCN amplification">T065</abbr>
+(<abbr title="median Log-Fold Change">medLogFC</abbr> = 1.09, <abbr title="False Discovery Rate">FDR</abbr> ≤ 5.67e-06).
+We find no significant differences in expression of <em>ATRX</em> between clusters. <abbr title="Neuroblastoma, mesenchymal, TERT overexpression without MYCN amplification">T065</abbr>
+exhibits the lowest expression of gene sets related to adrenal development (<abbr title="median Normalized Enrichment Score">medNES</abbr> = 0.39,
+<abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 2.14e-12,
+<abbr title="Dunn’s test of multiple comparisons Benjamin-Hochberg adjusted p-value">Dunn adj. p-val</abbr> &lt; 1.00e-04) <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#tgoc2019" id="id25"><span>[TGOC2019]</span></a>, <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#ashburner2000" id="id26"><span>[Ashburner2000]</span></a>,
+as well as low expression of mature chromaffin markers such as <em>EPAS1</em> (<abbr title="median Log-Fold Change">medLogFC</abbr> = -1.09, <abbr title="False Discovery Rate">FDR</abbr> ≤ 4.412e-02) <a class="reference internal" href="../tmp/_site/doc/anno/T001_nebla.html#westerlund2019" id="id27"><span>[Westerlund2019]</span></a>,
+suggesting this cluster is formed of poorly differentiated neuroblastomas. To further support this hypothesis, we observe here the highest median stemness score (0.81) among all classes, while a non-negligible immune infiltration score is also observed (.45) (Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T001_nebla.html#fig-nebla3"><span class="std std-ref">NEBLA3</span></a>, <a class="reference internal" href="../tmp/_site/doc/anno/T001_nebla.html#fig-nebla4"><span class="std std-ref">NEBLA4</span></a>).
+Hypermethylation of the <em>TERT</em> locus in high-risk neuroblastomas has been reported in literature <a class="reference internal" href="../tmp/_site/doc/anno/T001_nebla.html#olsson2016" id="id28"><span>[Olsson2016]</span></a>.
+In line with this observation, <abbr title="Neuroblastoma, mesenchymal, TERT overexpression without MYCN amplification">T065 NEBLA ADR TERT</abbr>
+shows enrichment for DNA methylation pathways (<abbr title="median Normalized Enrichment Score">medNES</abbr> ≥ 1.04, <abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 2.79e-14),
+and numerous histone modification gene sets: notably methylation of <em>H3K4</em>, a transcriptional inducer
+(<abbr title="median Normalized Enrichment Score">medNES</abbr> ≥ 1.02, <abbr title="Kruskal–Wallis one-way analysis of variance test p-value">KW p-val</abbr> = 2.97e-13),
+and methylation of <em>H3K9</em>, a known silencer of tumor suppressors (<abbr title="median Normalized Enrichment Score">medNES</abbr> ≥ 1.15,
+<abbr title="Kruskal–Wallis one-way analysis of variance test p-value">KW p-val</abbr> = 1.78e-12) <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#ashburner2000" id="id29"><span>[Ashburner2000]</span></a>, <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#tgoc2019" id="id30"><span>[TGOC2019]</span></a>, <a class="reference internal" href="../tmp/_site/doc/anno/T001_nebla.html#ke2014" id="id31"><span>[Ke2014]</span></a>, <a class="reference internal" href="../tmp/_site/doc/anno/T001_nebla.html#durinck2018" id="id32"><span>[Durinck2018]</span></a>.
+Furthermore, <abbr title="Neuroblastoma, mesenchymal, TERT overexpression without MYCN amplification">T065</abbr> is highly enriched for <em>PRC2</em> complex activity (<abbr title="median Normalized Enrichment Score">medNES</abbr> ≥ 1.06,
+<abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 1.15e-14, <abbr title="Dunn’s test of multiple comparisons Benjamin-Hochberg adjusted p-value">Dunn adj. p-val</abbr> &lt; 1.00e-03) <a class="reference internal" href="../tmp/_site/doc/anno/T001_nebla.html#nishimura2001" id="id33"><span>[Nishimura2001]</span></a>.
+Though <em>PRC2</em> activity is usually examined in the context of <em>MYCN</em> amplification <a class="reference internal" href="../tmp/_site/doc/anno/T001_nebla.html#corvetta2013" id="id34"><span>[Corvetta2013]</span></a>, <a class="reference internal" href="../tmp/_site/doc/anno/T001_nebla.html#tsubota2017" id="id35"><span>[Tsubota2017]</span></a>, <a class="reference internal" href="../tmp/_site/doc/anno/T001_nebla.html#chen2018" id="id36"><span>[Chen2018]</span></a>,
+this data supports recent evidence of a <em>PRC2</em> signature independent of <em>MYCN</em> amplification in high-risk neuroblastoma <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#yang2017" id="id37"><span>[Yang2017]</span></a>.</p>
+<p>Both <abbr title="Neuroblastoma, mesenchymal, MYCN amplification">T064 NEBLA MYCN</abbr> and <abbr title="Neuroblastoma, mesenchymal, TERT overexpression without MYCN amplification">T065 NEBLA ADR TERT</abbr>
+show a characteristic enrichment of COSMIC signature 18 gene set (<abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> ≤ 4.87e-12) <a class="reference internal" href="../tmp/_site/doc/anno/T001_nebla.html#brady2020" id="id38"><span>[Brady2020]</span></a>,
+associated with reactive oxygen species, when compared to T061 and <abbr title="Neuroblastoma, mesenchymal, ERBB2 overexpression">T062</abbr> (Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T001_nebla.html#fig-nebla5"><span class="std std-ref">NEBLA5</span></a>).
+This signature has been suggested to be causative of point mutations in neuroblastoma and has been associated with <em>MYCN</em> amplification, and increased expression of electron-transport, ribosomal, and mitochondrial genes.
+The latter, in particular, follows from a 17q gain, a prognostic marker for poor outcome <a class="reference internal" href="../tmp/_site/doc/anno/T001_nebla.html#brady2020" id="id39"><span>[Brady2020]</span></a>, <a class="reference internal" href="../tmp/_site/doc/anno/T001_nebla.html#kucab2019" id="id40"><span>[Kucab2019]</span></a>.
+We observe significant enrichment of chromosome 17q gene sets in <abbr title="Neuroblastoma, mesenchymal, TERT overexpression without MYCN amplification">T065 NEBLA ADR TERT</abbr>
+(<abbr title="median Normalized Enrichment Score">medNES</abbr> ≥ 1.20, <abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> ≤ 5.86e-04) <a class="reference internal" href="../tmp/_site/doc/anno/T001_nebla.html#yates2020" id="id41"><span>[Yates2020]</span></a>.
+Partial loss of 11q (q21-25), associated with <em>TERT</em> rearrangements in literature <a class="reference internal" href="../tmp/_site/doc/anno/T001_nebla.html#roderwieser2019" id="id42"><span>[Roderwieser2019]</span></a>, is also present in
+<abbr title="Neuroblastoma, mesenchymal, TERT overexpression without MYCN amplification">T065</abbr>
+(<abbr title="median Normalized Enrichment Score">medNES</abbr> ≤ 6.56e-01, <abbr title="Kruskal–Wallis one-way analysis of variance test p-value">KW p-val</abbr> ≤ 1.03e-05).
+Our data support the existence of two major phenotypes with very poor outcome in canonically high-risk neuroblastoma, one driven by <em>MYCN</em> activation,
+the other by <em>TERT</em> activation independent of <em>MYCN</em>. While genomic rearrangements
+for samples in <abbr title="Neuroblastoma, mesenchymal, TERT overexpression without MYCN amplification">T065</abbr> were not reported,
+neuroblastomas lacking genomic rearrangements at the <em>TERT</em> locus, but expressing a high <em>TERT</em> phenotype, have been reported in literature <a class="reference internal" href="../tmp/_site/doc/anno/T001_nebla.html#roderwieser2019" id="id43"><span>[Roderwieser2019]</span></a>, <a class="reference internal" href="../tmp/_site/doc/anno/T001_nebla.html#ackermann2018" id="id44"><span>[Ackermann2018]</span></a>.
+We speculate <abbr title="Neuroblastoma, mesenchymal, TERT overexpression without MYCN amplification">T065</abbr> may also include samples with non-lesional <em>TERT</em> activation,
+potentially involving gain of 17q and loss of 11q.</p>
+<div class="figure align-default" id="fig-nebla5">
+<a class="reference internal image-reference" href="../_images/nebla5.png"><img alt="Fig. NEBLA5" src="../_images/nebla5.png" style="width: 500px;" /></a>
+<p class="caption"><span class="caption-text">NEBLA5: Distribution plots of various gene sets enrichment scores relevant to the lineage definition across the four identified neuroblastoma subtypes.</span><a class="headerlink" href="#fig-nebla5" title="Permalink to this image">¶</a></p>
+</div>
+<p>The four neuroblastoma classes also show a significant segregation of samples by ploidy level. <abbr title="Neuroblastoma, mesenchymal, NTRK1 overexpression">T063</abbr> contains most hyperdiploid tumors
+(34/46, <abbr title="χ2 test p-value">χ2 p-val</abbr> = 4.01e-03) and consequently has the highest median ploidy value (1.285, <abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 6.56e-03) (Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T001_nebla.html#fig-nebla2"><span class="std std-ref">NEBLA2</span></a>).
+<abbr title="Neuroblastoma, mesenchymal, ERBB2 overexpression">T062 NEBLA ERBB2</abbr>  and <abbr title="Neuroblastoma, mesenchymal, MYCN amplification">T064 NEBLA MYCN</abbr>  have the lowest median value (1.00 both),
+with the former having a majority of diploid members (9/12, <abbr title="χ2 test p-value">χ2 p-val</abbr> = 4.01e-03) (Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T001_nebla.html#fig-nebla2"><span class="std std-ref">NEBLA2</span></a>).</p>
+<p>Furthermore, we observe a significant separation between the Kaplan-Meier fitted curves of overall survival rates (OS, available only for <a class="reference external" href="https://ocg.cancer.gov/programs/target">TARGET</a> data, <abbr title="Kaplan-Meier log rank test p-value">lrt p-val</abbr> = 1.36e-02 at 4948 days) (Fig.  <a class="reference internal" href="../tmp/_site/doc/anno/T001_nebla.html#fig-nebla6"><span class="std std-ref">NEBLA6</span></a>).
+As expected, patients with tumors in <abbr title="Neuroblastoma, mesenchymal, MYCN amplification">T064 NEBLA MYCN</abbr> have the poorest outcome,
+followed by <abbr title="Neuroblastoma, mesenchymal, TERT overexpression without MYCN amplification">T065 NEBLA ADR TERT</abbr>,
+<abbr title="Neuroblastoma, mesenchymal, ERBB2 overexpression">T062 NEBLA ERBB2</abbr>  and finally <abbr title="Neuroblastoma, mesenchymal, ERBB2 overexpression">T062 NEBLA ADR NTRK1</abbr>.
+This is consistent with literature: improved survival was documented for <em>ERBB2</em>-overexpressing neuroblastomas <a class="reference internal" href="../tmp/_site/doc/anno/T001_nebla.html#izycka-swieszewska2010" id="id46"><span>[Izycka-Swieszewska2010]</span></a>,
+although here observed only against other <a class="reference external" href="https://childrensoncologygroup.org/">COG</a> high-risk samples.</p>
+<div class="figure align-default" id="fig-nebla6">
+<a class="reference internal image-reference" href="../_images/nebla6.png"><img alt="Fig. NEBLA6" src="../_images/nebla6.png" style="width: 250px;" /></a>
+<p class="caption"><span class="caption-text">NEBLA5: Overall survival time curves of the four identified neuroblastoma subtypes.</span><a class="headerlink" href="#fig-nebla6" title="Permalink to this image">¶</a></p>
+</div>
+<p>Recent work investigated linage and developmental differences across neuroblastomas and identified two major groups defined by distinct expression modules driven:
+a sympathoadrenal identity and neural-crest cell-like (NCC-like)/mesenchymal identity.
+These developmental states are mediated epigenetically through the action of of super-enhancer and super-enhancer related transcriptional factor networks.
+Neuroblastomas can move from one to the other identity under selective pressure, induced by therapy or epigenetic alterations and often contain intermixed
+populations <a class="reference internal" href="../tmp/_site/doc/anno/T001_nebla.html#boeva2017" id="id48"><span>[Boeva2017]</span></a>, <a class="reference internal" href="../tmp/_site/doc/anno/T001_nebla.html#vangroningen2017" id="id49"><span>[vanGroningen2017]</span></a>. We thus decided to search for overlaps between these developmental identities and our clusters.
+Interestingly, we observe the characteristic signature of both lineages in all clusters although expressed to different degrees.
+<abbr title="Neuroblastoma, mesenchymal, ERBB2 overexpression">T062 NEBLA ERBB2</abbr> in particular is committed to an NCC-like linage as shown by high expression of
+NCC-like and mesenchymal markers (<abbr title="median Normalized Enrichment Score">medNES</abbr> = 1.57,
+<abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 3.69e-07,
+<abbr title="Dunn’s test of multiple comparisons Benjamin-Hochberg adjusted p-value">Dunn adj. p-val</abbr> &lt; 1.00e-03) against all other classes (Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T001_nebla.html#fig-nebla3"><span class="std std-ref">NEBLA3</span></a>, <a class="reference internal" href="../tmp/_site/doc/anno/T001_nebla.html#fig-nebla4"><span class="std std-ref">NEBLA4</span></a>).
+These in turn show enrichment noradrenergic and sympathoadrenal gene sets (<abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> ≤ 1.19e-09) <a class="reference internal" href="../tmp/_site/doc/anno/T001_nebla.html#boeva2017" id="id50"><span>[Boeva2017]</span></a>, <a class="reference internal" href="../tmp/_site/doc/anno/T001_nebla.html#vangroningen2017" id="id51"><span>[vanGroningen2017]</span></a>, <a class="reference internal" href="../tmp/_site/doc/anno/T001_nebla.html#tomolonis2018" id="id52"><span>[Tomolonis2018]</span></a> (Fig.  <a class="reference internal" href="../tmp/_site/doc/anno/T001_nebla.html#fig-nebla5"><span class="std std-ref">NEBLA5</span></a>).
+Samples belonging to <abbr title="Neuroblastoma, mesenchymal, TERT overexpression without MYCN amplification">T065 NEBLA ADR TERT</abbr> seem to be the most committed to the sympathoadrenal specification (<abbr title="Dunn’s test of multiple comparisons Benjamin-Hochberg adjusted p-value">Dunn adj. p-val</abbr> &lt; 0.05
+against <abbr title="Neuroblastoma, mesenchymal, ERBB2 overexpression">T062</abbr> and <abbr title="Neuroblastoma, mesenchymal, MYCN amplification">T064</abbr>) (Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T001_nebla.html#fig-nebla4"><span class="std std-ref">NEBLA4</span></a>).
+<abbr title="Neuroblastoma, mesenchymal, MYCN amplification">T064 NEBLA MYCN</abbr> shows high variation in the values of its enrichment scores for both linages (Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T001_nebla.html#fig-nebla4"><span class="std std-ref">NEBLA4</span></a>).
+The expression profile downstream of <em>MYCN</em> amplification may have overridden the original identity signal,
+or alternatively mixed-lineage populations are common in <em>MYCN</em>-amplified samples.</p>
+<div class="section" id="bibliography">
+<h2>Bibliography<a class="headerlink" href="#bibliography" title="Permalink to this headline">¶</a></h2>
+<dl class="citation">
+<dt class="label" id="abel2011"><span class="brackets">Abel2011</span><span class="fn-backref">(<a href="#id1">1</a>,<a href="#id15">2</a>)</span></dt>
+<dd><p>Abel, F., Dalevi, D., Nethander, M.,2011. A 6-gene signature identifies four molecular subgroups of neuroblastoma. Cancer cell international 11, p. 9.</p>
+</dd>
+<dt class="label" id="ackermann2018"><span class="brackets"><a class="fn-backref" href="#id44">Ackermann2018</a></span></dt>
+<dd><p>Ackermann, S., Cartolano, M., Hero, B.,2018. A mechanistic classification of clinical phenotypes in neuroblastoma. Science 362(6419), pp. 1165–1170.</p>
+</dd>
+<dt class="label" id="ashburner2000"><span class="brackets">Ashburner2000</span><span class="fn-backref">(<a href="#id3">1</a>,<a href="#id7">2</a>,<a href="#id12">3</a>,<a href="#id26">4</a>,<a href="#id29">5</a>)</span></dt>
+<dd><p>Ashburner, M., Ball, C.A., Blake, J.A.,2000. Gene Ontology: tool for the unification of biology. Nature Genetics 25(1), pp. 25–29.</p>
+</dd>
+<dt class="label" id="boeva2017"><span class="brackets">Boeva2017</span><span class="fn-backref">(<a href="#id48">1</a>,<a href="#id50">2</a>)</span></dt>
+<dd><p>Boeva, V., Louis-Brennetot, C., Peltier, A.,2017. Heterogeneity of neuroblastoma cell identity defined by transcriptional circuitries. Nature Genetics 49(9), pp. 1408–1413.</p>
+</dd>
+<dt class="label" id="brady2020"><span class="brackets">Brady2020</span><span class="fn-backref">(<a href="#id38">1</a>,<a href="#id39">2</a>)</span></dt>
+<dd><p>Brady, S.W., Liu, Y., Ma, X.,2020. Pan-neuroblastoma analysis reveals age- and signature-associated driver alterations. Nature Communications 11(1), p. 5183.</p>
+</dd>
+<dt class="label" id="chen2018"><span class="brackets"><a class="fn-backref" href="#id36">Chen2018</a></span></dt>
+<dd><p>Chen, L., Alexe, G., Dharia, N.V.,2018. CRISPR-Cas9 screen reveals a MYCN-amplified neuroblastoma dependency on EZH2. The Journal of Clinical Investigation.</p>
+</dd>
+<dt class="label" id="corvetta2013"><span class="brackets"><a class="fn-backref" href="#id34">Corvetta2013</a></span></dt>
+<dd><p>Corvetta, D., Chayka, O., Gherardi, S.,2013. Physical interaction between MYCN oncogene and polycomb repressive complex 2 (PRC2) in neuroblastoma: functional and therapeutic implications. The Journal of Biological Chemistry 288(12), pp. 8332–8341.</p>
+</dd>
+<dt class="label" id="duan2018"><span class="brackets"><a class="fn-backref" href="#id21">Duan2018</a></span></dt>
+<dd><p>Duan, X.-F. and Zhao, Q. 2018. TERT-mediated and ATRX-mediated Telomere Maintenance and Neuroblastoma. Journal of Pediatric Hematology/Oncology 40(1), pp. 1–6.</p>
+</dd>
+<dt class="label" id="durinck2018"><span class="brackets"><a class="fn-backref" href="#id32">Durinck2018</a></span></dt>
+<dd><p>Durinck, K. and Speleman, F. 2018. Epigenetic regulation of neuroblastoma development. Cell and Tissue Research 372(2), pp. 309–324.</p>
+</dd>
+<dt class="label" id="fransson2020"><span class="brackets"><a class="fn-backref" href="#id24">Fransson2020</a></span></dt>
+<dd><p>Fransson, S., Martinez-Monleon, A., Johansson, M.,2020. Whole-genome sequencing of recurrent neuroblastoma reveals somatic mutations that affect key players in cancer progression and telomere maintenance. Scientific Reports 10(1), p. 22432.</p>
+</dd>
+<dt class="label" id="vangroningen2017"><span class="brackets">vanGroningen2017</span><span class="fn-backref">(<a href="#id49">1</a>,<a href="#id51">2</a>)</span></dt>
+<dd><p>van Groningen, T., Koster, J., Valentijn, L.J.,2017. Neuroblastoma is composed of two super-enhancer-associated differentiation states. Nature Genetics 49(8), pp. 1261–1266.</p>
+</dd>
+<dt class="label" id="izycka-swieszewska2010"><span class="brackets">Izycka-Swieszewska2010</span><span class="fn-backref">(<a href="#id2">1</a>,<a href="#id5">2</a>,<a href="#id46">3</a>)</span></dt>
+<dd><p>Izycka-Swieszewska, E., Wozniak, A., Kot, J.,2010. Prognostic significance of HER2 expression in neuroblastic tumors. Modern Pathology 23(9), pp. 1261–1268.</p>
+</dd>
+<dt class="label" id="jassal2020"><span class="brackets"><a class="fn-backref" href="#id23">Jassal2020</a></span></dt>
+<dd><p>Jassal, B., Matthews, L., Viteri, G.,2020. The Reactome Pathway Knowledgebase. Nucleic Acids Research 48(D1), pp. D498–D503.</p>
+</dd>
+<dt class="label" id="ke2014"><span class="brackets"><a class="fn-backref" href="#id31">Ke2014</a></span></dt>
+<dd><p>Ke, X.-X., Zhang, D., Zhu, S., Xia, Q., Xiang, Z. and Cui, H. 2014. Inhibition of H3K9 methyltransferase G9a repressed cell proliferation and induced autophagy in neuroblastoma cells. Plos One 9(9), p. e106962.</p>
+</dd>
+<dt class="label" id="kucab2019"><span class="brackets"><a class="fn-backref" href="#id40">Kucab2019</a></span></dt>
+<dd><p>Kucab, J.E., Zou, X., Morganella, S.,2019. A compendium of mutational signatures of environmental agents. Cell 177(4), p. 821–836.e16.</p>
+</dd>
+<dt class="label" id="nabetani2011"><span class="brackets"><a class="fn-backref" href="#id22">Nabetani2011</a></span></dt>
+<dd><p>Nabetani, A. and Ishikawa, F. 2011. Alternative lengthening of telomeres pathway: recombination-mediated telomere maintenance mechanism in human cells. Journal of Biochemistry 149(1), pp. 5–14.</p>
+</dd>
+<dt class="label" id="nishimura2001"><span class="brackets"><a class="fn-backref" href="#id33">Nishimura2001</a></span></dt>
+<dd><p>Nishimura, D. 2001. BioCarta. Biotech Software &amp; Internet Report 2(3), pp. 117–120.</p>
+</dd>
+<dt class="label" id="olsson2016"><span class="brackets"><a class="fn-backref" href="#id28">Olsson2016</a></span></dt>
+<dd><p>Olsson, M., Beck, S., Kogner, P., Martinsson, T. and Carén, H. 2016. Genome-wide methylation profiling identifies novel methylated genes in neuroblastoma tumors. Epigenetics 11(1), pp. 74–84.</p>
+</dd>
+<dt class="label" id="roderwieser2019"><span class="brackets">Roderwieser2019</span><span class="fn-backref">(<a href="#id42">1</a>,<a href="#id43">2</a>)</span></dt>
+<dd><p>Roderwieser, A., Sand, F., Walter, E.,2019. Telomerase is a prognostic marker of poor outcome and a therapeutic target in neuroblastoma. JCO precision oncology (3), pp. 1–20.</p>
+</dd>
+<dt class="label" id="schaefer2009"><span class="brackets"><a class="fn-backref" href="#id6">Schaefer2009</a></span></dt>
+<dd><p>Schaefer, C.F., Anthony, K., Krupa, S.,2009. PID: the pathway interaction database. Nucleic Acids Research 37(Database issue), pp. D674-9.</p>
+</dd>
+<dt class="label" id="teshiba2014"><span class="brackets"><a class="fn-backref" href="#id19">Teshiba2014</a></span></dt>
+<dd><p>Teshiba, R., Kawano, S., Wang, L.L.,2014. Age-dependent prognostic effect by Mitosis-Karyorrhexis Index in neuroblastoma: a report from the Children’s Oncology Group. Pediatric and developmental pathology : the official journal of the Society for Pediatric Pathology and the Paediatric Pathology Society 17(6), pp. 441–449.</p>
+</dd>
+<dt class="label" id="tgoc2019"><span class="brackets">TGOC2019</span><span class="fn-backref">(<a href="#id4">1</a>,<a href="#id8">2</a>,<a href="#id13">3</a>,<a href="#id25">4</a>,<a href="#id30">5</a>)</span></dt>
+<dd><p>The Gene Ontology Consortium 2019. The Gene Ontology Resource: 20 years and still GOing strong. Nucleic Acids Research 47(D1), pp. D330–D338.</p>
+</dd>
+<dt class="label" id="tomolonis2018"><span class="brackets"><a class="fn-backref" href="#id52">Tomolonis2018</a></span></dt>
+<dd><p>Tomolonis, J.A., Agarwal, S. and Shohet, J.M. 2018. Neuroblastoma pathogenesis: deregulation of embryonic neural crest development. Cell and Tissue Research 372(2), pp. 245–262.</p>
+</dd>
+<dt class="label" id="tsubota2017"><span class="brackets"><a class="fn-backref" href="#id35">Tsubota2017</a></span></dt>
+<dd><p>Tsubota, S., Kishida, S., Shimamura, T.,2017. PRC2-Mediated Transcriptomic Alterations at the Embryonic Stage Govern Tumorigenesis and Clinical Outcome in MYCN-Driven Neuroblastoma. Cancer Research 77(19), pp. 5259–5271.</p>
+</dd>
+<dt class="label" id="valentijn2012"><span class="brackets"><a class="fn-backref" href="#id18">Valentijn2012</a></span></dt>
+<dd><p>Valentijn, L.J., Koster, J., Haneveld, F.,2012. Functional MYCN signature predicts outcome of neuroblastoma irrespective of MYCN amplification. Proceedings of the National Academy of Sciences of the United States of America 109(47), pp. 19190–19195.</p>
+</dd>
+<dt class="label" id="valentijn2015"><span class="brackets"><a class="fn-backref" href="#id20">Valentijn2015</a></span></dt>
+<dd><p>Valentijn, L.J., Koster, J., Zwijnenburg, D.A.,2015. TERT rearrangements are frequent in neuroblastoma and identify aggressive tumors. Nature Genetics 47(12), pp. 1411–1414.</p>
+</dd>
+<dt class="label" id="westerlund2019"><span class="brackets"><a class="fn-backref" href="#id27">Westerlund2019</a></span></dt>
+<dd><p>Westerlund, I., Shi, Y. and Holmberg, J. 2019. EPAS1/HIF2α correlates with features of low-risk neuroblastoma and with adrenal chromaffin cell differentiation during sympathoadrenal development. Biochemical and Biophysical Research Communications 508(4), pp. 1233–1239.</p>
+</dd>
+<dt class="label" id="yang2017"><span class="brackets"><a class="fn-backref" href="#id37">Yang2017</a></span></dt>
+<dd><p>Yang, X.H., Tang, F., Shin, J. and Cunningham, J.M. 2017. Incorporating genomic, transcriptomic and clinical data: a prognostic and stem cell-like MYC and PRC imbalance in high-risk neuroblastoma. BMC Systems Biology 11(Suppl 5), p. 92.</p>
+</dd>
+<dt class="label" id="yates2020"><span class="brackets"><a class="fn-backref" href="#id41">Yates2020</a></span></dt>
+<dd><p>Yates, A.D., Achuthan, P., Akanni, W.,2020. Ensembl 2020. Nucleic Acids Research 48(D1), pp. D682–D688.</p>
+</dd>
+</dl>
+</div>
+</div>
+
+
+          </div>
+          <div class="page-nav">
+            <div class="inner"><ul class="page-nav">
+  <li class="prev">
+    <a href="T000_cns.html"
+       title="previous chapter">← T000 Central Nervous System</a>
+  </li>
+  <li class="next">
+    <a href="T002_T003_mesoderm.html"
+       title="next chapter">T002 and T003 Mesodermal Tumour →</a>
+  </li>
+</ul><div class="footer" role="contentinfo">
+      &#169; Copyright 2022, Federico Comitani, Joshua O. Nash.
+    <br>
+    Created using <a href="http://sphinx-doc.org/">Sphinx</a> 4.3.2 with <a href="https://github.com/schettino72/sphinx_press_theme">Press Theme</a> 0.8.0.
+</div>
+            </div>
+          </div>
+      </page>
+    </div></div>
+    
+    
+  </body>
+</html>

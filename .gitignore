@@ -1,7 +1,5 @@
 # Sphinx
-_build
-Makefile
-otter_dashboard
+tmp
 
 #jekyll
 _site
