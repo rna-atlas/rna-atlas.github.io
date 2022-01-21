@@ -60,6 +60,13 @@ If using this annotation data or related software, please cite:
 .. toctree::
    :maxdepth: 1
    :hidden:
+   :caption: Dashboard
+   
+   dash.rst
+
+.. toctree::
+   :maxdepth: 1
+   :hidden:
    :caption: F.A.Q.
    
    faq.rst

@@ -679,7 +679,7 @@ When comparing the major Wilms tumor cluster :abbr:`T092 WILMS (Wilms tumor)` to
 :abbr:`T099 UCS MYO (Uterine carcinosarcoma, myogenic differentiation)`, we observe significantly higher expression 
 of metanephrogenic genes *PAX2* (:abbr:`logFC (log-Fold Change)` = 1.81, :abbr:`FDR (False Discovery Rate)` = 1.03e-07), 
 *OSR1* (:abbr:`logFC (log-Fold Change)` = 1.77, :abbr:`FDR (False Discovery Rate)` = 9.07e-04), *EYA1* (:abbr:`logFC (log-Fold Change)` = 1.44, 
-:abbr:`FDR (False Discovery Rate)` = 1.17e-06), *MEOX1* (:abbr:`logFC (log-Fold Change)` = 1.13, :abbr:`FDR (False Discovery Rate)` = 2.269e-03), 
+:abbr:`FDR (False Discovery Rate)` = 1.17e-06), *MEOX1* (:abbr:`logFC (log-Fold Change)` = 1.13, :abbr:`FDR (False Discovery Rate)` = 2.269e-03),
 and *SALL2* (:abbr:`logFC (log-Fold Change)` = 0.96, :abbr:`FDR (False Discovery Rate)` = 3.962e-04) [Li2002]_, 
 suggesting these tumors to have an expression profile closer to the kidney. 
 :abbr:`T092 WILMS (Wilms tumor)` then divides into 5 different subtypes with characteristic transcriptional profiles (Fig. :ref:`MESD1b <fig-mesd1>`), 

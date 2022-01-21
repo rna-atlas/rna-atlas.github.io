@@ -72,7 +72,7 @@ Acute lymphoblastic leukemia, non-TARGET cohort
 At the next level within :abbr:`T123 ALL B (Acute lymphoblastic leukemia mix B)`, we observe the separation of 
 :abbr:`T126 ALL ETV6-RUNX1 (Acute lymphoblastic leukemia, ETV6-RUNX1 fusion)` (n = 20) a small class of samples marked with 
 *ETV6-RUNX1* fusion (:abbr:`χ2 p-val (χ2 test p-value)` < 2.20e-16) from the remaining :abbr:`ALL (Acute lymphoblastic leukemia)` 
-in :abbr:`T125 ALL C (Acute lymphoblastic leukemia mix C)` (n=107) (Fig. :ref:`LEU1b <fig-leu1>``). 
+in :abbr:`T125 ALL C (Acute lymphoblastic leukemia mix C)` (n=107) (Fig. :ref:`LEU1b <fig-leu1>`). 
 The t(12;21)(p13;q22) translocation which results from this fusion is often accompanied by copy number gains in *RUNX1*, 
 which is overexpressed in :abbr:`T126 ALL ETV6-RUNX1 (Acute lymphoblastic leukemia, ETV6-RUNX1 fusion)` 
 (:abbr:`logFC (log-Fold Change)` = 4.17e-01, :abbr:`FDR (False Discovery Rate)` = 3.33e-03). 

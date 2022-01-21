@@ -48,6 +48,13 @@
     <div class="nav-item">
       <a href="../index.html#welcome-to-the-annotation-of-the-transcriptional-cancer-atlas"
          class="nav-link ">
+         Dashboard
+      </a>
+    </div>
+  
+    <div class="nav-item">
+      <a href="../index.html#welcome-to-the-annotation-of-the-transcriptional-cancer-atlas"
+         class="nav-link ">
          F.A.Q.
       </a>
     </div>
@@ -79,6 +86,13 @@
       <a href="../index.html#welcome-to-the-annotation-of-the-transcriptional-cancer-atlas"
          class="nav-link  router-link-active">
          Annotation
+      </a>
+    </div>
+  
+    <div class="nav-item">
+      <a href="../index.html#welcome-to-the-annotation-of-the-transcriptional-cancer-atlas"
+         class="nav-link ">
+         Dashboard
       </a>
     </div>
   
@@ -197,6 +211,24 @@
   
     <div class="sidebar-group">
       <p class="caption">
+        <span class="caption-text"><a href="../index.html#welcome-to-the-annotation-of-the-transcriptional-cancer-atlas">Dashboard</a></span>
+      </p>
+      <ul class="">
+        
+          <li class="toctree-l1 ">
+            
+              <a href="../dash.html" class="reference internal ">Otter Dashboard</a>
+            
+
+            
+          </li>
+
+        
+      </ul>
+    </div>
+  
+    <div class="sidebar-group">
+      <p class="caption">
         <span class="caption-text"><a href="../index.html#welcome-to-the-annotation-of-the-transcriptional-cancer-atlas">F.A.Q.</a></span>
       </p>
       <ul class="">
@@ -263,11 +295,11 @@
 <h1>T002 and T003 Mesodermal Tumour<a class="headerlink" href="#t002-and-t003-mesodermal-tumour" title="Permalink to this headline">¶</a></h1>
 <p>Version: 0.1.0
 <br/>
-Last change: Jan 20, 2022</p>
+Last change: Jan 21, 2022</p>
 <p>We find that most sarcomas and other mesenchymal cancers, together with sarcomatoid solid tumors, are divided into two major families.
 Samples in <abbr title="Mesodermal tumor, low stemness">T002 MESODM STEMlow</abbr> (n = 565) have lower stemness and higher immune infiltration,
 while <abbr title="Mesodermal tumor, high stemness">T003 MESODM STEMhigh</abbr> (n = 483) have higher stemness and lower immune infiltration
-(Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#fig-mesd1"><span class="std std-ref">MESD1a, c</span></a>)</p>
+(Fig. <a class="reference internal" href="#fig-mesd1"><span class="std std-ref">MESD1a, c</span></a>)</p>
 <div class="figure align-default" id="fig-mesd1">
 <a class="reference internal image-reference" href="../_images/mesd1.png"><img alt="Fig. MESD1" src="../_images/mesd1.png" style="width: 600px;" /></a>
 <p class="caption"><span class="caption-text">CNS1: A, 2-dimensional UMAP projection of Mesodermal tumors by gene expression. Subtypes at the second level of the hierarchy
@@ -281,7 +313,7 @@ coloured according to our in-house stemness score (left), immune score (center) 
 <p><abbr title="Mesodermal tumor, low stemness">T002</abbr> splits into two clusters at the first level:
 <abbr title="Leiomyosarcoma">T067 LMS</abbr> (n = 78), which contains most leiomyosarcomas (LMS) and
 <abbr title="Mesodermal tumor, low stemness except leiomyosarcoma">T066 MESODM STEMlow A</abbr>
-(n = 487), carrying the remaining malignancies (Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#fig-mesd1"><span class="std std-ref">MESD1b</span></a>).</p>
+(n = 487), carrying the remaining malignancies (Fig. <a class="reference internal" href="#fig-mesd1"><span class="std std-ref">MESD1b</span></a>).</p>
 </div>
 <div class="section" id="leiomyosarcoma">
 <h2>Leiomyosarcoma<a class="headerlink" href="#leiomyosarcoma" title="Permalink to this headline">¶</a></h2>
@@ -309,7 +341,7 @@ has a higher incidence of relapsed tumors (<abbr title="χ2 test p-value">χ2 p-
 <p><abbr title="Mesoderm, low stemness except leiomyosarcoma">T066 MESODM STEMlow A</abbr> splits into three groups:
 osteosarcomas in <abbr title="Osteosarcoma">T068 OSARC</abbr> (n = 131), a class of sarcoma containing mixed diagnoses in
 <abbr title="Sarcoma, low stemness">T069 SARC STEMlow</abbr> (n = 275), and mesotheliomas in
-<abbr title="Malignant pleural mesothelioma">T070 MPM</abbr> (n = 81)  (Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#fig-mesd1"><span class="std std-ref">MESD1a, b</span></a>).
+<abbr title="Malignant pleural mesothelioma">T070 MPM</abbr> (n = 81)  (Fig. <a class="reference internal" href="#fig-mesd1"><span class="std std-ref">MESD1a, b</span></a>).
 These clusters differ significantly in age (<abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 1.67e-33)
 in their proportion of pediatric patients (<abbr title="χ2 test p-value">χ2 p-val</abbr> ≤ 4.49e-56);
 <abbr title="Osteosarcoma">T068 OSARC</abbr> has the youngest patients (median age of 15 <abbr title="years old">y.o.</abbr>)
@@ -326,11 +358,11 @@ such as osteosarcoma (n = 26) and <abbr title="leiomyosarcoma">LMS</abbr> (n = 1
 Samples from said diseases present in <abbr title="Sarcoma, low stemness">T069 SARC STEMlow</abbr>
 reflect clinically and/or developmentally distinct groups within these specific tumor types that may exhibit
 different levels of immune activity, genomic lesions, tumor differentiation, and disease progression compared
-to their bona fide clusters, as recently described <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#anderson2021" id="id1"><span>[Anderson2021]</span></a>.</p>
+to their bona fide clusters, as recently described <a class="reference internal" href="#anderson2021" id="id1"><span>[Anderson2021]</span></a>.</p>
 </div>
 <div class="section" id="osteosarcoma">
 <h2>Osteosarcoma<a class="headerlink" href="#osteosarcoma" title="Permalink to this headline">¶</a></h2>
-<p>The tumors in <abbr title="Osteosarcoma">T068 OSARC</abbr> divide into four distinct subtypes (Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#fig-mesd2"><span class="std std-ref">MESD2a</span></a>). All samples for which we have
+<p>The tumors in <abbr title="Osteosarcoma">T068 OSARC</abbr> divide into four distinct subtypes (Fig. <a class="reference internal" href="#fig-mesd2"><span class="std std-ref">MESD2a</span></a>). All samples for which we have
 clinical data are central osteosarcomas of the long bones or pelvis
 (<cite>TARGET discovery cohort &lt;https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000468.v21.p8&gt;</cite>).</p>
 <div class="figure align-default" id="fig-mesd2">
@@ -344,11 +376,11 @@ bone develompent (center) scores, and SP7 expression (right).</span><a class="he
 contains predominantly male patients (75.00% of samples) with a median age of 15.65 <abbr title="years old">y.o.</abbr>.
 It exhibits overexpression (<abbr title="False Discovery Rate">FDR</abbr> &lt; 0.05)
 of cancer testis antigen (<em>CTA</em>) genes, most notably the <em>SSX</em> (8/9 genes), <em>MAGEA</em> (10/12), <em>MAGEB</em> (6/10), <em>CSAG</em> (2/2) and <em>XAGE</em> (4/5)
-families, several of which are known to be upregulated in osteosarcoma <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#zou2012" id="id2"><span>[Zou2012]</span></a>.
+families, several of which are known to be upregulated in osteosarcoma <a class="reference internal" href="#zou2012" id="id2"><span>[Zou2012]</span></a>.
 <br/>
-Though <abbr title="Cancer testis antigen">CTA</abbr> expression has been associated with poor prognosis in osteosarcoma <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#zou2012" id="id3"><span>[Zou2012]</span></a>,
+Though <abbr title="Cancer testis antigen">CTA</abbr> expression has been associated with poor prognosis in osteosarcoma <a class="reference internal" href="#zou2012" id="id3"><span>[Zou2012]</span></a>,
 this cluster exhibits favourable prognosis when compared to its sibling clusters (<abbr title="log-rank test p-value">lrt p-val</abbr> = 5.56e-05 at 5840 days,
-median <abbr title="overall survival">OS</abbr> not reached) (Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#fig-mesd2"><span class="std std-ref">MESD2b</span></a>).
+median <abbr title="overall survival">OS</abbr> not reached) (Fig. <a class="reference internal" href="#fig-mesd2"><span class="std std-ref">MESD2b</span></a>).
 As this cluster is also associated with direct ossification (<abbr title="median Normalized Enrichment Score">medNES</abbr> ≥ 1.01,
 <abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 6.69e-10)
 and positive regulation of osteoblast differentiation (<abbr title="median Normalized Enrichment Score">medNES</abbr> ≥ 1.05,
@@ -370,41 +402,41 @@ chondrocyte differentiation (<abbr title="median Normalized Enrichment Score">me
 <abbr title="Dunn’s test of multiple comparisons Benjamin-Hochberg adjusted p-value">Dunn adj. p-val</abbr> &lt; 1.00e-03),
 and cartilage development involved in endochondral morphogenesis (<abbr title="median Normalized Enrichment Score">medNES</abbr> = 1.13,
 <abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 4.21e-09)
-<a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#ashburner2000" id="id4"><span>[Ashburner2000]</span></a>, <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#tgoc2019" id="id5"><span>[TGOC2019]</span></a> (Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#fig-mesd3"><span class="std std-ref">MESD3</span></a>).
+<a class="reference internal" href="T005_leuk.html#ashburner2000" id="id4"><span>[Ashburner2000]</span></a>, <a class="reference internal" href="#tgoc2019" id="id5"><span>[TGOC2019]</span></a> (Fig. <a class="reference internal" href="#fig-mesd3"><span class="std std-ref">MESD3</span></a>).
 These data suggest these tumors have significant chondroid components and may represent chondroblastic osteosarcoma.
 Furthermore, <abbr title="Osteosarcoma, chondroblastic differentiation">T072 OSARC CHOND</abbr>
 contains all osteosarcomas of the pelvis, including the ilium and sacrum, in our dataset
 (0/22 vs. 4/16 vs. 0/17 vs. 0/3, <abbr title="χ2 test p-value">χ2 p-val</abbr> = 1.03e-02), a location
-associated with chondroblastic osteosarcomas <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#saab2005" id="id6"><span>[Saab2005]</span></a>, <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#kawai1998" id="id7"><span>[Kawai1998]</span></a>.
+associated with chondroblastic osteosarcomas <a class="reference internal" href="#saab2005" id="id6"><span>[Saab2005]</span></a>, <a class="reference internal" href="#kawai1998" id="id7"><span>[Kawai1998]</span></a>.
 <abbr title="Osteosarcoma, chondroblastic differentiation">T072 OSARC CHOND</abbr> also overexpresses
 <em>MYC</em> (median <abbr title="log-Fold Change">logFC</abbr> = 1.2, <abbr title="False Discovery Rate">FDR</abbr> ≤ 4.67e-04),
 and has the lowest expression of <em>RB1</em> (median <abbr title="log-Fold Change">logFC</abbr> = -1.11,
 <abbr title="False Discovery Rate">FDR</abbr> ≤ 1.63e-03). Patients in this cluster exhibit poor overall survival,
-reaching median <abbr title="overall survival">OS</abbr> at 1906 days post diagnosis (Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#fig-mesd2"><span class="std std-ref">MESD2b</span></a>).
+reaching median <abbr title="overall survival">OS</abbr> at 1906 days post diagnosis (Fig. <a class="reference internal" href="#fig-mesd2"><span class="std std-ref">MESD2b</span></a>).
 <br/> <br/>
 <abbr title="Osteosarcoma, osteoblastic differentiation">T073 OSARC OSBLA</abbr> (n = 37) has the youngest
 group of patients with a median age of 13.66 <abbr title="years old">y.o.</abbr> and is composed predominantly
 of female patients (57.89% of the samples).
 It significantly overexpresses the master bone regulator <em>SP7</em> (median <abbr title="log-Fold Change">logFC</abbr> = 0.939,
-<abbr title="False Discovery Rate">FDR</abbr> ≤ 1.712e-02) (Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#fig-mesd2"><span class="std std-ref">MESD2c</span></a>),
+<abbr title="False Discovery Rate">FDR</abbr> ≤ 1.712e-02) (Fig. <a class="reference internal" href="#fig-mesd2"><span class="std std-ref">MESD2c</span></a>),
 and osteoblast markers <em>SOST</em> (median <abbr title="log-Fold Change">logFC</abbr> = 5.66,
 <abbr title="False Discovery Rate">FDR</abbr> ≤ 1.437e-04)
-and <em>SATB2</em> (median <abbr title="log-Fold Change">logFC</abbr> = 1.52, <abbr title="False Discovery Rate">FDR</abbr> ≤ 1.142e-03) <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#conner2013" id="id8"><span>[Conner2013]</span></a>.
+and <em>SATB2</em> (median <abbr title="log-Fold Change">logFC</abbr> = 1.52, <abbr title="False Discovery Rate">FDR</abbr> ≤ 1.142e-03) <a class="reference internal" href="#conner2013" id="id8"><span>[Conner2013]</span></a>.
 Furthermore, it is enriched for genesets for bone mineralization (<abbr title="median Normalized Enrichment Score">medNES</abbr> ≥ 1.02,
 <abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 4.26e-05),
 and replacement ossification of existing non-cartilagenous tissues (<abbr title="median Normalized Enrichment Score">medNES</abbr> ≥ 1.07,
 <abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 2.23e-03,
 <abbr title="Dunn’s test of multiple comparisons Benjamin-Hochberg adjusted p-value">Dunn adj. p-val</abbr> &lt; 5.00e-02)
-<a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#ashburner2000" id="id9"><span>[Ashburner2000]</span></a>, <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#tgoc2019" id="id10"><span>[TGOC2019]</span></a> (Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#fig-mesd3"><span class="std std-ref">MESD3</span></a>).
+<a class="reference internal" href="T005_leuk.html#ashburner2000" id="id9"><span>[Ashburner2000]</span></a>, <a class="reference internal" href="#tgoc2019" id="id10"><span>[TGOC2019]</span></a> (Fig. <a class="reference internal" href="#fig-mesd3"><span class="std std-ref">MESD3</span></a>).
 It also displays enrichment of mTORC1 signalling (<abbr title="median Normalized Enrichment Score">medNES</abbr> ≥ 1.03,
 <abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 1.41e-06,
 <abbr title="Dunn’s test of multiple comparisons Benjamin-Hochberg adjusted p-value">Dunn adj. p-val</abbr> &lt; 1.00e-02),
-associated with poor prognosis in osteosarcoma <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#hu2016" id="id11"><span>[Hu2016]</span></a>, as well as cell cycle progression
+associated with poor prognosis in osteosarcoma <a class="reference internal" href="#hu2016" id="id11"><span>[Hu2016]</span></a>, as well as cell cycle progression
 (<abbr title="median Normalized Enrichment Score">medNES</abbr> ≥ 1.01,
 <abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 5.76e-05,
 <abbr title="Dunn’s test of multiple comparisons Benjamin-Hochberg adjusted p-value">Dunn adj. p-val</abbr> &lt; 5.00e-02).
 Samples within this cluster exhibit the worst overall survival of all osteosarcoma clusters,
-reaching median <abbr title="overall survival">OS</abbr> at 679 days post diagnosis (Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#fig-mesd2"><span class="std std-ref">MESD2b</span></a>).
+reaching median <abbr title="overall survival">OS</abbr> at 679 days post diagnosis (Fig. <a class="reference internal" href="#fig-mesd2"><span class="std std-ref">MESD2b</span></a>).
 As this cluster is composed of ossifying tumors with very poor prognosis, it may represent an aggressive
 subtype of osteoblastic osteosarcoma.
 <br/> <br/>
@@ -412,7 +444,7 @@ Finally, <abbr title="Osteosarcoma, osteoclastic infiltrate">T074 OSARC OSCL</ab
 is the smallest cluster, with the oldest median age (22.57 <abbr title="years old">y.o.</abbr>),
 and predominantly female composition (75.00% of the samples).
 It also exhibits the best overall survival among all its siblings, with no deaths recorded in our dataset at 5840 days
-(Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#fig-mesd2"><span class="std std-ref">MESD2b</span></a>).
+(Fig. <a class="reference internal" href="#fig-mesd2"><span class="std std-ref">MESD2b</span></a>).
 Gene sets analysis revealed significant enrichment of sets related to osteoclast differentiation
 (<abbr title="median Normalized Enrichment Score)`≥ 1.16, :abbr:`KW adj. p-val (Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">medNES</abbr> = 6.80e-11,
 <abbr title="Dunn’s test of multiple comparisons Benjamin-Hochberg adjusted p-value">Dunn adj. p-val</abbr> &lt; 1.00e-02),
@@ -422,7 +454,7 @@ bone remodelling (<abbr title="median Normalized Enrichment Score">medNES</abbr>
 and fibrinolysis (<abbr title="median Normalized Enrichment Score">medNES</abbr> ≥ 9.43,
 <abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 8.83e-06,
 <abbr title="Dunn’s test of multiple comparisons Benjamin-Hochberg adjusted p-value">Dunn adj. p-val</abbr> &lt; 1.00e-04)
-<a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#ashburner2000" id="id12"><span>[Ashburner2000]</span></a>, <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#tgoc2019" id="id13"><span>[TGOC2019]</span></a> (Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#fig-mesd3"><span class="std std-ref">MESD3</span></a>).
+<a class="reference internal" href="T005_leuk.html#ashburner2000" id="id12"><span>[Ashburner2000]</span></a>, <a class="reference internal" href="#tgoc2019" id="id13"><span>[TGOC2019]</span></a> (Fig. <a class="reference internal" href="#fig-mesd3"><span class="std std-ref">MESD3</span></a>).
 This profile suggests this cluster contains osteoclast-rich and highly lytic or unstable tumors,
 likely representing telangiectatic osteosarcoma, though we lack the clinical annotation
 to confirm histotypes for any of the osteosarcoma samples present.</p>
@@ -435,17 +467,17 @@ of the four identified osteosarcoma transcriptional subtypes.</span><a class="he
 <div class="section" id="mesothelioma">
 <h2>Mesothelioma<a class="headerlink" href="#mesothelioma" title="Permalink to this headline">¶</a></h2>
 <p>Similarly, the chidren of <abbr title="Malignant pleural mesothelioma">T070 MPM</abbr>
-follow a simple path in their subtyping hierarchy (Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#fig-mesd1"><span class="std std-ref">MESD1b</span></a>).
+follow a simple path in their subtyping hierarchy (Fig. <a class="reference internal" href="#fig-mesd1"><span class="std std-ref">MESD1b</span></a>).
 It first splits into two clusters: <abbr title="Malignant pleural mesothelioma, loss of heterozygosity of BP1">T083 MPM BP1 LOH</abbr>
 (n = 59), a mixed biphasic and epithelial class,
 and <abbr title="Malignant pleural mesothelioma, epithelial morphology without loss of BP1">T084 MPM EPITH</abbr>
 (n = 23) which is composed almost exclusively of epithelial tumors (17/21).
 <abbr title="Malignant pleural mesothelioma, loss of heterozygosity of BP1">T083 MPM BP1 LOH</abbr>
-shows higher <em>BP1</em> loss of heterozygosity (p-val = 3.96e-2) <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#pulford2017" id="id14"><span>[Pulford2017]</span></a>, <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#alakus2015" id="id15"><span>[Alakus2015]</span></a>
+shows higher <em>BP1</em> loss of heterozygosity (p-val = 3.96e-2) <a class="reference internal" href="#pulford2017" id="id14"><span>[Pulford2017]</span></a>, <a class="reference internal" href="#alakus2015" id="id15"><span>[Alakus2015]</span></a>
 has significantly worse prognosis than <abbr title="Malignant pleural mesothelioma, epithelial morphology without loss of BP1">T084 MPM EPITH</abbr>
 (<abbr title="log-rank test p-value">lrt p-val</abbr> = 1.20e-3 at 2800 days post diagnosis),
 and shows higher EMT (epithelial mesenchymal transition) scores
-(<abbr title="Mann Whitney U test Benjamin-Hochberg adjusted p-value">MWU adj. p-val</abbr>  = 4.24e-05) <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#hmeljak2018" id="id16"><span>[Hmeljak2018]</span></a>
+(<abbr title="Mann Whitney U test Benjamin-Hochberg adjusted p-value">MWU adj. p-val</abbr>  = 4.24e-05) <a class="reference internal" href="#hmeljak2018" id="id16"><span>[Hmeljak2018]</span></a>
 due to its biphasic component, as well as lower ploidy (<abbr title="Mann Whitney U test Benjamin-Hochberg adjusted p-value">MWU adj. p-val</abbr>  = 1.55e-3).
 <abbr title="Malignant pleural mesothelioma, loss of heterozygosity of BP1">T083 MPM BP1 LOH</abbr>
 further splits by histology, with <abbr title="Malignant pleural mesothelioma, loss of heterozygosity of BP1 with biphasic with epithelial morphology">T085 MPM BP1 LOH</abbr>
@@ -458,7 +490,7 @@ with a majority component of biphasic samples exhibit a significantly higher
 </div>
 <div class="section" id="mixed-low-stemness-sarcoma">
 <h2>Mixed low-stemness sarcoma<a class="headerlink" href="#mixed-low-stemness-sarcoma" title="Permalink to this headline">¶</a></h2>
-<p>The hierarchy of <abbr title="Sarcoma, low stemness">T069 SARC STEMlow</abbr> is deeper and more complex than the bona fide sarcoma groups (Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#fig-mesd1"><span class="std std-ref">MESD1b</span></a>, <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#fig-mesd4"><span class="std std-ref">MESD4</span></a>).
+<p>The hierarchy of <abbr title="Sarcoma, low stemness">T069 SARC STEMlow</abbr> is deeper and more complex than the bona fide sarcoma groups (Fig. <a class="reference internal" href="#fig-mesd1"><span class="std std-ref">MESD1b</span></a>, <a class="reference internal" href="#fig-mesd4"><span class="std std-ref">MESD4</span></a>).
 At the first level, we see the separation of <abbr title="Sarcoma, low stemness without chromosomal instability">T075 SARC STEMlow A</abbr> (n = 218)
 and <abbr title="Sarcoma, chromosomal instability">T076 SARC CIN</abbr> (n = 57).</p>
 <div class="figure align-default" id="fig-mesd4">
@@ -475,7 +507,7 @@ contains significantly younger patients, likely due to the presence of a high nu
 but we observed no difference in survival between the two classes (<abbr title="log-rank test p-value">lrt p-val</abbr> = 5.10e-01 at 5204 days).
 <abbr title="Sarcoma, low stemness without chromosomal instability">T075 SARC STEMlow A</abbr> overexpresses
 (<abbr title="False Discovery Rate">FDR</abbr> &lt; 0.05 &amp; median <abbr title="log-Fold Change">logFC</abbr>  &gt; 0) <abbr title="cancer testis antigens">CTA</abbr> genes,
-which show considerable promise for immunotherapeutics <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#gjerstorff2015" id="id17"><span>[Gjerstorff2015]</span></a>. These include <em>GAGE</em> (9/13), <em>PAGE</em> (4/6), <em>MAGEA</em> (11/12), <em>MAGEC</em> (3/3), and <em>XAGE</em> (3/5) <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#carregaro2013" id="id18"><span>[Carregaro2013]</span></a>.
+which show considerable promise for immunotherapeutics <a class="reference internal" href="#gjerstorff2015" id="id17"><span>[Gjerstorff2015]</span></a>. These include <em>GAGE</em> (9/13), <em>PAGE</em> (4/6), <em>MAGEA</em> (11/12), <em>MAGEC</em> (3/3), and <em>XAGE</em> (3/5) <a class="reference internal" href="#carregaro2013" id="id18"><span>[Carregaro2013]</span></a>.
 We then investigated immune checkpoint ligands and receptors expression, revealing overexpression of
 <em>PD1</em> (median <abbr title="log-Fold Change">logFC</abbr> = -3.37, <abbr title="False Discovery Rate">FDR</abbr> ≤ 2.044e-03),
 <em>PDL1</em> (median <abbr title="log-Fold Change">logFC</abbr> = -0.87, <abbr title="False Discovery Rate">FDR</abbr> ≤ 1.078e-02),
@@ -483,14 +515,14 @@ and <em>CTLA4</em> in <abbr title="Sarcoma, low stemness without chromosomal ins
 (median <abbr title="log-Fold Change">logFC</abbr> = -2.75, <abbr title="False Discovery Rate">FDR</abbr> ≤ 8.047e-06).
 Consistent with this, <abbr title="Sarcoma, low stemness without chromosomal instability">T075 SARC STEMlow A</abbr>
 displays the lowest leukocyte fraction of its siblings (<abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr>  = 5.11e-10,
-<abbr title="Dunn’s test of multiple comparisons Benjamin-Hochberg adjusted p-value">Dunn adj. p-val</abbr> ≤ 3.69e-04) <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#thorsson2018" id="id19"><span>[Thorsson2018]</span></a>.
+<abbr title="Dunn’s test of multiple comparisons Benjamin-Hochberg adjusted p-value">Dunn adj. p-val</abbr> ≤ 3.69e-04) <a class="reference internal" href="#thorsson2018" id="id19"><span>[Thorsson2018]</span></a>.
 More interestingly, samples in <abbr title="Sarcoma, chromosomal instability">T076 SARC CIN</abbr> show significantly
 higher chromosomal instability (CIN) (<abbr title="Mann Whitney U test Benjamin-Hochberg adjusted p-value">MWU adj. p-val</abbr>  = 1.15e-05)
-(<a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#fig-mesd5"><span class="std std-ref">MESD5</span></a>) without a corresponding difference in mutation load (<abbr title="Mann Whitney U test Benjamin-Hochberg adjusted p-value">MWU adj. p-val</abbr>  = 4.75e-01);
+(<a class="reference internal" href="#fig-mesd5"><span class="std std-ref">MESD5</span></a>) without a corresponding difference in mutation load (<abbr title="Mann Whitney U test Benjamin-Hochberg adjusted p-value">MWU adj. p-val</abbr>  = 4.75e-01);
 this holds true for both <abbr title="dedifferentiated liposarcoma">DDLPS</abbr>
 (<abbr title="Mann Whitney U test Benjamin-Hochberg adjusted p-value">MWU adj. p-val</abbr>  = 3.70e-03) and
 <abbr title="undifferentiated pleomorphic sarcoma">UPS</abbr> (<abbr title="Mann Whitney U test Benjamin-Hochberg adjusted p-value">MWU adj. p-val</abbr>  = 1.43e-02)
-subpopulations when taken independently <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#tcga2017" id="id20"><span>[TCGA2017]</span></a> .</p>
+subpopulations when taken independently <a class="reference internal" href="#tcga2017" id="id20"><span>[TCGA2017]</span></a> .</p>
 <div class="figure align-default" id="fig-mesd5">
 <a class="reference internal image-reference" href="../_images/mesd5.png"><img alt="Fig. MESD5" src="../_images/mesd5.png" style="width: 300px;" /></a>
 <p class="caption"><span class="caption-text">MESD5: Distribution plots of chromosomal instability in sarcomas.</span><a class="headerlink" href="#fig-mesd5" title="Permalink to this image">¶</a></p>
@@ -502,15 +534,15 @@ and <abbr title="Dedifferentiated liposarcoma, chromosomal instability">T082 DDL
 which is largely composed of <abbr title="Dedifferentiated liposarcoma">DDLPS</abbr>.
 This is reflected in the higher amplification of chr12q15, common to <abbr title="dedifferentiated liposarcoma">DDLPS</abbr>,
 in <abbr title="Myogenic sarcoma, FOX1-PAX3/7 fusion-negative without Wilms tumors">T095 MYOGEN FUS- A</abbr>
-(median amp. 23.00 vs 2.00, <abbr title="Mann Whitney U test Benjamin-Hochberg adjusted p-value">MWU adj. p-val</abbr>  = 8.335e-07) <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#tcga2017" id="id21"><span>[TCGA2017]</span></a> .
+(median amp. 23.00 vs 2.00, <abbr title="Mann Whitney U test Benjamin-Hochberg adjusted p-value">MWU adj. p-val</abbr>  = 8.335e-07) <a class="reference internal" href="#tcga2017" id="id21"><span>[TCGA2017]</span></a> .
 Furthermore, <abbr title="Dedifferentiated liposarcoma, chromosomal instability">T082 DDLPS CIN</abbr> has both significantly higher genomic
 amplification and gene expression of <em>MDM2</em> (2.40e-2 vs. 3.66, <abbr title="Mann Whitney U test Benjamin-Hochberg adjusted p-value">MWU adj. p-val</abbr>  = 4.37e-06;
 <abbr title="log-Fold Change">logFC</abbr> = -4.55, <abbr title="False Discovery Rate">FDR</abbr> = 5.39e-18)
 and <em>CDK4</em> (0.00 vs. 3.66 <abbr title="Mann Whitney U test Benjamin-Hochberg adjusted p-value">MWU adj. p-val</abbr>  = 7.48e-06;
-<abbr title="log-Fold Change">logFC</abbr> = -4.27, <abbr title="False Discovery Rate">FDR</abbr> = 5.39e-18) <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#tcga2017" id="id22"><span>[TCGA2017]</span></a> .
+<abbr title="log-Fold Change">logFC</abbr> = -4.27, <abbr title="False Discovery Rate">FDR</abbr> = 5.39e-18) <a class="reference internal" href="#tcga2017" id="id22"><span>[TCGA2017]</span></a> .
 <br/> <br/>
 Finally, <abbr title="Sarcoma, low stemness without chromosomal instability">T075 SARC STEMlow A</abbr> separates into four terminal
-classes, with varying disease composition, immunogenicity, and patient age (<a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#fig-mesd6"><span class="std std-ref">MESD6</span></a>).
+classes, with varying disease composition, immunogenicity, and patient age (<a class="reference internal" href="#fig-mesd6"><span class="std std-ref">MESD6</span></a>).
 Nevertheless, there are no significant differences in survival between these clusters.
 <abbr title="Sarcoma, hypoxic  expression">T077 SARC HYPOX</abbr> (n = 58) contains a high variability of diagnoses but is mostly composed of osteosarcoma,
 <abbr title="undifferentiated pleomorphic sarcoma">UPS</abbr>, and <abbr title="Leiomyosarcoma">LMS</abbr>. Only 31.03% of these samples are pediatric,
@@ -525,7 +557,7 @@ among this family, and also exhibit the lowest expression of the immune checkpoi
 <abbr title="False Discovery Rate">FDR</abbr> ≤ 2.044e-03), <em>PDL1</em> (median <abbr title="log-Fold Change">logFC</abbr> = -0.87, <abbr title="False Discovery Rate">FDR</abbr> ≤ 1.078e-02), and <em>CTLA4</em> (median <abbr title="log-Fold Change">logFC</abbr> = -2.75, <abbr title="False Discovery Rate">FDR</abbr> ≤ 8.047e-06).
 It is enriched for genes associated with hypoxia in soft tissue sarcomas (<abbr title="median Normalized Enrichment Score">medNES</abbr> ≥ 1.08,
 <abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> ≤ 1.44e-05,
-<abbr title="Dunn’s test of multiple comparisons Benjamin-Hochberg adjusted p-value">Dunn adj. p-val</abbr> &lt; 0.05) <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#yang2018" id="id23"><span>[Yang2018]</span></a> (Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#fig-mesd6"><span class="std std-ref">MESD6</span></a>).
+<abbr title="Dunn’s test of multiple comparisons Benjamin-Hochberg adjusted p-value">Dunn adj. p-val</abbr> &lt; 0.05) <a class="reference internal" href="#yang2018" id="id23"><span>[Yang2018]</span></a> (Fig. <a class="reference internal" href="#fig-mesd6"><span class="std std-ref">MESD6</span></a>).
 <br/> <br/>
 <abbr title="Sarcoma, epithelial differentiation and/or c-KIT overexpression">T078 SARC EPITH/KIT</abbr> (n = 77) is the largest cluster,
 and is mostly composed of osteosarcoma and <abbr title="dedifferentiated liposarcoma">DDLPS</abbr>, but importantly also contains five gastrointestinal
@@ -533,14 +565,14 @@ stromal tumors (GIST). It is the cluster with the youngest median age (24 <abbr 
 <abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value"></abbr>  = 2.50e-06,
 57.14% pediatric, <abbr title="χ2 test p-value">χ2 p-val</abbr> = 4.66e-11).
 <abbr title="Sarcoma, epithelial differentiation and/or c-KIT overexpression">T078 SARC EPITH/KIT</abbr> has the highest expression of the
-<em>KIT</em> proto-oncogene (median <abbr title="log-Fold Change">logFC</abbr> = 1.33, <abbr title="False Discovery Rate">FDR</abbr> ≤ 3.88e-02) (Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#fig-mesd6"><span class="std std-ref">MESD6</span></a>).
-Mutations in <em>KIT</em> are a major driver of <abbr title="gastrointestinal stromal tumor">GIST</abbr> <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#hirota1998" id="id24"><span>[Hirota1998]</span></a> and may explain their affinity to this class.
-Nevertheless, <em>KIT</em> mutations are not exclusive of this tumor type <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#smithey2002" id="id25"><span>[Smithey2002]</span></a>, and, indeed, the significance in overexpression is maintained
+<em>KIT</em> proto-oncogene (median <abbr title="log-Fold Change">logFC</abbr> = 1.33, <abbr title="False Discovery Rate">FDR</abbr> ≤ 3.88e-02) (Fig. <a class="reference internal" href="#fig-mesd6"><span class="std std-ref">MESD6</span></a>).
+Mutations in <em>KIT</em> are a major driver of <abbr title="gastrointestinal stromal tumor">GIST</abbr> <a class="reference internal" href="#hirota1998" id="id24"><span>[Hirota1998]</span></a> and may explain their affinity to this class.
+Nevertheless, <em>KIT</em> mutations are not exclusive of this tumor type <a class="reference internal" href="#smithey2002" id="id25"><span>[Smithey2002]</span></a>, and, indeed, the significance in overexpression is maintained
 after the removal of <abbr title="gastrointestinal stromal tumors">GISTs</abbr>
 (median <abbr title="log-Fold Change">logFC</abbr>  = 1.52, <abbr title="False Discovery Rate">FDR</abbr> ≤ 4.11e-02).
 We confirmed enrichment of <em>KIT</em> downstream genes with gene sets analysis
 (<abbr title="median Normalized Enrichment Score">medNES</abbr> ≥ 1.02, <abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 7.82e-08)
-<a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#schaefer2009" id="id26"><span>[Schaefer2009]</span></a> (Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#fig-mesd6"><span class="std std-ref">MESD6</span></a>).
+<a class="reference internal" href="#schaefer2009" id="id26"><span>[Schaefer2009]</span></a> (Fig. <a class="reference internal" href="#fig-mesd6"><span class="std std-ref">MESD6</span></a>).
 <abbr title="Sarcoma, epithelial differentiation and/or c-KIT overexpression">T078 SARC EPITH/KIT</abbr> also displays the highest
 chr12q13-15 amplification among its siblings (<abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value"></abbr> = 6.77e-04),
 likely a consequence of its high population of <abbr title="dedifferentiated liposarcoma">DDLPS</abbr> .
@@ -551,18 +583,18 @@ and <em>CDH1</em> (median <abbr title="log-Fold Change">logFC</abbr> = 2.02, <ab
 among its siblings and shows enrichment of epithelial development gene sets (<abbr title="median Normalized Enrichment Score">medNES</abbr> ≥ 1.12,
 <abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 4.43e-16,
 <abbr title="Dunn’s test of multiple comparisons Benjamin-Hochberg adjusted p-value">Dunn adj. p-val</abbr> &lt; 1.00e-04)
-<a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#ashburner2000" id="id27"><span>[Ashburner2000]</span></a>, <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#tgoc2019" id="id28"><span>[TGOC2019]</span></a> (Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#fig-mesd6"><span class="std std-ref">MESD6</span></a>).
+<a class="reference internal" href="T005_leuk.html#ashburner2000" id="id27"><span>[Ashburner2000]</span></a>, <a class="reference internal" href="#tgoc2019" id="id28"><span>[TGOC2019]</span></a> (Fig. <a class="reference internal" href="#fig-mesd6"><span class="std std-ref">MESD6</span></a>).
 It is also enriched for gene sets involving angiogenesis (<abbr title="median Normalized Enrichment Score">medNES</abbr> ≥ 1.10,
 <abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 3.12e-08,
-<abbr title="Dunn’s test of multiple comparisons Benjamin-Hochberg adjusted p-value">Dunn adj. p-val</abbr> &lt; 0.05) <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#liberzon2015" id="id29"><span>[Liberzon2015]</span></a>,
-which has been implicated in the pathogenesis of sarcoma with epithelial features <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#quesada2012" id="id30"><span>[Quesada2012]</span></a>.
+<abbr title="Dunn’s test of multiple comparisons Benjamin-Hochberg adjusted p-value">Dunn adj. p-val</abbr> &lt; 0.05) <a class="reference internal" href="#liberzon2015" id="id29"><span>[Liberzon2015]</span></a>,
+which has been implicated in the pathogenesis of sarcoma with epithelial features <a class="reference internal" href="#quesada2012" id="id30"><span>[Quesada2012]</span></a>.
 As such, we hypothesize that this class comprises Sarcoma, epithelial differentiation and related tumors,
-possibly including epitheloid subtypes of <abbr title="dedifferentiated liposarcoma">DDLPS</abbr> , osteosarcoma, and others <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#deyrup2007" id="id31"><span>[Deyrup2007]</span></a>, <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#thway2016" id="id32"><span>[Thway2016]</span></a>, <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#makise2017" id="id33"><span>[Makise2017]</span></a>.
+possibly including epitheloid subtypes of <abbr title="dedifferentiated liposarcoma">DDLPS</abbr> , osteosarcoma, and others <a class="reference internal" href="#deyrup2007" id="id31"><span>[Deyrup2007]</span></a>, <a class="reference internal" href="#thway2016" id="id32"><span>[Thway2016]</span></a>, <a class="reference internal" href="#makise2017" id="id33"><span>[Makise2017]</span></a>.
 <br/> <br/>
 The majority of samples present in <abbr title="Sarcoma or carcinoma with sarcomatoid components">T079 SARC CARCN</abbr> (n = 41)
 are not labelled by their source institutions as malignancies of mesenchymal origin, but rather as carcinomas or related
-ecto- or endodermal tumors (Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#fig-mesd4"><span class="std std-ref">MESD4</span></a>). In fact, 23/41 tumors are carcinomas or skin cutaneous melanoma compared to 15/41 being sarcomas;
-however, sarcomatoid components were noted in many of these samples’ clinical data when available <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#tcga2017" id="id34"><span>[TCGA2017]</span></a>.
+ecto- or endodermal tumors (Fig. <a class="reference internal" href="#fig-mesd4"><span class="std std-ref">MESD4</span></a>). In fact, 23/41 tumors are carcinomas or skin cutaneous melanoma compared to 15/41 being sarcomas;
+however, sarcomatoid components were noted in many of these samples’ clinical data when available <a class="reference internal" href="#tcga2017" id="id34"><span>[TCGA2017]</span></a>.
 <abbr title="Sarcoma or carcinoma with sarcomatoid components">T079 SARC CARCN</abbr> is enriched for
 <em>E2F</em> targets (<abbr title="median Normalized Enrichment Score">medNES</abbr> = 1.06,
 <abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 6.17e-28) ,
@@ -574,16 +606,16 @@ and DNA synthesis (<abbr title="median Normalized Enrichment Score">medNES</abbr
 <abbr title="Dunn’s test of multiple comparisons Benjamin-Hochberg adjusted p-value">Dunn adj. p-val</abbr> &lt; 5.00e-02)
 and G2M checkpoint (<abbr title="median Normalized Enrichment Score">medNES</abbr> ≥ 1.04,
 <abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 1.16e-28) pathways
-<a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#ashburner2000" id="id35"><span>[Ashburner2000]</span></a>, <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#tgoc2019" id="id36"><span>[TGOC2019]</span></a>, suggesting its constituents share a pool of mutations whose pathways converge upon increased translation,
+<a class="reference internal" href="T005_leuk.html#ashburner2000" id="id35"><span>[Ashburner2000]</span></a>, <a class="reference internal" href="#tgoc2019" id="id36"><span>[TGOC2019]</span></a>, suggesting its constituents share a pool of mutations whose pathways converge upon increased translation,
 protein processing, and cell cycle progression.
 It is also highly enriched for gene sets involving translation (<abbr title="median Normalized Enrichment Score">medNES</abbr> ≤ 1.02,
 <abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 1.07e-19,
 <abbr title="Dunn’s test of multiple comparisons Benjamin-Hochberg adjusted p-value">Dunn adj. p-val</abbr> &lt; 5.00e-02) and protein processing
 (<abbr title="median Normalized Enrichment Score">medNES</abbr> ≤ 1.10,
-<abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 2.31e-18, <abbr title="Dunn’s test of multiple comparisons Benjamin-Hochberg adjusted p-value">Dunn adj. p-val</abbr> &lt; 1.00e-04) (<a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#ashburner2000" id="id37"><span>[Ashburner2000]</span></a>; <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#tgoc2019" id="id38"><span>[TGOC2019]</span></a>). Intereatingly, Sarcoma,in this class have a significantly higher mutation load than those in sibling clusters (median 96.00, <abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 1.60e-03) <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#tcga2017" id="id39"><span>[TCGA2017]</span></a>.
+<abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 2.31e-18, <abbr title="Dunn’s test of multiple comparisons Benjamin-Hochberg adjusted p-value">Dunn adj. p-val</abbr> &lt; 1.00e-04) (<a class="reference internal" href="T005_leuk.html#ashburner2000" id="id37"><span>[Ashburner2000]</span></a>; <a class="reference internal" href="#tgoc2019" id="id38"><span>[TGOC2019]</span></a>). Intereatingly, Sarcoma,in this class have a significantly higher mutation load than those in sibling clusters (median 96.00, <abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 1.60e-03) <a class="reference internal" href="#tcga2017" id="id39"><span>[TCGA2017]</span></a>.
 This cluster also has a high leukocyte fraction, with the highest lymphocyte content of its siblings
 (<abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 3.325e-4),
-specifically CD8+ T cells (<abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 3.14e-06) <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#newman2015" id="id40"><span>[Newman2015]</span></a>.
+specifically CD8+ T cells (<abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 3.14e-06) <a class="reference internal" href="#newman2015" id="id40"><span>[Newman2015]</span></a>.
 <br/> <br/>
 <abbr title="Sarcoma, high immune activity">T080 SARC DIFFlow IMMhigh</abbr> (n = 30) is the smallest child cluster of
 <abbr title="Sarcoma, low stemness without chromosomal instability">T075 SARC STEMlow A</abbr> and contains the oldest patient cohort
@@ -594,7 +626,7 @@ It is possible a similar subdivision by diagnosis would have been observed with 
 fraction of its sibling classes (<abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 5.11e-10)
 and is significantly enriched (<abbr title="median Normalized Enrichment Score">medNES</abbr> ≥ 1.06,
 <abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> ≤ 8.90e-11)
-for a myriad of gene sets relating to the immune response, proinflammatory signalling, and complement activation <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#liberzon2015" id="id41"><span>[Liberzon2015]</span></a>.
+for a myriad of gene sets relating to the immune response, proinflammatory signalling, and complement activation <a class="reference internal" href="#liberzon2015" id="id41"><span>[Liberzon2015]</span></a>.
 We hypothesize that <abbr title="Sarcoma, high immune activity">T080 SARC DIFFlow IMMhigh</abbr> represents a group of soft tissue sarcoma with high immune infiltration.</p>
 <div class="figure align-default" id="fig-mesd6">
 <a class="reference internal image-reference" href="../_images/mesd6.png"><img alt="Fig. MESD6" src="../_images/mesd6.png" style="width: 500px;" /></a>
@@ -606,7 +638,7 @@ of low-stemness sarcomas transcriptional subtypes without chromosomal instabilit
 <div class="section" id="t003-mesodermal-tumor-with-high-stemness">
 <h2>T003 Mesodermal tumor with high stemness<a class="headerlink" href="#t003-mesodermal-tumor-with-high-stemness" title="Permalink to this headline">¶</a></h2>
 <p>Following the hierarchy along the high stemness sarcomas branch, <abbr title="Mesodermal tumor, low stemness">T003 MESODM STEMhigh</abbr>,
-we first observe a separation by diagnosis (Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#fig-mesd1"><span class="std std-ref">MESD1a</span></a>).
+we first observe a separation by diagnosis (Fig. <a class="reference internal" href="#fig-mesd1"><span class="std std-ref">MESD1a</span></a>).
 <abbr title="Myogenic tumor">T090 MYOGEN</abbr> is composed of myogenic sarcoma, and the median pateint age is 7.00 <abbr title="years old">y.o.</abbr>,
 <abbr title="Mesodermal tumor with high stemness, non-myogenic">T091 MESODM STEMhigh A</abbr> (n = 212) is the largest and most diverse cluster;
 it is composed of Testicular Germ Cell Tumours (TGCT) synovial sarcomas (SYSARC), and uterine carcinosarcomas (UCS), among other tumor types.
@@ -619,7 +651,7 @@ which contains patients with youngest median age (4.38 <abbr title="years old">y
 <p>Myogenic tumors in <abbr title="Myogenic tumor">T090 MYOGEN</abbr> further split into
 <abbr title="Myogenic tumor, FOX1-PAX3/7 fusion-negative">T093 MYOGEN FUS-</abbr> (n = 108) containing the majority of embryonal rhabdomyosarcomas
 (ERMS) and other myogenic malignancies, and <abbr title="Alveolar rhabdomyosarcoma FOX1-PAX3/7 fusion-positive">T094 RMSARC ALV FUS+</abbr>
-(n = 47), which contains the majority of alveolar rhabdomyosarcomas (ARMS)  (Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#fig-mesd1"><span class="std std-ref">MESD1b</span></a>).
+(n = 47), which contains the majority of alveolar rhabdomyosarcomas (ARMS)  (Fig. <a class="reference internal" href="#fig-mesd1"><span class="std std-ref">MESD1b</span></a>).
 Indeed, <abbr title="Myogenic tumor, FOX1-PAX3/7 fusion-negative">T093 MYOGEN FUS-</abbr> exhibits significantly higher expression of the
 <em>FOXO1-PAX3/7</em> fusion-negative markers <em>HMGA2</em> (<abbr title="log-Fold Change">logFC</abbr> = 4.76, <abbr title="False Discovery Rate">FDR</abbr> = 3.82e-17),
 <em>EGFR</em> (<abbr title="log-Fold Change">logFC</abbr> = 2.73, <abbr title="False Discovery Rate">FDR</abbr> = 2.72e-19), and <em>FBN2</em>
@@ -627,15 +659,15 @@ Indeed, <abbr title="Myogenic tumor, FOX1-PAX3/7 fusion-negative">T093 MYOGEN FU
 <abbr title="Alveolar rhabdomyosarcoma FOX1-PAX3/7 fusion-positive">T094 RMSARC ALV FUS+</abbr> shows marked overexpression
 (<abbr title="log-Fold Change">logFC</abbr> ≤ -3.17, <abbr title="False Discovery Rate">FDR</abbr> ≤ 9.73e-22) of FOX1-PAX3/7 fusion-positive markers
 <em>TFAP2B</em> (<abbr title="log-Fold Change">logFC</abbr> = -9.14, <abbr title="False Discovery Rate">FDR</abbr> = 5.078e-45) and
-<em>CDH3</em> (<abbr title="log-Fold Change">logFC</abbr> = -3.17, <abbr title="False Discovery Rate">FDR</abbr> = 9.728e-22) <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#davicioni2009" id="id42"><span>[Davicioni2009]</span></a>, <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#parham2013" id="id43"><span>[Parham2013]</span></a>,
+<em>CDH3</em> (<abbr title="log-Fold Change">logFC</abbr> = -3.17, <abbr title="False Discovery Rate">FDR</abbr> = 9.728e-22) <a class="reference internal" href="#davicioni2009" id="id42"><span>[Davicioni2009]</span></a>, <a class="reference internal" href="#parham2013" id="id43"><span>[Parham2013]</span></a>,
 and significant enrichment (<abbr title="median Normalized Enrichment Score">medNES</abbr> ≥ 1.12,
 <abbr>MWU adj. p-val (Mann Whitney U test Benjamin-Hochberg adjusted p-value ≤ 3.79e-18</abbr>) of
-<em>FOXO1-PAX3/7</em> fusion-associated pathways <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#gryder2017" id="id44"><span>[Gryder2017]</span></a>, <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#davicioni2009" id="id45"><span>[Davicioni2009]</span></a> (Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#fig-mesd7"><span class="std std-ref">MESD7</span></a>).
+<em>FOXO1-PAX3/7</em> fusion-associated pathways <a class="reference internal" href="#gryder2017" id="id44"><span>[Gryder2017]</span></a>, <a class="reference internal" href="#davicioni2009" id="id45"><span>[Davicioni2009]</span></a> (Fig. <a class="reference internal" href="#fig-mesd7"><span class="std std-ref">MESD7</span></a>).
 Though <abbr title="Myogenic tumor, FOX1-PAX3/7 fusion-negative">T093 MYOGEN FUS-</abbr> contains a handful of samples labelled as
 <abbr title="alveolar rhabdomyosarcoma">ARMS</abbr>, it is sensible to speculate these may be fusion-negative;
-this occurrence is common and the fusion is not a necessary feature of this histotype <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#barr2002" id="id46"><span>[Barr2002]</span></a>.
+this occurrence is common and the fusion is not a necessary feature of this histotype <a class="reference internal" href="#barr2002" id="id46"><span>[Barr2002]</span></a>.
 In fact, the molecular profile and clinical course of fusion negative <abbr title="alveolar rhabdomyosarcoma">ARMS</abbr> is indistinguishable from
-<abbr title="embryonal rhabdomyosarcoma">ERMS</abbr>, supporting a common transcriptional identity as observed here <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#williamson2010" id="id47"><span>[Williamson2010]</span></a>.
+<abbr title="embryonal rhabdomyosarcoma">ERMS</abbr>, supporting a common transcriptional identity as observed here <a class="reference internal" href="#williamson2010" id="id47"><span>[Williamson2010]</span></a>.
 However, though <abbr title="alveolar rhabdomyosarcoma">ARMS</abbr> is associated with worse prognosis than
 <abbr title="embryonal rhabdomyosarcoma">ERMS</abbr>, due to a lack of clinical annotatioon we are unable to confirm any
 differences in survival between  <abbr title="Myogenic tumor, FOX1-PAX3/7 fusion-negative">T093 MYOGEN FUS-</abbr> and
@@ -644,29 +676,29 @@ differences in survival between  <abbr title="Myogenic tumor, FOX1-PAX3/7 fusion
 <abbr title="Myogenic tumor, FOX1-PAX3/7 fusion-negative">T093 MYOGEN FUS-</abbr> then divides into two clusters.
 We observe the separation of a small group of samples labelled as Wilms tumors,
 <abbr title="Wilms striated-muscle-like">T096 WILMS MYO</abbr> (n = 12) from the rest of fusion-negative myogenic tumors in
-<abbr title="Myogenic sarcoma, FOX1-PAX3/7 fusion-negative without Wilms tumors">T095 MYOGEN FUS- A</abbr> (n = 95) (Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#fig-mesd7"><span class="std std-ref">MESD7</span></a>).
+<abbr title="Myogenic sarcoma, FOX1-PAX3/7 fusion-negative without Wilms tumors">T095 MYOGEN FUS- A</abbr> (n = 95) (Fig. <a class="reference internal" href="#fig-mesd7"><span class="std std-ref">MESD7</span></a>).
 When compared to <abbr title="Wilms tumor">T092 WILMS</abbr> (see below for details), the major Wilms tumor class,
 <abbr title="Wilms striated-muscle-like">T096 WILMS MYO</abbr> has high expression of striated muscle genes such as
 <em>MYL1</em> (<abbr title="log-Fold Change">logFC</abbr> = 11.9, <abbr title="False Discovery Rate">FDR</abbr> = 4.61e-51), <em>MYOG</em> (<abbr title="log-Fold Change">logFC</abbr> = 9.45,
 <abbr title="False Discovery Rate">FDR</abbr> = 3.93e-55), and <em>MYOD1</em> (<abbr title="log-Fold Change">logFC</abbr> = 8.93, <abbr title="False Discovery Rate">FDR</abbr> = 1.12e-51).
 Furthermore, <abbr title="Wilms striated-muscle-like">T096 WILMS MYO</abbr> is enriched for gene sets related to skeletal muscle development
 (<abbr>MWU adj. p-val (Mann Whitney U test Benjamin-Hochberg adjusted p-value</abbr> = 3.56e-09, <abbr title="median Normalized Enrichment Score">medNES</abbr> = 1.85)
-<a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#ashburner2000" id="id48"><span>[Ashburner2000]</span></a>, <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#tgoc2019" id="id49"><span>[TGOC2019]</span></a> (Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#fig-mesd7"><span class="std std-ref">MESD7</span></a>),
+<a class="reference internal" href="T005_leuk.html#ashburner2000" id="id48"><span>[Ashburner2000]</span></a>, <a class="reference internal" href="#tgoc2019" id="id49"><span>[TGOC2019]</span></a> (Fig. <a class="reference internal" href="#fig-mesd7"><span class="std std-ref">MESD7</span></a>),
 suggesting this specific subtype of Wilms tumors to have significant areas with skeletal muscle differentiation.
 As an alternative hypothesis, we also advance the possibility this may be a class of misdiagnosed rhabdomyosarcoma of the kidney
-, <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#mehrain2013" id="id50"><span>[Mehrain2013]</span></a>, <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#samkari2018" id="id51"><span>[Samkari2018]</span></a> or a striated-muscle-like Wilms tumor phenotype.
+, <a class="reference internal" href="#mehrain2013" id="id50"><span>[Mehrain2013]</span></a>, <a class="reference internal" href="#samkari2018" id="id51"><span>[Samkari2018]</span></a> or a striated-muscle-like Wilms tumor phenotype.
 Furthermore, <abbr title="Wilms striated-muscle-like">T096 WILMS MYO</abbr> is enriched for gene sets of rhabdomyosarcomas both with and without
 <em>FOXO1-PAX3/7</em> fusions (<abbr title="median Normalized Enrichment Score">medNES</abbr> ≥ 1.04,
-<abbr>MWU adj. p-val (Mann Whitney U test Benjamin-Hochberg adjusted p-value</abbr> = 7.17e-04) <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#davicioni2009" id="id52"><span>[Davicioni2009]</span></a>,
+<abbr>MWU adj. p-val (Mann Whitney U test Benjamin-Hochberg adjusted p-value</abbr> = 7.17e-04) <a class="reference internal" href="#davicioni2009" id="id52"><span>[Davicioni2009]</span></a>,
 and <abbr title="Wilms striated-muscle-like">T096 WILMS MYO</abbr> also has significantly higher expression of
 NOGGIN (<em>NOG</em>) (<abbr title="log-Fold Change">logFC</abbr> = 1.77, <abbr title="False Discovery Rate">FDR</abbr> = 4.31e-07),
-when compared to <abbr title="Wilms tumor">T092 WILMS</abbr> <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#gerhart2019" id="id53"><span>[Gerhart2019]</span></a>.
+when compared to <abbr title="Wilms tumor">T092 WILMS</abbr> <a class="reference internal" href="#gerhart2019" id="id53"><span>[Gerhart2019]</span></a>.
 A common classification of Wilms tumors separates them between those with favourable histology
 (FHWT) and those with diffuse anaplasia (DAWT); <abbr title="Wilms striated-muscle-like">T096 WILMS MYO</abbr>
 is the only Wilms tumor class within our cohort which contains a majority of diffuse anaplasia samples.
 <br/>
 The tumors found in <abbr title="Myogenic sarcoma, FOX1-PAX3/7 fusion-negative without Wilms tumors">T095 MYOGEN FUS- A</abbr>
-separate into three subclasses (Fig <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#fig-mesd1"><span class="std std-ref">MESD1b</span></a>). Two have are comprised almost exlusively of embryonal
+separate into three subclasses (Fig <a class="reference internal" href="#fig-mesd1"><span class="std std-ref">MESD1b</span></a>). Two have are comprised almost exlusively of embryonal
 rhabdomyosarcoma (ERMS): <abbr title="Embryonal rhabdomyosarcoma, well-differentiated">T097 RMSARC EMB MYO</abbr>
 (n = 30) which also contains a few presumably fusion-negative <abbr title="alveolar rhabdomyosarcoma">ARMS</abbr>,
 and <abbr title="Embryonal rhabdomyosarcoma, MYOD1 mutant">T098 RMSARC EMB MYOD1mut</abbr> (n = 35) which also includes two spindle cell/sclerotizing rhabdomyosarcoma.
@@ -684,20 +716,20 @@ and <abbr title="Embryonal rhabdomyosarcoma, MYOD1 mutant">T098 RMSARC EMB MYOD1
 has a significantly elevated expression of skeletal muscle developmental gene sets
 (<abbr title="median Normalized Enrichment Score">medNES</abbr> = 1.15,
 <abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 2.61e-07)
-and a high expression of muscle genes (Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#fig-mesd7"><span class="std std-ref">MESD7</span></a>),
-suggesting these tumors comprise a well-differentiated subtype of <abbr title="embryonal rhabdomyosarcoma">ERMS</abbr> <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#davicioni2009" id="id54"><span>[Davicioni2009]</span></a>.
+and a high expression of muscle genes (Fig. <a class="reference internal" href="#fig-mesd7"><span class="std std-ref">MESD7</span></a>),
+suggesting these tumors comprise a well-differentiated subtype of <abbr title="embryonal rhabdomyosarcoma">ERMS</abbr> <a class="reference internal" href="#davicioni2009" id="id54"><span>[Davicioni2009]</span></a>.
 <abbr title="Embryonal rhabdomyosarcoma, MYOD1 mutant">T098 RMSARC EMB MYOD1mut</abbr>
-is characterized instead by high expression of gene sets related to immune activation <a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#ashburner2000" id="id55"><span>[Ashburner2000]</span></a>, <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#tgoc2019" id="id56"><span>[TGOC2019]</span></a>,
+is characterized instead by high expression of gene sets related to immune activation <a class="reference internal" href="T005_leuk.html#ashburner2000" id="id55"><span>[Ashburner2000]</span></a>, <a class="reference internal" href="#tgoc2019" id="id56"><span>[TGOC2019]</span></a>,
 low expression of skeletal muscle genes - including <em>MYH8</em> (<abbr title="log-Fold Change)`= - 4.54, :abbr:`FDR (False Discovery Rate">logFC</abbr> = 1.13e-06), <em>ACTA1</em> (<abbr title="log-Fold Change">logFC</abbr> = -4.9, <abbr title="False Discovery Rate">FDR</abbr> = 9.23e-09),
 and <em>MYOG</em> (<abbr title="log-Fold Change">logFC</abbr> = -1.74, <abbr title="False Discovery Rate">FDR</abbr> = 2.31e-04) - and enrichment of
 <em>PI3K</em> signalling (<abbr title="median Normalized Enrichment Score">medNES</abbr> = 1.11,
-<abbr>MWU adj. p-val (Mann Whitney U test Benjamin-Hochberg adjusted p-value</abbr> = 4.58e-05) <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#schaefer2009" id="id57"><span>[Schaefer2009]</span></a>,
-a gene expression pattern characteristic of RMS with <em>MYOD1</em> L122R mutations <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#kohsaka2014" id="id58"><span>[Kohsaka2014]</span></a> .
+<abbr>MWU adj. p-val (Mann Whitney U test Benjamin-Hochberg adjusted p-value</abbr> = 4.58e-05) <a class="reference internal" href="#schaefer2009" id="id57"><span>[Schaefer2009]</span></a>,
+a gene expression pattern characteristic of RMS with <em>MYOD1</em> L122R mutations <a class="reference internal" href="#kohsaka2014" id="id58"><span>[Kohsaka2014]</span></a> .
 Further gene set enrichment analysis of targets downregulated by <em>MYOD1</em> LI22R compared to wild type
 <em>MYOD1</em> shows significant underexpression in <abbr title="Embryonal rhabdomyosarcoma, MYOD1 mutant">T098 RMSARC EMB MYOD1mut</abbr>
 compared to both its sibling clusters (<abbr title="median Normalized Enrichment Score">medNES</abbr> ≤ 4.04e-02,
 <abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 2.44e-11,
-<abbr title="Dunn’s test of multiple comparisons Benjamin-Hochberg adjusted p-value">Dunn adj. p-val</abbr> &lt; 1.00e-04) (Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#fig-mesd7"><span class="std std-ref">MESD7</span></a>);
+<abbr title="Dunn’s test of multiple comparisons Benjamin-Hochberg adjusted p-value">Dunn adj. p-val</abbr> &lt; 1.00e-04) (Fig. <a class="reference internal" href="#fig-mesd7"><span class="std std-ref">MESD7</span></a>);
 however, we lack any genomic information to confirm this.
 <br/> <br/>
 When compared to the major uterine carcinosarcoma class <abbr title="Uterine carcinosarcoma">T111 UCS</abbr> (see below for details),
@@ -706,12 +738,12 @@ When compared to the major uterine carcinosarcoma class <abbr title="Uterine car
 and heterologous rhabdomyosarcomatous components (mean 23.5% vs. 0.00%,
 <abbr title="Mann Whitney U test Benjamin-Hochberg adjusted p-value">MWU adj. p-val</abbr>  = 6.13e-04),
 while T111 exhibits a higher carcinomatous component (median 1.00% vs. 30.00%,
-<abbr title="Mann Whitney U test Benjamin-Hochberg adjusted p-value">MWU adj. p-val</abbr>  = 1.03e-02) <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#cherniack2017" id="id59"><span>[Cherniack2017]</span></a>.
+<abbr title="Mann Whitney U test Benjamin-Hochberg adjusted p-value">MWU adj. p-val</abbr>  = 1.03e-02) <a class="reference internal" href="#cherniack2017" id="id59"><span>[Cherniack2017]</span></a>.
 <abbr title="Uterine carcinosarcoma, myogenic differentiation">T099 UCS MYO</abbr>
 also exhibits significantly higher expression of skeletal muscle genes
 <em>MYOD1</em> (<abbr title="log-Fold Change">logFC</abbr> = 6.88, <abbr title="False Discovery Rate">FDR</abbr> = 7.27e-16) and
 <em>MYOG</em> (<abbr title="log-Fold Change">logFC</abbr> = 9.55, <abbr title="False Discovery Rate">FDR</abbr> = 9.30e-17),
-conforming with a recently described myogenic subtype of <abbr title="uterine carcinosarcoma">UCS</abbr> (subtype II) <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#an2017" id="id60"><span>[An2017]</span></a>.</p>
+conforming with a recently described myogenic subtype of <abbr title="uterine carcinosarcoma">UCS</abbr> (subtype II) <a class="reference internal" href="#an2017" id="id60"><span>[An2017]</span></a>.</p>
 <div class="figure align-default" id="fig-mesd7">
 <a class="reference internal image-reference" href="../_images/mesd7.png"><img alt="Fig. MESD7" src="../_images/mesd7.png" style="width: 400px;" /></a>
 <p class="caption"><span class="caption-text">MESD7: Distribution plots of normalized enrichment score of gene sets relevant to the definition
@@ -721,7 +753,7 @@ of myogenic tumors.</span><a class="headerlink" href="#fig-mesd7" title="Permali
 <div class="section" id="other-sarcoma-with-high-stemness">
 <h2>Other sarcoma with high stemness<a class="headerlink" href="#other-sarcoma-with-high-stemness" title="Permalink to this headline">¶</a></h2>
 <p>Following the children of <abbr title="Mesodermal tumors with high stemness, non-myogenic">T091 MESODM STEMhigh A</abbr>,
-we find 6 different subclasses with a wide variety of diagnoses (Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#fig-mesd8"><span class="std std-ref">MESD8</span></a>).</p>
+we find 6 different subclasses with a wide variety of diagnoses (Fig. <a class="reference internal" href="#fig-mesd8"><span class="std std-ref">MESD8</span></a>).</p>
 <div class="figure align-default" id="fig-mesd8">
 <a class="reference internal image-reference" href="../_images/mesd8.png"><img alt="Fig. MESD8" src="../_images/mesd8.png" style="width: 400px;" /></a>
 <p class="caption"><span class="caption-text">MESD8: a 2-dimensional UMAP projection of mixed sarcoma tumors with high stemness by gene expression.
@@ -732,7 +764,7 @@ in this case, synovial sarcoma and choroid plexus carcinoma, respectively.
 Others, like <abbr title="Sarcoma, CIC rearrangement">T104 SARC CICr</abbr> (n = 21),
 are composed of samples of disparate origins brought together by specific lesions.
 This is an exemplary case and is similar to that of <em>BCOR</em> altered samples within the CNS branch, here both CNS malignancies and sarcomas carrying
-<em>CIC-DUX4</em> fusions (Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#fig-mesd9"><span class="std std-ref">MESD9</span></a>).</p>
+<em>CIC-DUX4</em> fusions (Fig. <a class="reference internal" href="#fig-mesd9"><span class="std std-ref">MESD9</span></a>).</p>
 <div class="figure align-default" id="fig-mesd9">
 <a class="reference internal image-reference" href="../_images/mesd9.png"><img alt="Fig. MESD9" src="../_images/mesd9.png" style="width: 500px;" /></a>
 <p class="caption"><span class="caption-text">MESD9: A, 2-dimensional UMAP projection of mixed sarcoma tumors with high stemness by gene expression. The subtypes identified are shown with different colours,
@@ -744,10 +776,10 @@ of MYCN expression high-stemness sarcoma subtypes. D, tumor type composition of 
 <abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 2.36e-18)
 and significant paucity of downregulated targets (<abbr title="median Normalized Enrichment Score">medNES</abbr> ≥ 8.34e-01,
 <abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 7.29e-11)
-in <em>CIC-DUX4</em> fusion-positive round cell tumors <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#specht2014" id="id61"><span>[Specht2014]</span></a>, <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#yoshimoto2017" id="id62"><span>[Yoshimoto2017]</span></a> ((Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#fig-mesd10"><span class="std std-ref">MESD10</span></a>).
+in <em>CIC-DUX4</em> fusion-positive round cell tumors <a class="reference internal" href="#specht2014" id="id61"><span>[Specht2014]</span></a>, <a class="reference internal" href="#yoshimoto2017" id="id62"><span>[Yoshimoto2017]</span></a> ((Fig. <a class="reference internal" href="#fig-mesd10"><span class="std std-ref">MESD10</span></a>).
 <abbr title="Sarcoma, CIC rearrangement">T104 SARC CICr</abbr> also exhibits overexpression of
-<em>MYC</em> (median <abbr title="log-Fold Change">logFC</abbr> = 2.47, <abbr title="False Discovery Rate">FDR</abbr> ≤ 1.39e-06) (Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#fig-mesd9"><span class="std std-ref">MESD9d</span></a>),
-frequently amplified in <em>CIC</em> rearranged tumors <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#smith2015" id="id63"><span>[Smith2015]</span></a>, as well as its canonical downstream effector <em>CDKN1A</em>
+<em>MYC</em> (median <abbr title="log-Fold Change">logFC</abbr> = 2.47, <abbr title="False Discovery Rate">FDR</abbr> ≤ 1.39e-06) (Fig. <a class="reference internal" href="#fig-mesd9"><span class="std std-ref">MESD9d</span></a>),
+frequently amplified in <em>CIC</em> rearranged tumors <a class="reference internal" href="#smith2015" id="id63"><span>[Smith2015]</span></a>, as well as its canonical downstream effector <em>CDKN1A</em>
 (median <abbr title="log-Fold Change">logFC</abbr> = 2.69, <abbr title="False Discovery Rate">FDR</abbr> ≤ 5.70e-09).
 The class includes a few samples labelled as Ewing sarcoma, which are likely misdiagnosed.</p>
 <div class="figure align-default" id="fig-mesd10">
@@ -759,7 +791,7 @@ of CIC-mutated tumors.</span><a class="headerlink" href="#fig-mesd10" title="Per
 along with a few retroperitoneal <abbr title="dedifferentiated liposarcoma">DDLPS</abbr>,
 MPNST (malignant peripheral nerve sheath tumor), two ovarian serous cystadenocarcinomas, and uterine corpus endometrial carcinomas,
 among other tumor types. This then divides roughly by diagnosis: <abbr title="uterine carcinosarcoma">UCS</abbr>
-samples are clustered into <abbr title="Uterine carcinosarcoma">T111 UCS</abbr> (n = 37) at the next level (Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#fig-mesd1"><span class="std std-ref">MESD1b</span></a>),
+samples are clustered into <abbr title="Uterine carcinosarcoma">T111 UCS</abbr> (n = 37) at the next level (Fig. <a class="reference internal" href="#fig-mesd1"><span class="std std-ref">MESD1b</span></a>),
 separating them from all other malignancies, which are found in <abbr title="Sarcoma, NF1 mutation">T110 SARC NF1mut</abbr> (n=25).
 When compared to the myogenic <abbr title="uterine carcinosarcoma">UCS</abbr>
 cluster <abbr title="Uterine carcinosarcoma, myogenic differentiation">T099 UCS MYO</abbr>,
@@ -777,27 +809,27 @@ from the majority of these diagnoses, which are found in <abbr title="Sarcoma, l
 We observe highly significant enrichment of genes upregulated in <em>NF1</em> mutants and impoverishment of genes
 downregulated by the same lesions between all diagnoses included within <abbr title="Sarcoma, NF1 mutation">T110 SARC NF1mut</abbr>
 and their counterparts in all other clusters (<abbr title="median Normalized Enrichment Score">medNES</abbr> ≥ 1.26,
-<abbr>MWU adj. p-val (Mann Whitney U test Benjamin-Hochberg adjusted p-value`</abbr> ≤ 6.53e-07) (Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#fig-mesd11"><span class="std std-ref">MESD11</span></a>),
+<abbr>MWU adj. p-val (Mann Whitney U test Benjamin-Hochberg adjusted p-value`</abbr> ≤ 6.53e-07) (Fig. <a class="reference internal" href="#fig-mesd11"><span class="std std-ref">MESD11</span></a>),
 and more specifically between <abbr title="malignant peripheral nerve sheath tumor">MPNST</abbr>  and <abbr title="dedifferentiated liposarcoma">DDLPS</abbr>
 in <abbr title="Sarcoma, NF1 mutation">T110 SARC NF1mut</abbr> vs. <abbr title="Sarcoma, low stemness">T069 SARC STEMlow</abbr>
 (<abbr title="median Normalized Enrichment Score">medNES</abbr> ≥ 1.33,
-<abbr>MWU adj. p-val (Mann Whitney U test Benjamin-Hochberg adjusted p-value`</abbr> ≤ 6.25e-04) <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#pemov2020" id="id64"><span>[Pemov2020]</span></a>.
+<abbr>MWU adj. p-val (Mann Whitney U test Benjamin-Hochberg adjusted p-value`</abbr> ≤ 6.25e-04) <a class="reference internal" href="#pemov2020" id="id64"><span>[Pemov2020]</span></a>.
 As <abbr title="Sarcoma, NF1 mutation">T110 SARC NF1mut</abbr> contains tumors from markedly different lineages,
 including two glioblastoma multiformes and three melanomas, it is likely this class contains
 <em>NF1</em> mutant tumors regardless of their tissue of origin, similarly to what observed for
-<em>BCOR</em> altered samples in CNS and <em>CIC</em>-fusion samples (<a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#kiuru2017" id="id65"><span>[Kiuru2017]</span></a>; <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#costa2019" id="id66"><span>[Costa2019]</span></a>; <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#kim2020" id="id67"><span>[Kim2020]</span></a>).
+<em>BCOR</em> altered samples in CNS and <em>CIC</em>-fusion samples (<a class="reference internal" href="#kiuru2017" id="id65"><span>[Kiuru2017]</span></a>; <a class="reference internal" href="#costa2019" id="id66"><span>[Costa2019]</span></a>; <a class="reference internal" href="#kim2020" id="id67"><span>[Kim2020]</span></a>).
 We observe no significant difference in these downstream <em>NF1</em> gene sets, between <abbr title="Sarcoma, NF1 mutation">T110 SARC NF1mut</abbr>
 and <abbr title="Uterine carcinosarcoma">T111 UCS</abbr> (p-val ≥ 3.80e-01), suggesting this expression pattern
 is characteristic of their whole parent class <abbr title="Sarcoma, NF1 underexpression">T103 SARC NF1low</abbr>.
 Within <abbr title="Uterine carcinosarcoma">T111 UCS</abbr>, only one sample is reported as <em>NF1</em> mutated - the only case in the
-<abbr title="The Cancer Genome Atlas">TCGA</abbr> <abbr title="uterine carcinosarcoma">UCS</abbr>  cohort <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#cherniack2017" id="id68"><span>[Cherniack2017]</span></a> - possibly suggesting a role of
+<abbr title="The Cancer Genome Atlas">TCGA</abbr> <abbr title="uterine carcinosarcoma">UCS</abbr>  cohort <a class="reference internal" href="#cherniack2017" id="id68"><span>[Cherniack2017]</span></a> - possibly suggesting a role of
 <em>NF1</em> in <abbr title="uterine carcinosarcoma">UCS</abbr>  regardless of its mutation status.
 Interestingly, when comparing <abbr title="Uterine carcinosarcoma">T111 UCS</abbr> with <abbr title="Uterine carcinosarcoma, myogenic differentiation">T099 UCS MYO</abbr>
 and its parent cluster <abbr title="Myogenic tumor, FOX1-PAX3/7 fusion-negative">T093 MYOGEN FUS-</abbr>, only the downregulated targets of
 <em>NF1</em> mutations are significantly lower (<abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 2.40e-05
 and 6.30e-01 vs. <abbr title="Uterine carcinosarcoma, myogenic differentiation">T099 UCS MYO</abbr>, 6.22e-03 and 6.97e-01 vs.
 <abbr title="Myogenic tumor, FOX1-PAX3/7 fusion-negative">T093 MYOGEN FUS-</abbr>).
-This is possibly due to the reported role of <em>NF1</em> in myogenesis <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#kossler2011" id="id69"><span>[Kossler2011]</span></a>,
+This is possibly due to the reported role of <em>NF1</em> in myogenesis <a class="reference internal" href="#kossler2011" id="id69"><span>[Kossler2011]</span></a>,
 and suggests that only the loss of expression in downstream target may be the specific marker of <em>NF1</em> alterations in these malignancies.</p>
 <div class="figure align-default" id="fig-mesd11">
 <a class="reference internal image-reference" href="../_images/mesd11.png"><img alt="Fig. MESD11" src="../_images/mesd11.png" style="width: 300px;" /></a>
@@ -808,7 +840,7 @@ of NF1-mutated tumors.</span><a class="headerlink" href="#fig-mesd11" title="Per
 <div class="section" id="testicular-tumor">
 <h2>Testicular tumor<a class="headerlink" href="#testicular-tumor" title="Permalink to this headline">¶</a></h2>
 <p>Within the child classes of <abbr title="Myogenic tumor, FOX1-PAX3/7 fusion-negative">T093 MYOGEN FUS-</abbr> we find two separate groups of
-:abbr:` TGCT NON-SEM (testicular germ cell tumor non-seminomas)` (Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#fig-mesd1"><span class="std std-ref">MESD1b</span></a>).
+:abbr:` TGCT NON-SEM (testicular germ cell tumor non-seminomas)` (Fig. <a class="reference internal" href="#fig-mesd1"><span class="std std-ref">MESD1b</span></a>).
 <abbr title="Testicular germ cell tumor non-seminoma, mature teratoma or yolk sac tumor">T101</abbr> (n = 45) is composed of
 both mature teratoma and yolk sac tumors, as evident both from clinical annotation (<abbr title="χ2 test p-value">χ2 p-val</abbr> ≤ 3.67e-02)
 and tissue type percentage information (<abbr title="Mann Whitney U test Benjamin-Hochberg adjusted p-value ≤ 8.35e-03) [Shen2018]_. Conversely, :abbr:`T105 TGCT nonSEM EMB (Testicular germ cell tumor non-seminoma embryonal carcinoma rich">MWU adj. p-val</abbr>
@@ -824,17 +856,17 @@ is highly enriched for an embryonal carcinoma gene sets (<abbr title="median Nor
 (<abbr title="median Normalized Enrichment Score">medNES</abbr> = 2.06, <abbr title="Mann Whitney U test Benjamin-Hochberg adjusted p-value = 3.27e-06) [Korkola2005]_. |br| |br| :abbr:`T101  (Testicular germ cell tumor non-seminoma, mature teratoma or yolk sac tumor">MWU adj. p-val</abbr> then divides into four separate
 subtypes which fall along on a spectrum of differentiation from yolk sac to mature tumors
 (<abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> &lt; 1.00e-04)
-(Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#fig-mesd12"><span class="std std-ref">MESD12</span></a>). Indeed, we observe <abbr title="Testicular germ cell tumor non-seminoma yolk sac high">T108 TGCT nonSEM YOLK H</abbr>
+(Fig. <a class="reference internal" href="#fig-mesd12"><span class="std std-ref">MESD12</span></a>). Indeed, we observe <abbr title="Testicular germ cell tumor non-seminoma yolk sac high">T108 TGCT nonSEM YOLK H</abbr>
 (n  = 13) carrying yolk sac and yolk sac dominant samples with the highest percentage of yolk sac tissue (median 95.00%) and lowest of mature tissue (0.00%),
 <abbr title="Testicular germ cell tumor non-seminoma yolk sac intermediate">T107 TGCT nonSEM YOLK I</abbr> (n = 9), being just below
 (yolk sac 42.50%, mature 25.00%), <abbr title="Testicular germ cell tumor non-seminoma mature interemediate">T109 TGCT nonSEM MAT I</abbr> (n = 10)
 containing mature teratoma dominant samples with low yolk sac content (10.0%) and a considerably higher mature tissue component (65.00%),
 and finally <abbr title="Testicular germ cell tumor non-seminoma mature high">T106 TGCT nonSEM MAT H</abbr> (n = 13) containing samples showing the
-lowest yolk sac (2.00%) and highest maturate tissue (95.00%) content <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#shen2018" id="id70"><span>[Shen2018]</span></a>.
+lowest yolk sac (2.00%) and highest maturate tissue (95.00%) content <a class="reference internal" href="#shen2018" id="id70"><span>[Shen2018]</span></a>.
 This separation is further confirmed in the case of <abbr title="Testicular germ cell tumor non-seminoma yolk sac high">T108 TGCT nonSEM YOLK H</abbr> by gene sets,
 where we see an enrichment of yolk sac tumors genes
 (<abbr title="median Normalized Enrichment Score">medNES</abbr> = 2.26,
-<abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 6.21e-05) <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#korkola2006" id="id71"><span>[Korkola2006]</span></a>.
+<abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 6.21e-05) <a class="reference internal" href="#korkola2006" id="id71"><span>[Korkola2006]</span></a>.
 <br/> <br/>
 <abbr title="Testicular germ cell tumor non-seminoma embryonal carcinoma rich">T105 TGCT nonSEM EMB</abbr>, containing <abbr title="testicular germ cell tumor">TGCT</abbr>
 of the embryonal subtype, splits into two subclasses. <abbr title="Testicular germ cell tumor non-seminoma embryonal carcinoma intermediate">T112 TGCT nonSEM EMB I</abbr>
@@ -851,7 +883,7 @@ is enriched for yolk sac and teratoma gene sets (<abbr title="median Normalized 
 <abbr title="Mann Whitney U test Benjamin-Hochberg adjusted p-value ≤ 1.00e-5">MWU adj. p-val</abbr>
 while <abbr title="Testicular germ cell tumor non-seminoma embryonal carcinoma high">T113 TGCT nonSEM EMB H</abbr>
 is enriched for an established embryonal carcinoma gene sets (<abbr title="median Normalized Enrichment Score">medNES</abbr> = 1.04,
-<abbr title="Mann Whitney U test Benjamin-Hochberg adjusted p-value = 1.15e-03">MWU adj. p-val</abbr> <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#korkola2005" id="id72"><span>[Korkola2005]</span></a>.</p>
+<abbr title="Mann Whitney U test Benjamin-Hochberg adjusted p-value = 1.15e-03">MWU adj. p-val</abbr> <a class="reference internal" href="#korkola2005" id="id72"><span>[Korkola2005]</span></a>.</p>
 <div class="figure align-default" id="fig-mesd12">
 <a class="reference internal image-reference" href="../_images/mesd12.png"><img alt="Fig. MESD12" src="../_images/mesd12.png" style="width: 400px;" /></a>
 <p class="caption"><span class="caption-text">MESD12: 2-dimensional UMAP projection of TGCT by gene expression.
@@ -866,49 +898,49 @@ On the right, samples are coloured by their relative proprtion of cell populatio
 of metanephrogenic genes <em>PAX2</em> (<abbr title="log-Fold Change">logFC</abbr> = 1.81, <abbr title="False Discovery Rate">FDR</abbr> = 1.03e-07),
 <em>OSR1</em> (<abbr title="log-Fold Change">logFC</abbr> = 1.77, <abbr title="False Discovery Rate">FDR</abbr> = 9.07e-04), <em>EYA1</em> (<abbr title="log-Fold Change">logFC</abbr> = 1.44,
 <abbr title="False Discovery Rate">FDR</abbr> = 1.17e-06), <em>MEOX1</em> (<abbr title="log-Fold Change">logFC</abbr> = 1.13, <abbr title="False Discovery Rate">FDR</abbr> = 2.269e-03),
-and <em>SALL2</em> (<abbr title="log-Fold Change">logFC</abbr> = 0.96, <abbr title="False Discovery Rate">FDR</abbr> = 3.962e-04) <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#li2002" id="id73"><span>[Li2002]</span></a>,
+and <em>SALL2</em> (<abbr title="log-Fold Change">logFC</abbr> = 0.96, <abbr title="False Discovery Rate">FDR</abbr> = 3.962e-04) <a class="reference internal" href="#li2002" id="id73"><span>[Li2002]</span></a>,
 suggesting these tumors to have an expression profile closer to the kidney.
-<abbr title="Wilms tumor">T092 WILMS</abbr> then divides into 5 different subtypes with characteristic transcriptional profiles (Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#fig-mesd1"><span class="std std-ref">MESD1b</span></a>),
-in line with <abbr title="favourable histology">FHWT</abbr>  transcriptional clusters recently described by a joint COG-TARGET initiative <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#gadd2017" id="id74"><span>[Gadd2017]</span></a>.
+<abbr title="Wilms tumor">T092 WILMS</abbr> then divides into 5 different subtypes with characteristic transcriptional profiles (Fig. <a class="reference internal" href="#fig-mesd1"><span class="std std-ref">MESD1b</span></a>),
+in line with <abbr title="favourable histology">FHWT</abbr>  transcriptional clusters recently described by a joint COG-TARGET initiative <a class="reference internal" href="#gadd2017" id="id74"><span>[Gadd2017]</span></a>.
 <br/>
 Importantly, we observe a mixture of both <abbr title="favourable histology">FHWT</abbr>
 and <abbr title="diffuse analplasia">DAWT</abbr>  categories across all classes; however, all our bona
 fide Wilms subtypes (children of <abbr title="Wilms tumor">T092 WILMS</abbr> ) have significantly higher proportion of <abbr title="favourable histology">FHWT</abbr>,
 apart from <abbr title="Wilms tumor high kidney development by estrogen and NOTCH">T117 WILMS KDEV</abbr> which is evenly divided.
 <abbr title="Wilms striated-muscle-like">T096 WILMS MYO</abbr> is the only Wilms tumor group to have a higher <abbr title="diffuse analplasia">DAWT</abbr>
-component (see section on the <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#myogenic"><span class="std std-ref">Myogenic tumor</span></a> group) and is the only one composed exclusively of histologically mixed tumors <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#gadd2017" id="id75"><span>[Gadd2017]</span></a>.
+component (see section on the <a class="reference internal" href="#myogenic"><span class="std std-ref">Myogenic tumor</span></a> group) and is the only one composed exclusively of histologically mixed tumors <a class="reference internal" href="#gadd2017" id="id75"><span>[Gadd2017]</span></a>.
 <br/> <br/>
 <abbr title="Wilms tumor high PI3K/MTOR and vasculogenesis">T114 WILMS PI3K/MTOR</abbr> (n=11) is the smallest cluster and is
 exclusively composed of COG-TARGET <abbr title="favourable histology">FHWT</abbr>
-expression cluster 2 samples (<abbr title="χ2 test p-value">χ2 p-val</abbr> = 5.587e-07) <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#gadd2017" id="id76"><span>[Gadd2017]</span></a>
+expression cluster 2 samples (<abbr title="χ2 test p-value">χ2 p-val</abbr> = 5.587e-07) <a class="reference internal" href="#gadd2017" id="id76"><span>[Gadd2017]</span></a>
 and is defined by significant enrichment of gene sets related to <em>PI3K-mTOR</em> signalling
 (<abbr title="median Normalized Enrichment Score">medNES</abbr> ≥ 1.01,
 <abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 4.14e-04)
 and the interferon response (<abbr title="median Normalized Enrichment Score">medNES</abbr> ≥ 1.06,
 <abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 1.32e-04)
-(Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#fig-mesd13"><span class="std std-ref">MESD13</span></a>). It also exclusively contains <em>SIX1/2</em> mutants (n = 5 and 4, respectively).
-Furthermore, it has the greatest proportion of blastemal samples (6/7, <abbr title="χ2 test p-value">χ2 p-val</abbr> = 5.74e-04) <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#gadd2017" id="id77"><span>[Gadd2017]</span></a>.
+(Fig. <a class="reference internal" href="#fig-mesd13"><span class="std std-ref">MESD13</span></a>). It also exclusively contains <em>SIX1/2</em> mutants (n = 5 and 4, respectively).
+Furthermore, it has the greatest proportion of blastemal samples (6/7, <abbr title="χ2 test p-value">χ2 p-val</abbr> = 5.74e-04) <a class="reference internal" href="#gadd2017" id="id77"><span>[Gadd2017]</span></a>.
 <br/> <br/>
 <abbr title="Wilms tumor high oxidative phosphorilation)`(n = 27), the largest cluster, is defined by enrichment of gene sets related to oxidative phosphorylation (:abbr:`medNES (median Normalized Enrichment Score">T115 WILMS OXYPHO</abbr> ≥ 1.06,
 <abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 1.13e-08,
 <abbr title="Dunn’s test of multiple comparisons Benjamin-Hochberg adjusted p-value">Dunn adj. p-val</abbr> &lt; 1.00e-02)
 and low expression of mitotic spindle related sets (<abbr title="median Normalized Enrichment Score">medNES</abbr> ≥ 0.90,
 <abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 6.03e-10,
-<abbr title="Dunn’s test of multiple comparisons Benjamin-Hochberg adjusted p-value">Dunn adj. p-val</abbr> &lt; 1.00e-03) <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#liberzon2015" id="id78"><span>[Liberzon2015]</span></a>
-(Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#fig-mesd13"><span class="std std-ref">MESD13</span></a>), which is similar to COG-TARGET cluster 5 <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#gadd2017" id="id79"><span>[Gadd2017]</span></a>.
+<abbr title="Dunn’s test of multiple comparisons Benjamin-Hochberg adjusted p-value">Dunn adj. p-val</abbr> &lt; 1.00e-03) <a class="reference internal" href="#liberzon2015" id="id78"><span>[Liberzon2015]</span></a>
+(Fig. <a class="reference internal" href="#fig-mesd13"><span class="std std-ref">MESD13</span></a>), which is similar to COG-TARGET cluster 5 <a class="reference internal" href="#gadd2017" id="id79"><span>[Gadd2017]</span></a>.
 That <abbr title="Wilms tumor high oxidative phosphorilation">T115 WILMS OXYPHO</abbr> is the only cluster to contain expression class 5
 <abbr title="favourable histology">FHWT</abbr>  samples (<abbr title="χ2 test p-value">χ2 p-val</abbr> = 2.03e-3)
 confirms this identity, though it also contains an equal number of expression class 1 and class 2 samples.
 Like <abbr title="Wilms tumor high PI3K/MTOR and vasculogenesis">T114 WILMS PI3K/MTOR</abbr>,
-<abbr title="Wilms tumor high oxidative phosphorilation">T115 WILMS OXYPHO</abbr> is also composed of a majority of blastemal samples (11/17) <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#gadd2017" id="id80"><span>[Gadd2017]</span></a>.
+<abbr title="Wilms tumor high oxidative phosphorilation">T115 WILMS OXYPHO</abbr> is also composed of a majority of blastemal samples (11/17) <a class="reference internal" href="#gadd2017" id="id80"><span>[Gadd2017]</span></a>.
 <br/> <br/>
 <abbr title="Wilms tumor high EMT">T116 WILMS EMT</abbr> (n = 26) is defined by enrichment of gene sets related to
 <abbr title="epithelilal mesenchymal transition">EMT</abbr> (<abbr title="median Normalized Enrichment Score">medNES</abbr> ≥ 1.07,
 <abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 2.41e-08,
 <abbr title="Dunn’s test of multiple comparisons Benjamin-Hochberg adjusted p-value">Dunn adj. p-val</abbr> &lt; 5.00e-02) and
 angiogenesis (<abbr title="median Normalized Enrichment Score">medNES</abbr> ≥ 1.07,
-<abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 2.30e-06) <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#liberzon2015" id="id81"><span>[Liberzon2015]</span></a>
-(Fig. <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#fig-mesd13"><span class="std std-ref">MESD13</span></a>).
+<abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 2.30e-06) <a class="reference internal" href="#liberzon2015" id="id81"><span>[Liberzon2015]</span></a>
+(Fig. <a class="reference internal" href="#fig-mesd13"><span class="std std-ref">MESD13</span></a>).
 It also exhibits the lowest expression of WT1 amongst its siblings (median <abbr title="log-Fold Change">logFC</abbr> = -1.24,
 <abbr title="False Discovery Rate">FDR</abbr> ≤ 1.30e-02). It should be noted that this expression profile also corresponds to
 <abbr title="Wilms striated-muscle-like">T096 WILMS MYO</abbr>, with these two classes corresponding to the profile of COG-TARGET cluster 4.
@@ -917,22 +949,22 @@ However, while <abbr title="Wilms tumor high EMT">T116 WILMS EMT</abbr> is compo
 contain the largest expression class 4 components (n = 3 each).
 <abbr title="Wilms tumor high EMT">T116 WILMS EMT</abbr> is composed mainly of mixed tumors (15/23),
 and also contains the majority of <abbr title="favourable histology">FHWT</abbr>  samples marked as having WT1 loss
-(<abbr title="χ2 test p-value">χ2 p-val</abbr> = 3.04e-02) <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#gadd2017" id="id82"><span>[Gadd2017]</span></a>.
+(<abbr title="χ2 test p-value">χ2 p-val</abbr> = 3.04e-02) <a class="reference internal" href="#gadd2017" id="id82"><span>[Gadd2017]</span></a>.
 <br/> <br/>
 <abbr title="Wilms tumor high kidney development by estrogen and NOTCH">T117 WILMS KDEV</abbr> (n = 23) is defined by enrichment
-of the estrogen (<abbr title="median Normalized Enrichment Score">medNES</abbr> ≥ 1.07, <abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> ≤ 1.67e-06) and androgen responses (<abbr title="median Normalized Enrichment Score">medNES</abbr> ≥ 1.05, <abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 7.38e-04, <abbr title="Dunn’s test of multiple comparisons Benjamin-Hochberg adjusted p-value">Dunn adj. p-val</abbr> &lt; 5.00e-02) and notch signalling (<abbr title="median Normalized Enrichment Score">medNES</abbr> ≥ 1.04, <abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 3.97e-08) <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#liberzon2015" id="id83"><span>[Liberzon2015]</span></a>; consequently, gene sets for kidney development relating to the ureteric metanephric mesenchyme (<abbr title="median Normalized Enrichment Score">medNES</abbr> ≥ 1.54, <abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 4.68e-04, <abbr title="Dunn’s test of multiple comparisons Benjamin-Hochberg adjusted p-value">Dunn adj. p-val</abbr> &lt; 1.00e-02) and loop of Henle (<abbr title="median Normalized Enrichment Score">medNES</abbr> ≥ 8.11, <abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 1.25e-08) (<a class="reference internal" href="../tmp/_site/doc/anno/T005_leuk.html#ashburner2000" id="id84"><span>[Ashburner2000]</span></a>; <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#tgoc2019" id="id85"><span>[TGOC2019]</span></a>) are also upregulated (Fig. <span class="xref std std-ref">S24e</span>).
+of the estrogen (<abbr title="median Normalized Enrichment Score">medNES</abbr> ≥ 1.07, <abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> ≤ 1.67e-06) and androgen responses (<abbr title="median Normalized Enrichment Score">medNES</abbr> ≥ 1.05, <abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 7.38e-04, <abbr title="Dunn’s test of multiple comparisons Benjamin-Hochberg adjusted p-value">Dunn adj. p-val</abbr> &lt; 5.00e-02) and notch signalling (<abbr title="median Normalized Enrichment Score">medNES</abbr> ≥ 1.04, <abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 3.97e-08) <a class="reference internal" href="#liberzon2015" id="id83"><span>[Liberzon2015]</span></a>; consequently, gene sets for kidney development relating to the ureteric metanephric mesenchyme (<abbr title="median Normalized Enrichment Score">medNES</abbr> ≥ 1.54, <abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 4.68e-04, <abbr title="Dunn’s test of multiple comparisons Benjamin-Hochberg adjusted p-value">Dunn adj. p-val</abbr> &lt; 1.00e-02) and loop of Henle (<abbr title="median Normalized Enrichment Score">medNES</abbr> ≥ 8.11, <abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 1.25e-08) (<a class="reference internal" href="T005_leuk.html#ashburner2000" id="id84"><span>[Ashburner2000]</span></a>; <a class="reference internal" href="#tgoc2019" id="id85"><span>[TGOC2019]</span></a>) are also upregulated (Fig. <span class="xref std std-ref">S24e</span>).
 It is the only cluster to contain COG-TARGET expression class 6 samples (n = 3, <abbr title="χ2 test p-value">χ2 p-val</abbr> = 2.61e-04)
 but contains a higher amount of class 3 samples (n = 6). It contains the highest number of <em>TP53</em> mutants, and is
-composed entirely of mixed and epithelial tumors (5/9 and 4/9, respectively) <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#gadd2017" id="id86"><span>[Gadd2017]</span></a>.
+composed entirely of mixed and epithelial tumors (5/9 and 4/9, respectively) <a class="reference internal" href="#gadd2017" id="id86"><span>[Gadd2017]</span></a>.
 <br/> <br/>
 Finally, <abbr title="Wilms tumor high E2F proliferation">T118 WILMS E2F</abbr> (n = 26) is defined by enrichment cell proliferation sets,
 including the G2M checkpoint (<abbr title="median Normalized Enrichment Score">medNES</abbr> = 1.01,
 <abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 6.39e-03)
 and mitotic spindle (<abbr title="median Normalized Enrichment Score">medNES</abbr> = 1.03
-<abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 6.03e-10) <a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#liberzon2015" id="id87"><span>[Liberzon2015]</span></a>,
+<abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 6.03e-10) <a class="reference internal" href="#liberzon2015" id="id87"><span>[Liberzon2015]</span></a>,
 as well as genesets for E2F (E2F6 <abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 7.86e-03,
 and E2F1 activity (<abbr title="Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value">KW adj. p-val</abbr> = 5.82e-06)
-<a class="reference internal" href="../tmp/_site/doc/anno/T002_T003_mesoderm.html#encode2012" id="id88"><span>[ENCODE2012]</span></a>, and histone modifications (Fig. <span class="xref std std-ref">S24e</span>).
+<a class="reference internal" href="#encode2012" id="id88"><span>[ENCODE2012]</span></a>, and histone modifications (Fig. <span class="xref std std-ref">S24e</span>).
 Given its enrichment for E2F signalling and proliferative gene sets, <abbr title="Wilms tumor high E2F proliferation">T118 WILMS E2F</abbr>
 corresponds to COG-TARGET cluster 1. Indeed, it is the only cluster to be composed of a majority of expression class 1 samples
 (14/17, <abbr title="χ2 test p-value">χ2 p-val</abbr> = 1.927e-05). Its samples exhibit variable histology, with a majority of samples being blastemal
