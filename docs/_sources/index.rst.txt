@@ -2,6 +2,7 @@
 
   <br/>
 
+.. _home:
 
 Welcome to the Annotation of the Transcriptional Cancer Atlas!
 ==============================================================
