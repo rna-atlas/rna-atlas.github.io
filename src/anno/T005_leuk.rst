@@ -28,7 +28,7 @@ found in :abbr:`T121 ALL INF KMT2Ar (Infant acute lymphoblastic leukemia, KMT2A 
 .. figure:: /img/leu1.png
    :alt: Fig. LEU1
    :name: fig-leu1
-   :width: 500px
+   :width: 600px
    
    LEU1: A, 2-dimensional UMAP projection of acute lymphoid leukemia tumors by gene expression. Subtypes at the third level of the hierarchy
    are shown with different colours. B, the list of all acute lymphoid leukemia subtypes identified
@@ -45,7 +45,7 @@ is highly enriched for *KMT2A* downstream targets (:abbr:`medNES (median Normali
 .. figure:: /img/leu2.png
    :alt: Fig. LEU2
    :name: fig-leu2
-   :width: 400px
+   :width: 600px
    
    LEU2: Distribution plots of the expression of genes and gene sets relevant to the definition
    of the KMT2A-rearranged lymphoblastic leukemia class.
@@ -140,7 +140,7 @@ is enriched for Ph-like samples with *CRFL2* rearrangments
 .. figure:: /img/leu3.png
    :alt: Fig. LEU3
    :name: fig-leu3
-   :width: 500px
+   :width: 600px
    
    LEU3: A, 2-dimensional UMAP projection of acute lymphoid leukemia tumors by gene expression. On the left, subtypes
    are shown with different colours, on the right they are coloured by lesions reported by the presenting institution. 
@@ -191,7 +191,7 @@ donwregulated targets (:abbr:`medNES (median Normalized Enrichment Score)` ≤ 4
 .. figure:: /img/leu5.png
    :alt: Fig. LEU5
    :name: fig-leu5
-   :width: 200px
+   :width: 400px
 
    LEU5: Distribution plots of the expression of genes and gene sets relevant to the definition
    of the ZNF384A-rearranged lymphoblastic leukemia class.
@@ -265,7 +265,7 @@ TARGET samples: :abbr:`T144 AML TRG (Acute myeloid leukemia (TARGET))` and
 .. figure:: /img/leu6.png
    :alt: Fig. LEU6
    :name: fig-leu6
-   :width: 500px
+   :width: 600px
    
    LEU6: A, 2-dimensional UMAP projection of acute myeloid leukemia tumors by gene expression. Subtypes at the third level of the hierarchy
    are shown with different colours. B, the list of all acute myeloid leukemia subtypes identified
@@ -291,7 +291,7 @@ reaching median :abbr:`OS (overall survival)` at 327days.
 .. figure:: /img/leu7.png
    :alt: Fig. LEU7
    :name: fig-leu7
-   :width: 300px
+   :width: 500px
    
    LEU7: Distribution plots of the normalized enrichment score of gene sets relevant to the definition
    of the KMT2A-rearranged myeloid leukemia class.
@@ -530,7 +530,7 @@ linage expressing both myeloid and lymphoid markers.
 .. figure:: /img/leu9.png
    :alt: Fig. LEU9
    :name: fig-leu9
-   :width: 300px
+   :width: 500px
    
    LEU9: Distribution plots of the normalized enrichment score of gene sets relevant to the definition
    of the KMT2A-rearranged myeloid leukemia classes from the TARGET cohort.

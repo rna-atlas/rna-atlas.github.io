@@ -31,7 +31,7 @@ susceptibilities.
 .. figure:: /img/cns1.png
    :alt: Fig. CNS1
    :name: fig-cns1
-   :width: 500px
+   :width: 600px
    
    CNS1: On the left, a 2-dimensional UMAP projection of CNS tumors by gene expression, where several subtypes 
    found in the first layers of the hierarchy are highlighted with different colors. On the right, a list of all CNS subtypes identified
@@ -114,7 +114,7 @@ of 2.64 y.o. No subtypes are identified, possibly due to the limits in the refer
 .. figure:: /img/cns3.png
    :alt: Fig. CNS3
    :name: fig-cns3
-   :width: 500px
+   :width: 600px
 
    CNS3: Summary of the findings relating to BCOR-mutated and CIC-mutated tumors. 
    A) 2-dimensional UMAP projection of CNS tumors by gene expression, where a few representative classes are shown with shades of blue and green. 
@@ -164,7 +164,7 @@ tumors with gain chr7/loss chr10, confirmed by clinical data (139/200 vs. 15/35,
 .. figure:: /img/cns4.png
    :alt: Fig. CNS4
    :name: fig-cns4
-   :width: 250px
+   :width: 400px
    
    CNS4: 2-dimensional UMAP projection of subtypes of IDH-mutant gliomas. 
    Samples with reported gain of chromosome 7 and loss of chromosome 10 are shown as empty circles.
@@ -234,7 +234,7 @@ in :abbr:`T037 (Glioma, high-grade, neural differentiation)` with respect to :ab
 .. figure:: /img/cns6.png
    :alt: Fig. CNS6
    :name: fig-cns6
-   :width: 600px
+   :width: 800px
    
    CNS6: Per sample Normalized Enrichment Score (NES) distributions of gene sets characterizing gliomas with high neural differentiation.
 
@@ -267,7 +267,7 @@ samples (45/53). It is not clear why this class is found within the IDH1-codelet
 .. figure:: /img/cns7.png
    :alt: Fig. CNS7
    :name: fig-cns7
-   :width: 600px
+   :width: 800px
    
    CNS7: Top and center, per sample Normalized Enrichment Score (NES) distributions of gene sets characterizing the gliomas subtype with multicellular network overexpression.
    Bottom, per sample expression distributions of *NOTCH1* and *GAP43* genes in gliomas subtypes with or without multicellular network overexpression. 

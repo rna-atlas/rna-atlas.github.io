@@ -20,7 +20,7 @@ To help with the annotation, we looked at histological report shared, which reve
 .. figure:: /img/norm1.png
    :alt: Fig. NORM1
    :name: fig-norm1
-   :width: 500px
+   :width: 600px
    
    LEU1: A, 2-dimensional UMAP projection of healthy normal tissue samples by gene expression. Subtypes at the first level of the hierarchy
    are shown with different colours. B, the list of all healthy normal tissue subtypes identified

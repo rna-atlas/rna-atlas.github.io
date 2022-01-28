@@ -190,7 +190,7 @@ to confirm histotypes for any of the osteosarcoma samples present.
 .. figure:: /img/mesd3.png
    :alt: Fig. MESD3
    :name: fig-mesd3
-   :width: 500px
+   :width: 800px
    
    MESD3: Distribution plots of the expression of genes (top) and gene sets (bottom) relevant to the definition
    of the four identified osteosarcoma transcriptional subtypes.
@@ -374,7 +374,7 @@ We hypothesize that :abbr:`T080 SARC DIFFlow IMMhigh (Sarcoma, high immune activ
 .. figure:: /img/mesd6.png
    :alt: Fig. MESD6
    :name: fig-mesd6
-   :width: 500px
+   :width: 700px
    
    MESD6: Distribution plots of the expression of genes and gene sets relevant to the definition
    of low-stemness sarcomas transcriptional subtypes without chromosomal instability.
@@ -549,7 +549,7 @@ The class includes a few samples labelled as Ewing sarcoma, which are likely mis
 .. figure:: /img/mesd10.png
    :alt: Fig. MESD10
    :name: fig-mesd10
-   :width: 300px
+   :width: 400px
    
    MESD10: Distribution plots of normalized enrichment score of gene sets relevant to the definition
    of CIC-mutated tumors.
@@ -602,7 +602,7 @@ and suggests that only the loss of expression in downstream target may be the sp
 .. figure:: /img/mesd11.png
    :alt: Fig. MESD11
    :name: fig-mesd11
-   :width: 300px
+   :width: 400px
 
    MESD11: Distribution plots of normalized enrichment score of gene sets relevant to the definition
    of NF1-mutated tumors.
@@ -665,7 +665,7 @@ is enriched for an established embryonal carcinoma gene sets (:abbr:`medNES (med
 .. figure:: /img/mesd12.png
    :alt: Fig. MESD12
    :name: fig-mesd12
-   :width: 400px
+   :width: 500px
    
    MESD12: 2-dimensional UMAP projection of TGCT by gene expression. 
    On the left, the subtypes identified are shown with different colours. 
@@ -762,7 +762,7 @@ through mixed to epithelial tumors, similar to the :abbr:`TGCT NO-SEM (testicula
 .. figure:: /img/mesd13.png
    :alt: Fig. MESD13
    :name: fig-mesd13
-   :width: 300px
+   :width: 800px
    
    MESD13: Distribution plots of normalized enrichment score of gene sets relevant to the definition
    of Wilms tumor subtypes.

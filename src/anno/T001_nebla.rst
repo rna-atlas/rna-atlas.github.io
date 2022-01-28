@@ -20,7 +20,7 @@ RACCOON identified four separate subclusters within the neuroblastoma parent cla
 .. figure:: /img/nebla1.png
    :alt: Fig. NEBLA1
    :name: fig-nebla1
-   :width: 500px
+   :width: 400px
    
    NEBLA1: On the left, a 2-dimensional UMAP projection of neuroblastma tumors by gene expression, where the four subtypes identified are shown in different colors.
    Empty circles represent samples that were reported as MYCN amplified by clinical tests.
@@ -82,7 +82,7 @@ suggesting this cluster may be defined by sympathoadrenal differentiation. It ca
 .. figure:: /img/nebla4.png
    :alt: Fig. NEBLA4
    :name: fig-nebla4
-   :width: 500px
+   :width: 600px
    
    NEBLA4: Distribution plots of various scores across the four identified neuroblastoma subtypes.
    From left to right: stemness score (top half), immune activity score (bottom half), identity and median Normalized Enrichment Score of a
@@ -178,7 +178,7 @@ although here observed only against other `COG <https://childrensoncologygroup.o
 .. figure:: /img/nebla6.png
    :alt: Fig. NEBLA6
    :name: fig-nebla6
-   :width: 250px
+   :width: 300px
    
    NEBLA5: Overall survival time curves of the four identified neuroblastoma subtypes. 
 
