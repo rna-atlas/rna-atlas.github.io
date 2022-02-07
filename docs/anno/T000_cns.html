@@ -283,24 +283,15 @@
 <h1>T000 Central Nervous System<a class="headerlink" href="#t000-central-nervous-system" title="Permalink to this headline">¶</a></h1>
 <p>Version: 0.1.0
 <br/>
-Last change: Jan 28, 2022</p>
+Last change: Feb 07, 2022</p>
 <p>The <abbr title="Central Nervous System">CNS</abbr> tumors in our dataset exhibit three major divides:
 glioma vs. non-gliomas, gliomas with wildtype or mutated IDH1,
 and, in this last group, samples with and without hemizygous
 codeletion of chromosome arms 1p and 19q (Fig. <a class="reference internal" href="#fig-cns1"><span class="std std-ref">CNS1</span></a>).
-We believe that the ability of our clustering system to demonstrate
-these genomic differences from purely transcriptional data with high
-confidence is a testament to its effectiveness. Past these major
+Past these major
 divides, differences in histotypes and tumor phenotype, as well
 as the transcriptional signals generated from specific mutations,
-become increasingly important to differentiate sibling classes.
-Indeed, many of these deeper clusters may reflect underlying clinical,
-genomic, and epigenomic differences which we are currently unable to
-determine due to a lack of relevant annotations. Our results express
-the plethora of undiscovered molecular subtypes of gliomas and
-glioblastomas in particular and highlight the need for further
-studies of subtype-specific drivers and their therapeutic
-susceptibilities.</p>
+become increasingly important to differentiate sibling classes.</p>
 <div class="figure align-default" id="fig-cns1">
 <a class="reference internal image-reference" href="../_images/cns1.png"><img alt="Fig. CNS1" src="../_images/cns1.png" style="width: 600px;" /></a>
 <p class="caption"><span class="caption-text">CNS1: On the left, a 2-dimensional UMAP projection of CNS tumors by gene expression, where several subtypes
@@ -312,10 +303,10 @@ and their hierarchical relationship.</span><a class="headerlink" href="#fig-cns1
 <p>At the first level, we see the separation of medulloblastomas,
 in <abbr title="Medulloblastoma">T027 MLBLA</abbr> (n = 29), from the rest of <abbr title="Central nervous system">CNS</abbr>
 tumors <abbr title="Central nervous system, mix A">T026 CNS A</abbr> (n = 894)
-(Fig. <a class="reference internal" href="#fig-cns1"><span class="std std-ref">CNS1</span></a>) Letters in the naming will be used in this setting to distinguish mixed
+(Fig. <a class="reference internal" href="#fig-cns1"><span class="std std-ref">CNS1</span></a>). Letters in the naming will be used in this setting to distinguish mixed
 classes that maintain the same composition of their parent class, with the removal of
 specific subtypes singled out into their sibling classes, as in this case. Interestingly,
-we also note the presence of a single pineal parenchymal tumor in <abbr title="Central nervous system, mix A">T026</abbr>. The recursion
+we also note the presence of a single pineal parenchymal tumor in <abbr title="Central nervous system, mix A">T026</abbr>. Multi-scale clustering
 allows us to observe the emergence of known subtypes from literature at deeper level of
 this branch <a class="reference internal" href="#northcott2012" id="id1"><span>[Northcott2012]</span></a>. This class further splits into <abbr title="Medulloblastoma, G3 or G4">T058 MLBLA G3/G4</abbr> (n = 37)
 (Fig. <a class="reference internal" href="#fig-cns1"><span class="std std-ref">CNS1</span></a>), a cluster of mixed G3 and G4 subtypes, with overexpression of <em>OTX2</em> (<abbr title="edgeR quasi-likelihood negative binomial generalized log-linear model">glmQLFTest</abbr> <abbr title="log-Fold Change">logFC</abbr> = 3.48, <abbr title="False Discovery Rate">FDR</abbr> = 6.368e-06)
