@@ -1,8 +1,5 @@
 # Transcriptional Cancer Atlas Annotation
 
-[![Documentation Status](https://readthedocs.org/projects/rna_atlas_annotation/badge/?version=latest)](https://rna_atlas_annotation.readthedocs.io/en/latest/?badge=latest)
-
-
 This repository contains files to build the Transcriptional Cancer Atlas annotation in Read the Docs.
 See the latest version [here](https://rna_atlas_annotation.readthedocs.io/en/latest/).
 
