@@ -16,7 +16,7 @@ import sys
 # -- Project information -----------------------------------------------------
 
 project = 'Transcriptional Cancer Atlas Annotation'
-copyright = '2022, Federico Comitani, Joshua O. Nash'
+copyright = '2022, Federico Comitani, Joshua O. Nash, Adam Shlien'
 author = 'Federico Comitani, Joshua O. Nash'
 
 # The full version, including alpha/beta/rc tags
