@@ -40,7 +40,8 @@ which has been demonstrated to be a favourable prognostic factor [Izycka-Swiesze
    :width: 500px
    
    NEBLA2: Donut plot showing the samples stratification of the four identified neuroblastoma subtypes.
-   These include (from top to bottom), COG risk group, Ploidy, Diagnosis and Grade.
+   These include (from top to bottom), COG risk group, Ploidy, Diagnosis, Stage
+   and clinically reported MYCN status.
 
 Enrichment of *ERBB2* signalling is also seen in this cluster (:abbr:`ssGSEA (single-sample GSEA from GSVA)` :abbr:`medNES (median Normalized Enrichment Score)` ≥ 1.31, 
 :abbr:`KW adj. p-val (Kruskal–Wallis one-way analysis of variance test Benjamin-Hochberg adjusted p-value)` = 1.25e-13, 
