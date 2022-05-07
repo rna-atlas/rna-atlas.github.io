@@ -20,11 +20,18 @@ while :abbr:`T003 MESODM STEMhigh (Mesodermal tumor, high stemness)` (n = 483) h
    :name: fig-mesd1
    :width: 600px
    
-   CNS1: A, 2-dimensional UMAP projection of Mesodermal tumors by gene expression. Subtypes at the second level of the hierarchy
-   are shown with different shades of green if they belong to the parent class T002 MESODERM STEMlow), of orange
+   MESD1: A, 2-dimensional UMAP projection of Mesodermal tumors by gene expression. Subtypes at the second level of the hierarchy
+   are shown with different shades of green if they belong to the parent class T002 MESODM STEMlow), of orange
    if they stem from T003 MESODM STEMhigh. B, the list of all Mesodermal subtypes identified
    and their hierarchical relationship. C) 2-dimensional UMAP projection of the same group of tumors, with samples
    coloured according to our in-house stemness score (left), immune score (center) or age (right).
+
+.. figure:: /img/mesd1b.png
+   :alt: Fig. MESD1B
+   :name: fig-mesd1b
+   :width: 600px
+   
+   MESD1B: Distributions of stemness (upper) and immune activity (lower) scores across the mesodermal tumour subtypes in T002 MESODM STEMlow (left) and T003 MESODM STEMHigh (right).
 
 T002 Mesodermal tumor with low stemness
 =========================================
@@ -87,7 +94,7 @@ Osteosarcoma
 
 The tumors in :abbr:`T068 OSARC (Osteosarcoma)` divide into four distinct subtypes (Fig. :ref:`MESD2a <fig-mesd2>`). All samples for which we have 
 clinical data are central osteosarcomas of the long bones or pelvis 
-(`TARGET discovery cohort <https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000468.v21.p8>`).
+(`TARGET discovery cohort <https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs000468.v21.p8>`_).
 
 .. figure:: /img/mesd2.png
    :alt: Fig. MESD2
